@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>R6 Loadout DB</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎮 R6 Loadout DB</h1>
+    <div class="search-bar">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search operators by name..."
+        autocomplete="off"
+      />
+    </div>
+  </header>
+
+  <main>
+    <div id="operatorGrid" class="operator-grid">
+      <p class="loading">Loading operators...</p>
+    </div>
+  </main>
+
+  <script>
+    const searchInput = document.getElementById('searchInput');
+    const operatorGrid = document.getElementById('operatorGrid');
+
+    let allOperators = [];
+
+    function getSideLabel(side) {
+      if (side === 'attack') return '<span class="badge badge-atk">ATK</span>';
+      if (side === 'defense') return '<span class="badge badge-def">DEF</span>';
+      return `<span class="badge">${side}</span>`;
+    }
+
+    function getRatingDots(value, max) {
+      let dots = '';
+      for (let i = 1; i <= max; i++) {
+        dots += `<span class="dot${i <= value ? ' active' : ''}"></span>`;
+      }
+      return dots;
+    }
+
+    function renderWeapon(weapon) {
+      return `<li class="weapon-item">${weapon.name} <em class="weapon-type">(${weapon.type})</em></li>`;
+    }
+
+    function renderGadget(gadget) {
+      return `<li class="gadget-item">${gadget.name}</li>`;
+    }
+
+    function renderCard(op) {
+      const iconSrc = op.icon || '';
+      const iconHtml = iconSrc
+        ? `<img class="op-icon" src="${iconSrc}" alt="${op.name}" onerror="this.style.display='none'" />`
+        : `<div class="op-icon op-icon-placeholder">${op.name.charAt(0)}</div>`;
+
+      const primaryHtml = (op.primaryWeapons || []).map(renderWeapon).join('');
+      const secondaryHtml = (op.secondaryWeapons || []).map(renderWeapon).join('');
+      const gadgetsHtml = (op.gadgets || []).map(renderGadget).join('');
+      const uniqueHtml = op.uniqueGadget
+        ? `<li class="gadget-item gadget-unique">⭐ ${op.uniqueGadget.name}</li>`
+        : '';
+
+      return `
+        <div class="op-card">
+          <div class="op-card-header">
+            ${iconHtml}
+            <div class="op-info">
+              <h2 class="op-name">${op.name}</h2>
+              <div class="op-meta">
+                ${getSideLabel(op.side)}
+                <span class="org">${op.org}</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="op-ratings">
+            <div class="rating">
+              <span class="rating-label">Speed</span>
+              <span class="rating-dots">${getRatingDots(op.speed, 3)}</span>
+            </div>
+            <div class="rating">
+              <span class="rating-label">Armor</span>
+              <span class="rating-dots">${getRatingDots(op.armor, 3)}</span>
+            </div>
+          </div>
+
+          <div class="op-section">
+            <h3>Primary Weapons</h3>
+            <ul>${primaryHtml}</ul>
+          </div>
+
+          <div class="op-section">
+            <h3>Secondary Weapons</h3>
+            <ul>${secondaryHtml}</ul>
+          </div>
+
+          <div class="op-section">
+            <h3>Gadgets</h3>
+            <ul>
+              ${gadgetsHtml}
+              ${uniqueHtml}
+            </ul>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderOperators(operators) {
+      if (operators.length === 0) {
+        operatorGrid.innerHTML = '<p class="no-results">No operators found.</p>';
+        return;
+      }
+      operatorGrid.innerHTML = operators.map(renderCard).join('');
+    }
+
+    function filterOperators(query) {
+      const q = query.trim().toLowerCase();
+      if (!q) return allOperators;
+      return allOperators.filter((op) => op.name.toLowerCase().includes(q));
+    }
+
+    searchInput.addEventListener('input', () => {
+      renderOperators(filterOperators(searchInput.value));
+    });
+
+    fetch('output/operators.full.json')
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
+      .then((data) => {
+        allOperators = data;
+        if (allOperators.length === 0) {
+          operatorGrid.innerHTML =
+            '<p class="loading">No operators found. Run <code>npm run build</code> first to generate <code>output/operators.full.json</code>.</p>';
+        } else {
+          renderOperators(allOperators);
+        }
+      })
+      .catch((err) => {
+        operatorGrid.innerHTML = `
+          <p class="loading">
+            ⚠️ Could not load operator data.<br/>
+            Make sure to run <code>npm run build</code> first, then open this file via a local server (not <code>file://</code>).<br/>
+            Error: ${err.message}
+          </p>`;
+      });
+  </script>
+</body>
+</html>

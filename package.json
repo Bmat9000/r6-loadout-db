@@ -1,0 +1,12 @@
+{
+  "name": "r6-loadout-db",
+  "version": "1.0.0",
+  "description": "A database of Rainbow Six Siege operators, weapons, and gadgets with assets and a viewer.",
+  "main": "scripts/build-final-json.js",
+  "scripts": {
+    "build": "node scripts/build-final-json.js"
+  },
+  "keywords": ["rainbow-six-siege", "r6", "operators", "loadout", "database"],
+  "author": "Bmat9000",
+  "license": "MIT"
+}
