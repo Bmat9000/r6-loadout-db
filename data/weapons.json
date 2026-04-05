@@ -1,146 +1,814 @@
 [
   {
-    "id": "l85a2",
-    "name": "L85A2",
+    "id": "416_c_carbine",
+    "name": "416-C Carbine",
     "type": "Assault Rifle",
     "category": "primary",
-    "firingModes": ["Full-Auto", "Single"],
-    "damage": 47,
-    "fireRate": 670,
-    "mobility": 50,
-    "capacity": 30,
-    "image": "assets/weapons/primary/l85a2.png"
+    "image": "assets/weapons/primary/416-C_Carbine.png"
   },
   {
-    "id": "m590a1",
-    "name": "M590A1",
+    "id": "417",
+    "name": "417",
+    "type": "Marksman Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/417.png"
+  },
+  {
+    "id": "552_commando",
+    "name": "552 Commando",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/552_Commando.png"
+  },
+  {
+    "id": "556xi",
+    "name": "556xi",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/556xi.png"
+  },
+  {
+    "id": "6p41",
+    "name": "6P41",
+    "type": "Light Machine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/6P41.png"
+  },
+  {
+    "id": "9x19svn",
+    "name": "9X19SVN",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/9X19SVN.png"
+  },
+  {
+    "id": "9mm_c1",
+    "name": "9mm C1",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/9mm_C1.png"
+  },
+  {
+    "id": "acs12_pb",
+    "name": "ACS12",
     "type": "Shotgun",
     "category": "primary",
-    "firingModes": ["Pump-Action"],
-    "damage": 48,
-    "fireRate": 85,
-    "mobility": 50,
-    "capacity": 7,
-    "image": "assets/weapons/primary/m590a1.png"
+    "image": "assets/weapons/primary/ACS12_PB.png"
+  },
+  {
+    "id": "ak_12",
+    "name": "AK-12",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/AK-12.png"
+  },
+  {
+    "id": "ak_74m",
+    "name": "AK-74M",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/AK-74M.png"
+  },
+  {
+    "id": "alda_556",
+    "name": "ALDA 5.56",
+    "type": "Light Machine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/ALDA_5.56.png"
+  },
+  {
+    "id": "ar_15_50",
+    "name": "AR-15.50",
+    "type": "Marksman Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/AR-15.50.png"
+  },
+  {
+    "id": "ar33",
+    "name": "AR33",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/AR33.png"
+  },
+  {
+    "id": "arx200",
+    "name": "ARX200",
+    "type": "Marksman Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/ARX200.png"
+  },
+  {
+    "id": "aug_a2",
+    "name": "AUG A2",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/AUG_A2.png"
+  },
+  {
+    "id": "aug_a3",
+    "name": "AUG A3",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/AUG_A3.png"
+  },
+  {
+    "id": "bosg_12_2",
+    "name": "BOSG.12.2",
+    "type": "Shotgun",
+    "category": "primary",
+    "image": "assets/weapons/primary/BOSG.12.2.png"
+  },
+  {
+    "id": "ballistic_shield",
+    "name": "Ballistic Shield",
+    "type": "Shield",
+    "category": "primary",
+    "image": "assets/weapons/primary/Ballistic_Shield.png"
+  },
+  {
+    "id": "c7e",
+    "name": "C7E",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/C7E.png"
+  },
+  {
+    "id": "c8_sfw",
+    "name": "C8-SFW",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/C8-SFW.png"
+  },
+  {
+    "id": "camrs",
+    "name": "CAMRS",
+    "type": "Marksman Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/CAMRS.png"
+  },
+  {
+    "id": "cce_shield",
+    "name": "CCE Shield",
+    "type": "Shield",
+    "category": "primary",
+    "image": "assets/weapons/primary/CCE_Shield.png"
+  },
+  {
+    "id": "csrx_300",
+    "name": "CSRX 300",
+    "type": "Marksman Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/CSRX_300.png"
+  },
+  {
+    "id": "commando_9",
+    "name": "Commando 9",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/Commando_9.png"
+  },
+  {
+    "id": "dp27",
+    "name": "DP27",
+    "type": "Light Machine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/DP27.png"
+  },
+  {
+    "id": "extendable_shield",
+    "name": "Extendable Shield",
+    "type": "Shield",
+    "category": "primary",
+    "image": "assets/weapons/primary/Extendable-Shield.png"
+  },
+  {
+    "id": "f2",
+    "name": "F2",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/F2.png"
+  },
+  {
+    "id": "f2000",
+    "name": "F2000",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/F2000.png"
+  },
+  {
+    "id": "fmg_9",
+    "name": "FMG-9",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/FMG-9.png"
+  },
+  {
+    "id": "fo_12",
+    "name": "FO-12",
+    "type": "Shotgun",
+    "category": "primary",
+    "image": "assets/weapons/primary/FO-12.png"
   },
   {
     "id": "g36c",
     "name": "G36C",
     "type": "Assault Rifle",
     "category": "primary",
-    "firingModes": ["Full-Auto", "Single"],
-    "damage": 38,
-    "fireRate": 780,
-    "mobility": 50,
-    "capacity": 30,
-    "image": "assets/weapons/primary/g36c.png"
+    "image": "assets/weapons/primary/G36C.png"
   },
   {
-    "id": "r4c",
-    "name": "R4-C",
-    "type": "Assault Rifle",
+    "id": "g52_tactical_shield",
+    "name": "G52 Tactical Shield",
+    "type": "Shield",
     "category": "primary",
-    "firingModes": ["Full-Auto", "Single"],
-    "damage": 37,
-    "fireRate": 860,
-    "mobility": 50,
-    "capacity": 30,
-    "image": "assets/weapons/primary/r4c.png"
+    "image": "assets/weapons/primary/G52-Tactical_Shield.png"
   },
   {
-    "id": "p90",
-    "name": "P90",
+    "id": "g8a1",
+    "name": "G8A1",
+    "type": "Light Machine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/G8A1.png"
+  },
+  {
+    "id": "ita12l",
+    "name": "ITA12L",
+    "type": "Shotgun",
+    "category": "primary",
+    "image": "assets/weapons/primary/ITA12L.png"
+  },
+  {
+    "id": "k1a",
+    "name": "K1A",
     "type": "Submachine Gun",
     "category": "primary",
-    "firingModes": ["Full-Auto", "Single"],
-    "damage": 22,
-    "fireRate": 970,
-    "mobility": 50,
-    "capacity": 50,
-    "image": "assets/weapons/primary/p90.png"
+    "image": "assets/weapons/primary/K1A.png"
+  },
+  {
+    "id": "l85a2",
+    "name": "L85A2",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/L85A2.png"
+  },
+  {
+    "id": "lmg_e",
+    "name": "LMG-E",
+    "type": "Light Machine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/LMG-E.png"
+  },
+  {
+    "id": "m1014",
+    "name": "M1014",
+    "type": "Shotgun",
+    "category": "primary",
+    "image": "assets/weapons/primary/M1014.png"
+  },
+  {
+    "id": "m12",
+    "name": "M12",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/M12.png"
+  },
+  {
+    "id": "m249",
+    "name": "M249",
+    "type": "Light Machine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/M249.png"
+  },
+  {
+    "id": "m249_saw",
+    "name": "M249 SAW",
+    "type": "Light Machine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/M249_SAW.png"
+  },
+  {
+    "id": "m4",
+    "name": "M4",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/M4.png"
+  },
+  {
+    "id": "m590a1",
+    "name": "M590A1",
+    "type": "Shotgun",
+    "category": "primary",
+    "image": "assets/weapons/primary/M590A1.png"
+  },
+  {
+    "id": "m762",
+    "name": "M762",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/M762.png"
+  },
+  {
+    "id": "m870",
+    "name": "M870",
+    "type": "Shotgun",
+    "category": "primary",
+    "image": "assets/weapons/primary/M870.png"
   },
   {
     "id": "mp5",
     "name": "MP5",
     "type": "Submachine Gun",
     "category": "primary",
-    "firingModes": ["Full-Auto", "Single"],
-    "damage": 27,
-    "fireRate": 800,
-    "mobility": 50,
-    "capacity": 30,
-    "image": "assets/weapons/primary/mp5.png"
+    "image": "assets/weapons/primary/MP5.png"
+  },
+  {
+    "id": "mp5k",
+    "name": "MP5K",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/MP5K.png"
+  },
+  {
+    "id": "mp5sd",
+    "name": "MP5SD",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/MP5SD.png"
+  },
+  {
+    "id": "mp7",
+    "name": "MP7",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/MP7.png"
+  },
+  {
+    "id": "mpx",
+    "name": "MPX",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/MPX.png"
+  },
+  {
+    "id": "mk17_cqb",
+    "name": "Mk17 CQB",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/Mk17_CQB.png"
+  },
+  {
+    "id": "mk_14_ebr",
+    "name": "Mk 14 EBR",
+    "type": "Marksman Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/Mk_14_EBR.png"
+  },
+  {
+    "id": "mx4_storm",
+    "name": "Mx4 Storm",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/Mx4_Storm.png"
+  },
+  {
+    "id": "ots_03",
+    "name": "OTs-03",
+    "type": "Marksman Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/OTs-03.png"
+  },
+  {
+    "id": "p90",
+    "name": "P90",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/P90.png"
+  },
+  {
+    "id": "para_308",
+    "name": "PARA-308",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/PARA-308.png"
+  },
+  {
+    "id": "pdw9",
+    "name": "PDW9",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/PDW9.png"
+  },
+  {
+    "id": "pmr90a2",
+    "name": "PMR90A2",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/PMR90A2.png"
+  },
+  {
+    "id": "pof9",
+    "name": "POF9",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/POF9.png"
+  },
+  {
+    "id": "r4_c",
+    "name": "R4-C",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/R4-C.png"
+  },
+  {
+    "id": "sasg_12",
+    "name": "SASG-12",
+    "type": "Shotgun",
+    "category": "primary",
+    "image": "assets/weapons/primary/SASG-12.png"
   },
   {
     "id": "sg_cqb",
     "name": "SG-CQB",
     "type": "Shotgun",
     "category": "primary",
-    "firingModes": ["Pump-Action"],
-    "damage": 53,
-    "fireRate": 85,
-    "mobility": 50,
-    "capacity": 7,
-    "image": "assets/weapons/primary/sg_cqb.png"
+    "image": "assets/weapons/primary/SG-CQB.png"
   },
   {
-    "id": "p226_mk25",
-    "name": "P226 MK 25",
-    "type": "Handgun",
-    "category": "secondary",
-    "firingModes": ["Semi-Auto"],
-    "damage": 50,
-    "fireRate": 550,
-    "mobility": 50,
-    "capacity": 15,
-    "image": "assets/weapons/secondary/p226_mk25.png"
+    "id": "six12",
+    "name": "SIX12",
+    "type": "Shotgun",
+    "category": "primary",
+    "image": "assets/weapons/primary/SIX12.png"
   },
   {
-    "id": "m45_meusoc",
-    "name": "M45 MEUSOC",
+    "id": "six12_sd",
+    "name": "SIX12 SD",
+    "type": "Shotgun",
+    "category": "primary",
+    "image": "assets/weapons/primary/SIX12_SD.png"
+  },
+  {
+    "id": "spas_12",
+    "name": "SPAS-12",
+    "type": "Shotgun",
+    "category": "primary",
+    "image": "assets/weapons/primary/SPAS-12.png"
+  },
+  {
+    "id": "spas_15",
+    "name": "SPAS-15",
+    "type": "Shotgun",
+    "category": "primary",
+    "image": "assets/weapons/primary/SPAS-15.png"
+  },
+  {
+    "id": "sr_25",
+    "name": "SR-25",
+    "type": "Marksman Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/SR-25.png"
+  },
+  {
+    "id": "scorpion_evo_3_a1",
+    "name": "Scorpion EVO 3 A1",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/Scorpion_EVO_3_A1.png"
+  },
+  {
+    "id": "spear_308",
+    "name": "Spear .308",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/Spear_.308.png"
+  },
+  {
+    "id": "supernova",
+    "name": "SuperNova",
+    "type": "Shotgun",
+    "category": "primary",
+    "image": "assets/weapons/primary/SuperNova.png"
+  },
+  {
+    "id": "super_90",
+    "name": "Super 90",
+    "type": "Shotgun",
+    "category": "primary",
+    "image": "assets/weapons/primary/Super_90.png"
+  },
+  {
+    "id": "t_5_smg",
+    "name": "T-5 SMG",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/T-5_SMG.png"
+  },
+  {
+    "id": "t_95_lsw",
+    "name": "T-95 LSW",
+    "type": "Light Machine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/T-95_LSW.png"
+  },
+  {
+    "id": "tcsg12",
+    "name": "TCSG12",
+    "type": "Shotgun",
+    "category": "primary",
+    "image": "assets/weapons/primary/TCSG12.png"
+  },
+  {
+    "id": "type_89",
+    "name": "Type-89",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/Type-89.png"
+  },
+  {
+    "id": "ump45",
+    "name": "UMP45",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/UMP45.png"
+  },
+  {
+    "id": "v308",
+    "name": "V308",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/V308.png"
+  },
+  {
+    "id": "vector_45_acp",
+    "name": "Vector .45 ACP",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/Vector_.45_ACP.png"
+  },
+  {
+    "id": "f90",
+    "name": "F90",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/f90.png"
+  },
+  {
+    "id": "p10roni",
+    "name": "P10 Roni",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/p10roni.png"
+  },
+  {
+    "id": "pcx_33",
+    "name": "PCX-33",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/pcx-33.png"
+  },
+  {
+    "id": "uzk50gi",
+    "name": "UZK50GI",
+    "type": "Submachine Gun",
+    "category": "primary",
+    "image": "assets/weapons/primary/uzk50gi.png"
+  },
+  {
+    "id": "1911_tacops",
+    "name": "1911 TACOPS",
     "type": "Handgun",
     "category": "secondary",
-    "firingModes": ["Semi-Auto"],
-    "damage": 58,
-    "fireRate": 550,
-    "mobility": 50,
-    "capacity": 7,
-    "image": "assets/weapons/secondary/m45_meusoc.png"
+    "image": "assets/weapons/secondary/1911_TACOPS.png"
+  },
+  {
+    "id": "44vendetta",
+    "name": "44 Vendetta",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/44VENDETTA.png"
+  },
+  {
+    "id": "44_mag_semi_auto",
+    "name": "44 Mag Semi-Auto",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/44_Mag_Semi-Auto.png"
   },
   {
     "id": "5_7_usg",
     "name": "5.7 USG",
     "type": "Handgun",
     "category": "secondary",
-    "firingModes": ["Semi-Auto"],
-    "damage": 42,
-    "fireRate": 550,
-    "mobility": 50,
-    "capacity": 20,
-    "image": "assets/weapons/secondary/5_7_usg.png"
+    "image": "assets/weapons/secondary/5.7_USG.png"
+  },
+  {
+    "id": "bailiff_410",
+    "name": "Bailiff 410",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/Bailiff_410.png"
+  },
+  {
+    "id": "bearing_9",
+    "name": "Bearing 9",
+    "type": "Machine Pistol",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/Bearing_9.png"
+  },
+  {
+    "id": "c75_auto",
+    "name": "C75 Auto",
+    "type": "Machine Pistol",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/C75_Auto.png"
+  },
+  {
+    "id": "d_50",
+    "name": "D-50",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/D-50.png"
+  },
+  {
+    "id": "gonne_6",
+    "name": "GONNE-6",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/GONNE-6_HUD_Icon__1_.png"
+  },
+  {
+    "id": "gsh_18",
+    "name": "GSh-18",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/GSh-18.png"
+  },
+  {
+    "id": "ita12s",
+    "name": "ITA12S",
+    "type": "Shotgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/ITA12S.png"
+  },
+  {
+    "id": "keratos_357",
+    "name": "Keratos .357",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/Keratos_.357.png"
   },
   {
     "id": "lfp586",
     "name": "LFP586",
     "type": "Handgun",
     "category": "secondary",
-    "firingModes": ["Semi-Auto"],
-    "damage": 78,
-    "fireRate": 550,
-    "mobility": 50,
-    "capacity": 6,
-    "image": "assets/weapons/secondary/lfp586.png"
+    "image": "assets/weapons/secondary/LFP586.png"
+  },
+  {
+    "id": "luison",
+    "name": "Luison",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/Luison.png"
+  },
+  {
+    "id": "m45_meusoc",
+    "name": "M45 MEUSOC",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/M45_MEUSOC.png"
+  },
+  {
+    "id": "mk1_9mm",
+    "name": "Mk1 9mm",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/Mk1_9mm_BI.png"
+  },
+  {
+    "id": "p_10c",
+    "name": "P-10C",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/P-10C.png"
+  },
+  {
+    "id": "p12",
+    "name": "P12",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/P12.png"
+  },
+  {
+    "id": "p226_mk_25",
+    "name": "P226 Mk 25",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/P226_Mk_25.png"
+  },
+  {
+    "id": "p229",
+    "name": "P229",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/P229.png"
   },
   {
     "id": "p9",
     "name": "P9",
     "type": "Handgun",
     "category": "secondary",
-    "firingModes": ["Semi-Auto"],
-    "damage": 45,
-    "fireRate": 550,
-    "mobility": 50,
-    "capacity": 16,
-    "image": "assets/weapons/secondary/p9.png"
+    "image": "assets/weapons/secondary/P9.png"
+  },
+  {
+    "id": "pmm",
+    "name": "PMM",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/PMM.png"
+  },
+  {
+    "id": "prb92",
+    "name": "PRB92",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/PRB92.png"
+  },
+  {
+    "id": "q_929",
+    "name": "Q-929",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/Q-929.png"
+  },
+  {
+    "id": "rg15",
+    "name": "RG15",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/RG15.png"
+  },
+  {
+    "id": "sdp_9mm",
+    "name": "SDP 9mm",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/SDP_9mm.png"
+  },
+  {
+    "id": "smg_11",
+    "name": "SMG-11",
+    "type": "Machine Pistol",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/SMG-11.png"
+  },
+  {
+    "id": "smg_12",
+    "name": "SMG-12",
+    "type": "Machine Pistol",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/SMG-12.png"
+  },
+  {
+    "id": "spsmg9",
+    "name": "SPSMG9",
+    "type": "Machine Pistol",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/SPSMG9.png"
+  },
+  {
+    "id": "tacit_45",
+    "name": "TACIT 45",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/TACIT_45.png"
+  },
+  {
+    "id": "usp40",
+    "name": "USP40",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/USP40.png"
+  },
+  {
+    "id": "glaive_12",
+    "name": "Glaive-12",
+    "type": "Shotgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/glaive-12.png"
+  },
+  {
+    "id": "reaper_mk2",
+    "name": "Reaper MK2",
+    "type": "Handgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/reaper-mk2.png"
+  },
+  {
+    "id": "supershorty",
+    "name": "Super Shorty",
+    "type": "Shotgun",
+    "category": "secondary",
+    "image": "assets/weapons/secondary/supershorty.png"
   }
 ]

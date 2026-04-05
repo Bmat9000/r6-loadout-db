@@ -6,19 +6,19 @@
     "org": "SAS",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "l85a2",
-      "m590a1"
-    ],
-    "secondaryWeapons": [
-      "p226_mk25"
-    ],
     "gadgets": [
       "frag_grenade",
       "stun_grenade"
     ],
     "uniqueGadget": "breaching_hammer",
-    "icon": "assets/operators/png/sledge.png"
+    "icon": "assets/operators/png/sledge.png",
+    "primaryWeapons": [
+      "l85a2",
+      "m590a1"
+    ],
+    "secondaryWeapons": [
+      "p226_mk_25"
+    ]
   },
   {
     "id": "thatcher",
@@ -27,20 +27,20 @@
     "org": "SAS",
     "speed": 2,
     "armor": 2,
+    "gadgets": [
+      "claymore",
+      "breach_charge"
+    ],
+    "uniqueGadget": "emp_grenade",
+    "icon": "assets/operators/png/thatcher.png",
     "primaryWeapons": [
       "ar33",
       "l85a2",
       "m590a1"
     ],
     "secondaryWeapons": [
-      "p226_mk25"
-    ],
-    "gadgets": [
-      "claymore",
-      "breach_charge"
-    ],
-    "uniqueGadget": "emp_grenade",
-    "icon": "assets/operators/png/thatcher.png"
+      "p226_mk_25"
+    ]
   },
   {
     "id": "ash",
@@ -49,20 +49,20 @@
     "org": "FBI SWAT",
     "speed": 3,
     "armor": 1,
-    "primaryWeapons": [
-      "g36c",
-      "r4c"
-    ],
-    "secondaryWeapons": [
-      "m45_meusoc",
-      "5_7_usg"
-    ],
     "gadgets": [
       "breach_charge",
       "claymore"
     ],
     "uniqueGadget": "breaching_round",
-    "icon": "assets/operators/png/ash.png"
+    "icon": "assets/operators/png/ash.png",
+    "primaryWeapons": [
+      "g36c",
+      "r4_c"
+    ],
+    "secondaryWeapons": [
+      "m45_meusoc",
+      "5_7_usg"
+    ]
   },
   {
     "id": "thermite",
@@ -71,6 +71,12 @@
     "org": "FBI SWAT",
     "speed": 2,
     "armor": 2,
+    "gadgets": [
+      "stun_grenade",
+      "claymore"
+    ],
+    "uniqueGadget": "exothermic_charge",
+    "icon": "assets/operators/png/thermite.png",
     "primaryWeapons": [
       "556xi",
       "m1014"
@@ -78,13 +84,7 @@
     "secondaryWeapons": [
       "m45_meusoc",
       "5_7_usg"
-    ],
-    "gadgets": [
-      "stun_grenade",
-      "claymore"
-    ],
-    "uniqueGadget": "exothermic_charge",
-    "icon": "assets/operators/png/thermite.png"
+    ]
   },
   {
     "id": "twitch",
@@ -93,6 +93,12 @@
     "org": "GIGN",
     "speed": 2,
     "armor": 2,
+    "gadgets": [
+      "stun_grenade",
+      "claymore"
+    ],
+    "uniqueGadget": "shock_drone",
+    "icon": "assets/operators/png/twitch.png",
     "primaryWeapons": [
       "f2",
       "417",
@@ -101,13 +107,7 @@
     "secondaryWeapons": [
       "p9",
       "lfp586"
-    ],
-    "gadgets": [
-      "stun_grenade",
-      "claymore"
-    ],
-    "uniqueGadget": "shock_drone",
-    "icon": "assets/operators/png/twitch.png"
+    ]
   },
   {
     "id": "montagne",
@@ -116,19 +116,19 @@
     "org": "GIGN",
     "speed": 1,
     "armor": 3,
-    "primaryWeapons": [
-      "le_rock_shield"
-    ],
-    "secondaryWeapons": [
-      "p9",
-      "lfp586"
-    ],
     "gadgets": [
       "stun_grenade",
       "hard_breach_charge"
     ],
     "uniqueGadget": "extendable_shield",
-    "icon": "assets/operators/png/montagne.png"
+    "icon": "assets/operators/png/montagne.png",
+    "primaryWeapons": [
+      "extendable_shield"
+    ],
+    "secondaryWeapons": [
+      "p9",
+      "lfp586"
+    ]
   },
   {
     "id": "glaz",
@@ -137,19 +137,18 @@
     "org": "Spetsnaz",
     "speed": 3,
     "armor": 1,
-    "primaryWeapons": [
-      "ots_03"
-    ],
-    "secondaryWeapons": [
-      "pmu12",
-      "gsh_18"
-    ],
     "gadgets": [
       "smoke_grenade",
       "frag_grenade"
     ],
     "uniqueGadget": "flip_sight",
-    "icon": "assets/operators/png/glaz.png"
+    "icon": "assets/operators/png/glaz.png",
+    "primaryWeapons": [
+      "ots_03"
+    ],
+    "secondaryWeapons": [
+      "gsh_18"
+    ]
   },
   {
     "id": "fuze",
@@ -158,21 +157,20 @@
     "org": "Spetsnaz",
     "speed": 1,
     "armor": 3,
+    "gadgets": [
+      "breach_charge",
+      "hard_breach_charge"
+    ],
+    "uniqueGadget": "cluster_charge",
+    "icon": "assets/operators/png/fuze.png",
     "primaryWeapons": [
       "ak_12",
       "6p41",
       "ballistic_shield"
     ],
     "secondaryWeapons": [
-      "pmu12",
       "gsh_18"
-    ],
-    "gadgets": [
-      "breach_charge",
-      "hard_breach_charge"
-    ],
-    "uniqueGadget": "cluster_charge",
-    "icon": "assets/operators/png/fuze.png"
+    ]
   },
   {
     "id": "blitz",
@@ -181,18 +179,18 @@
     "org": "GSG 9",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "g52_tactical_shield"
-    ],
-    "secondaryWeapons": [
-      "p12"
-    ],
     "gadgets": [
       "smoke_grenade",
       "breach_charge"
     ],
     "uniqueGadget": "flash_shield",
-    "icon": "assets/operators/png/blitz.png"
+    "icon": "assets/operators/png/blitz.png",
+    "primaryWeapons": [
+      "g52_tactical_shield"
+    ],
+    "secondaryWeapons": [
+      "p12"
+    ]
   },
   {
     "id": "iq",
@@ -201,20 +199,20 @@
     "org": "GSG 9",
     "speed": 3,
     "armor": 1,
-    "primaryWeapons": [
-      "ar_15.50",
-      "552_commando",
-      "g8a1"
-    ],
-    "secondaryWeapons": [
-      "p12"
-    ],
     "gadgets": [
       "breach_charge",
       "claymore"
     ],
     "uniqueGadget": "electronics_detector",
-    "icon": "assets/operators/png/iq.png"
+    "icon": "assets/operators/png/iq.png",
+    "primaryWeapons": [
+      "ar_15_50",
+      "552_commando",
+      "g8a1"
+    ],
+    "secondaryWeapons": [
+      "p12"
+    ]
   },
   {
     "id": "buck",
@@ -223,19 +221,19 @@
     "org": "JTF2",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "c8_sfr",
-      "skeleton_key"
-    ],
-    "secondaryWeapons": [
-      "mk1_9mm"
-    ],
     "gadgets": [
       "stun_grenade",
       "hard_breach_charge"
     ],
     "uniqueGadget": "skeleton_key",
-    "icon": "assets/operators/png/buck.png"
+    "icon": "assets/operators/png/buck.png",
+    "primaryWeapons": [
+      "c8_sfw",
+      "9mm_c1"
+    ],
+    "secondaryWeapons": [
+      "mk1_9mm"
+    ]
   },
   {
     "id": "blackbeard",
@@ -244,19 +242,19 @@
     "org": "NAVY SEAL",
     "speed": 2,
     "armor": 2,
+    "gadgets": [
+      "stun_grenade",
+      "claymore"
+    ],
+    "uniqueGadget": "gun_shield",
+    "icon": "assets/operators/png/blackbeard.png",
     "primaryWeapons": [
       "mk17_cqb",
       "sr_25"
     ],
     "secondaryWeapons": [
       "d_50"
-    ],
-    "gadgets": [
-      "stun_grenade",
-      "claymore"
-    ],
-    "uniqueGadget": "gun_shield",
-    "icon": "assets/operators/png/blackbeard.png"
+    ]
   },
   {
     "id": "capitao",
@@ -265,19 +263,19 @@
     "org": "BOPE",
     "speed": 3,
     "armor": 1,
+    "gadgets": [
+      "hard_breach_charge",
+      "claymore"
+    ],
+    "uniqueGadget": "tactical_crossbow",
+    "icon": "assets/operators/png/capitao.png",
     "primaryWeapons": [
       "para_308",
       "m249"
     ],
     "secondaryWeapons": [
       "prb92"
-    ],
-    "gadgets": [
-      "hard_breach_charge",
-      "claymore"
-    ],
-    "uniqueGadget": "tactical_crossbow",
-    "icon": "assets/operators/png/capitao.png"
+    ]
   },
   {
     "id": "hibana",
@@ -286,20 +284,19 @@
     "org": "SAT",
     "speed": 3,
     "armor": 1,
-    "primaryWeapons": [
-      "type_89",
-      "supernova"
-    ],
-    "secondaryWeapons": [
-      "p229",
-      "ux_blitz"
-    ],
     "gadgets": [
       "stun_grenade",
       "breach_charge"
     ],
     "uniqueGadget": "x_kairos",
-    "icon": "assets/operators/png/hibana.png"
+    "icon": "assets/operators/png/hibana.png",
+    "primaryWeapons": [
+      "type_89",
+      "supernova"
+    ],
+    "secondaryWeapons": [
+      "p229"
+    ]
   },
   {
     "id": "jackal",
@@ -308,20 +305,20 @@
     "org": "GEO",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "c7e",
-      "pdw9"
-    ],
-    "secondaryWeapons": [
-      "itak_f2",
-      "bearing_9"
-    ],
     "gadgets": [
       "claymore",
       "smoke_grenade"
     ],
     "uniqueGadget": "eyenox_model_iii",
-    "icon": "assets/operators/png/jackal.png"
+    "icon": "assets/operators/png/jackal.png",
+    "primaryWeapons": [
+      "c7e",
+      "pdw9"
+    ],
+    "secondaryWeapons": [
+      "bearing_9",
+      "q_929"
+    ]
   },
   {
     "id": "ying",
@@ -330,19 +327,19 @@
     "org": "SDU",
     "speed": 2,
     "armor": 2,
+    "gadgets": [
+      "hard_breach_charge",
+      "smoke_grenade"
+    ],
+    "uniqueGadget": "candela",
+    "icon": "assets/operators/png/ying.png",
     "primaryWeapons": [
       "t_95_lsw",
       "supernova"
     ],
     "secondaryWeapons": [
       "q_929"
-    ],
-    "gadgets": [
-      "hard_breach_charge",
-      "smoke_grenade"
-    ],
-    "uniqueGadget": "candela",
-    "icon": "assets/operators/png/ying.png"
+    ]
   },
   {
     "id": "zofia",
@@ -351,19 +348,20 @@
     "org": "GROM",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "lmg_e",
-      "m762"
-    ],
-    "secondaryWeapons": [
-      "rg15"
-    ],
     "gadgets": [
       "breach_charge",
       "claymore"
     ],
     "uniqueGadget": "ksl12_launcher",
-    "icon": "assets/operators/png/zofia.png"
+    "icon": "assets/operators/png/zofia.png",
+    "primaryWeapons": [
+      "lmg_e",
+      "m762"
+    ],
+    "secondaryWeapons": [
+      "rg15",
+      "bailiff_410"
+    ]
   },
   {
     "id": "dokkaebi",
@@ -372,20 +370,20 @@
     "org": "707th SMB",
     "speed": 3,
     "armor": 1,
-    "primaryWeapons": [
-      "mk_14_ebr",
-      "supernova"
-    ],
-    "secondaryWeapons": [
-      "c75_auto",
-      "smg_12"
-    ],
     "gadgets": [
       "stun_grenade",
       "frag_grenade"
     ],
     "uniqueGadget": "logic_bomb",
-    "icon": "assets/operators/png/dokkaebi.png"
+    "icon": "assets/operators/png/dokkaebi.png",
+    "primaryWeapons": [
+      "mk_14_ebr",
+      "bosg_12_2"
+    ],
+    "secondaryWeapons": [
+      "c75_auto",
+      "smg_12"
+    ]
   },
   {
     "id": "lion",
@@ -394,6 +392,12 @@
     "org": "CBRN",
     "speed": 2,
     "armor": 2,
+    "gadgets": [
+      "stun_grenade",
+      "claymore"
+    ],
+    "uniqueGadget": "ems5_scan",
+    "icon": "assets/operators/png/lion.png",
     "primaryWeapons": [
       "v308",
       "417",
@@ -402,13 +406,7 @@
     "secondaryWeapons": [
       "p9",
       "lfp586"
-    ],
-    "gadgets": [
-      "stun_grenade",
-      "claymore"
-    ],
-    "uniqueGadget": "ems5_scan",
-    "icon": "assets/operators/png/lion.png"
+    ]
   },
   {
     "id": "finka",
@@ -417,21 +415,20 @@
     "org": "Spetsnaz",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "spear_.308",
-      "6p41",
-      "sasg_12"
-    ],
-    "secondaryWeapons": [
-      "pmu12",
-      "gsh_18"
-    ],
     "gadgets": [
       "hard_breach_charge",
       "frag_grenade"
     ],
     "uniqueGadget": "adrenal_surge",
-    "icon": "assets/operators/png/finka.png"
+    "icon": "assets/operators/png/finka.png",
+    "primaryWeapons": [
+      "spear_308",
+      "6p41",
+      "sasg_12"
+    ],
+    "secondaryWeapons": [
+      "gsh_18"
+    ]
   },
   {
     "id": "maverick",
@@ -440,19 +437,19 @@
     "org": "NIGHTHAVEN",
     "speed": 3,
     "armor": 1,
-    "primaryWeapons": [
-      "ar_15.50",
-      "m4"
-    ],
-    "secondaryWeapons": [
-      "1911_tacops"
-    ],
     "gadgets": [
       "stun_grenade",
       "claymore"
     ],
     "uniqueGadget": "breaching_torch",
-    "icon": "assets/operators/png/maverick.png"
+    "icon": "assets/operators/png/maverick.png",
+    "primaryWeapons": [
+      "ar_15_50",
+      "m4"
+    ],
+    "secondaryWeapons": [
+      "1911_tacops"
+    ]
   },
   {
     "id": "nomad",
@@ -461,20 +458,18 @@
     "org": "GIGR",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "aks_74u",
-      "ar_x"
-    ],
-    "secondaryWeapons": [
-      "44_mag_semi_auto",
-      ".357_magnum"
-    ],
     "gadgets": [
       "stun_grenade",
       "breach_charge"
     ],
     "uniqueGadget": "airjab_repulsion_mine",
-    "icon": "assets/operators/png/nomad.png"
+    "icon": "assets/operators/png/nomad.png",
+    "primaryWeapons": [
+      "commando_9"
+    ],
+    "secondaryWeapons": [
+      "44_mag_semi_auto"
+    ]
   },
   {
     "id": "gridlock",
@@ -483,20 +478,20 @@
     "org": "SASR",
     "speed": 1,
     "armor": 3,
-    "primaryWeapons": [
-      "f90",
-      "m249_saw"
-    ],
-    "secondaryWeapons": [
-      "super_shorty",
-      "gsh_18"
-    ],
     "gadgets": [
       "breach_charge",
       "smoke_grenade"
     ],
     "uniqueGadget": "trax_stingers",
-    "icon": "assets/operators/png/gridlock.png"
+    "icon": "assets/operators/png/gridlock.png",
+    "primaryWeapons": [
+      "f90",
+      "m249_saw"
+    ],
+    "secondaryWeapons": [
+      "supershorty",
+      "gsh_18"
+    ]
   },
   {
     "id": "nokk",
@@ -505,20 +500,20 @@
     "org": "Jaeger Corps",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "fmg_9",
-      "sx300_auto"
-    ],
-    "secondaryWeapons": [
-      "5_7_usg",
-      "d_50"
-    ],
     "gadgets": [
       "frag_grenade",
       "hard_breach_charge"
     ],
     "uniqueGadget": "hel_presence_reduction",
-    "icon": "assets/operators/png/nokk.png"
+    "icon": "assets/operators/png/nokk.png",
+    "primaryWeapons": [
+      "fmg_9",
+      "six12_sd"
+    ],
+    "secondaryWeapons": [
+      "5_7_usg",
+      "d_50"
+    ]
   },
   {
     "id": "amaru",
@@ -527,20 +522,20 @@
     "org": "APCA",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "g8a1",
-      "supernova"
-    ],
-    "secondaryWeapons": [
-      "itak_f2",
-      "smg_11"
-    ],
     "gadgets": [
       "hard_breach_charge",
       "stun_grenade"
     ],
     "uniqueGadget": "garra_hook",
-    "icon": "assets/operators/png/amaru.png"
+    "icon": "assets/operators/png/amaru.png",
+    "primaryWeapons": [
+      "g8a1",
+      "supernova"
+    ],
+    "secondaryWeapons": [
+      "bearing_9",
+      "smg_11"
+    ]
   },
   {
     "id": "kali",
@@ -549,19 +544,19 @@
     "org": "Night Ravens",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "csrx_300"
-    ],
-    "secondaryWeapons": [
-      "spsmg9",
-      "p226_mk25"
-    ],
     "gadgets": [
       "claymore",
       "breach_charge"
     ],
     "uniqueGadget": "lv_lance",
-    "icon": "assets/operators/png/kali.png"
+    "icon": "assets/operators/png/kali.png",
+    "primaryWeapons": [
+      "csrx_300"
+    ],
+    "secondaryWeapons": [
+      "spsmg9",
+      "p226_mk_25"
+    ]
   },
   {
     "id": "iana",
@@ -570,19 +565,19 @@
     "org": "REU",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "arg_a2",
-      "g36c"
-    ],
-    "secondaryWeapons": [
-      "mk1_9mm"
-    ],
     "gadgets": [
       "stun_grenade",
       "smoke_grenade"
     ],
     "uniqueGadget": "gemini_replicator",
-    "icon": "assets/operators/png/iana.png"
+    "icon": "assets/operators/png/iana.png",
+    "primaryWeapons": [
+      "arx200",
+      "g36c"
+    ],
+    "secondaryWeapons": [
+      "mk1_9mm"
+    ]
   },
   {
     "id": "ace",
@@ -591,19 +586,19 @@
     "org": "Jaeger Corps",
     "speed": 2,
     "armor": 2,
+    "gadgets": [
+      "breach_charge",
+      "claymore"
+    ],
+    "uniqueGadget": "s_e_l_m_a",
+    "icon": "assets/operators/png/ace.png",
     "primaryWeapons": [
       "m1014",
       "ak_12"
     ],
     "secondaryWeapons": [
       "p9"
-    ],
-    "gadgets": [
-      "breach_charge",
-      "claymore"
-    ],
-    "uniqueGadget": "s_e_l_m_a",
-    "icon": "assets/operators/png/ace.png"
+    ]
   },
   {
     "id": "zero",
@@ -612,19 +607,18 @@
     "org": "Third Echelon",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "sc3000k",
-      "mp7"
-    ],
-    "secondaryWeapons": [
-      "5_7_usg"
-    ],
     "gadgets": [
       "frag_grenade",
       "hard_breach_charge"
     ],
     "uniqueGadget": "argus_launcher",
-    "icon": "assets/operators/png/zero.png"
+    "icon": "assets/operators/png/zero.png",
+    "primaryWeapons": [
+      "mp7"
+    ],
+    "secondaryWeapons": [
+      "5_7_usg"
+    ]
   },
   {
     "id": "flores",
@@ -633,19 +627,19 @@
     "org": "APCA",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "ar_33",
-      "503_gauge"
-    ],
-    "secondaryWeapons": [
-      "gsh_18"
-    ],
     "gadgets": [
       "claymore",
       "stun_grenade"
     ],
     "uniqueGadget": "rce_ratero_charge",
-    "icon": "assets/operators/png/flores.png"
+    "icon": "assets/operators/png/flores.png",
+    "primaryWeapons": [
+      "ar33",
+      "sr_25"
+    ],
+    "secondaryWeapons": [
+      "gsh_18"
+    ]
   },
   {
     "id": "osa",
@@ -654,19 +648,18 @@
     "org": "NIGHTHAVEN",
     "speed": 1,
     "armor": 3,
-    "primaryWeapons": [
-      "556xi",
-      "pdr_c"
-    ],
-    "secondaryWeapons": [
-      "pmm"
-    ],
     "gadgets": [
       "claymore",
       "hard_breach_charge"
     ],
     "uniqueGadget": "talon_8_shield",
-    "icon": "assets/operators/png/osa.png"
+    "icon": "assets/operators/png/osa.png",
+    "primaryWeapons": [
+      "556xi"
+    ],
+    "secondaryWeapons": [
+      "pmm"
+    ]
   },
   {
     "id": "sens",
@@ -675,19 +668,19 @@
     "org": "LFT",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "pof_9",
-      "417"
-    ],
-    "secondaryWeapons": [
-      "sos_speedsoftstop"
-    ],
     "gadgets": [
       "hard_breach_charge",
       "claymore"
     ],
     "uniqueGadget": "rok_array",
-    "icon": "assets/operators/png/sens.png"
+    "icon": "assets/operators/png/sens.png",
+    "primaryWeapons": [
+      "pof9",
+      "417"
+    ],
+    "secondaryWeapons": [
+      "p12"
+    ]
   },
   {
     "id": "grim",
@@ -696,19 +689,18 @@
     "org": "Nighthaven",
     "speed": 3,
     "armor": 1,
-    "primaryWeapons": [
-      "552_commando",
-      "sys_shotgun"
-    ],
-    "secondaryWeapons": [
-      "p229"
-    ],
     "gadgets": [
       "breach_charge",
       "claymore"
     ],
     "uniqueGadget": "kawan_hive_launcher",
-    "icon": "assets/operators/png/grim.png"
+    "icon": "assets/operators/png/grim.png",
+    "primaryWeapons": [
+      "552_commando"
+    ],
+    "secondaryWeapons": [
+      "p229"
+    ]
   },
   {
     "id": "brava",
@@ -717,20 +709,18 @@
     "org": "BOPE",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "wsk_480",
-      "pdr_c"
-    ],
-    "secondaryWeapons": [
-      "super_shorty",
-      "itak_f2"
-    ],
     "gadgets": [
       "claymore",
       "hard_breach_charge"
     ],
     "uniqueGadget": "kludge_drone",
-    "icon": "assets/operators/png/brava.png"
+    "icon": "assets/operators/png/brava.png",
+    "primaryWeapons": [
+      "p10roni"
+    ],
+    "secondaryWeapons": [
+      "supershorty"
+    ]
   },
   {
     "id": "ram",
@@ -739,19 +729,19 @@
     "org": "SFOD-D",
     "speed": 1,
     "armor": 3,
-    "primaryWeapons": [
-      "r4c",
-      "lmg_e"
-    ],
-    "secondaryWeapons": [
-      "itak_f2"
-    ],
     "gadgets": [
       "hard_breach_charge",
       "stun_grenade"
     ],
     "uniqueGadget": "bfu_ram",
-    "icon": "assets/operators/png/ram.png"
+    "icon": "assets/operators/png/ram.png",
+    "primaryWeapons": [
+      "r4_c",
+      "lmg_e"
+    ],
+    "secondaryWeapons": [
+      "44vendetta"
+    ]
   },
   {
     "id": "deimos",
@@ -760,19 +750,19 @@
     "org": "NIGHTHAVEN",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "ak_74m",
-      "m870"
-    ],
-    "secondaryWeapons": [
-      "de50"
-    ],
     "gadgets": [
       "frag_grenade",
       "hard_breach_charge"
     ],
     "uniqueGadget": "deathmark",
-    "icon": "assets/operators/png/deimos.png"
+    "icon": "assets/operators/png/deimos.png",
+    "primaryWeapons": [
+      "ak_74m",
+      "m870"
+    ],
+    "secondaryWeapons": [
+      "tacit_45"
+    ]
   },
   {
     "id": "striker",
@@ -781,19 +771,19 @@
     "org": "US Army",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "m4",
-      "skeleton_key"
-    ],
-    "secondaryWeapons": [
-      "1911_tacops"
-    ],
     "gadgets": [
       "breach_charge",
       "stun_grenade"
     ],
     "uniqueGadget": "gadget_pouch",
-    "icon": "assets/operators/png/striker.png"
+    "icon": "assets/operators/png/striker.png",
+    "primaryWeapons": [
+      "m4",
+      "f2000"
+    ],
+    "secondaryWeapons": [
+      "1911_tacops"
+    ]
   },
   {
     "id": "rauora",
@@ -802,19 +792,19 @@
     "org": "NZ SAS",
     "speed": 2,
     "armor": 2,
+    "gadgets": [
+      "breach_charge",
+      "claymore"
+    ],
+    "uniqueGadget": "parawing_kit",
+    "icon": "assets/operators/png/rauora.png",
     "primaryWeapons": [
       "ump45",
       "sg_cqb"
     ],
     "secondaryWeapons": [
       "rg15"
-    ],
-    "gadgets": [
-      "breach_charge",
-      "claymore"
-    ],
-    "uniqueGadget": "parawing_kit",
-    "icon": "assets/operators/png/rauora.png"
+    ]
   },
   {
     "id": "smoke",
@@ -823,20 +813,20 @@
     "org": "SAS",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "fmg_9",
-      "m590a1"
-    ],
-    "secondaryWeapons": [
-      "p226_mk25",
-      "smg_11"
-    ],
     "gadgets": [
       "barbed_wire",
       "proximity_alarm"
     ],
     "uniqueGadget": "remote_gas_canister",
-    "icon": "assets/operators/png/smoke.png"
+    "icon": "assets/operators/png/smoke.png",
+    "primaryWeapons": [
+      "fmg_9",
+      "m590a1"
+    ],
+    "secondaryWeapons": [
+      "p226_mk_25",
+      "smg_11"
+    ]
   },
   {
     "id": "mute",
@@ -845,20 +835,20 @@
     "org": "SAS",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "mp5k",
-      "m590a1"
-    ],
-    "secondaryWeapons": [
-      "p226_mk25",
-      "smg_11"
-    ],
     "gadgets": [
       "bulletproof_camera",
       "nitro_cell"
     ],
     "uniqueGadget": "signal_jammer",
-    "icon": "assets/operators/png/mute.png"
+    "icon": "assets/operators/png/mute.png",
+    "primaryWeapons": [
+      "mp5k",
+      "m590a1"
+    ],
+    "secondaryWeapons": [
+      "p226_mk_25",
+      "smg_11"
+    ]
   },
   {
     "id": "castle",
@@ -867,6 +857,12 @@
     "org": "FBI SWAT",
     "speed": 2,
     "armor": 2,
+    "gadgets": [
+      "nitro_cell",
+      "proximity_alarm"
+    ],
+    "uniqueGadget": "armored_pack",
+    "icon": "assets/operators/png/castle.png",
     "primaryWeapons": [
       "ump45",
       "m1014"
@@ -874,13 +870,7 @@
     "secondaryWeapons": [
       "5_7_usg",
       "m45_meusoc"
-    ],
-    "gadgets": [
-      "nitro_cell",
-      "proximity_alarm"
-    ],
-    "uniqueGadget": "armored_pack",
-    "icon": "assets/operators/png/castle.png"
+    ]
   },
   {
     "id": "pulse",
@@ -889,6 +879,12 @@
     "org": "FBI SWAT",
     "speed": 3,
     "armor": 1,
+    "gadgets": [
+      "nitro_cell",
+      "barbed_wire"
+    ],
+    "uniqueGadget": "heartbeat_sensor",
+    "icon": "assets/operators/png/pulse.png",
     "primaryWeapons": [
       "ump45",
       "m1014"
@@ -896,13 +892,7 @@
     "secondaryWeapons": [
       "5_7_usg",
       "m45_meusoc"
-    ],
-    "gadgets": [
-      "nitro_cell",
-      "barbed_wire"
-    ],
-    "uniqueGadget": "heartbeat_sensor",
-    "icon": "assets/operators/png/pulse.png"
+    ]
   },
   {
     "id": "doc",
@@ -911,6 +901,12 @@
     "org": "GIGN",
     "speed": 1,
     "armor": 3,
+    "gadgets": [
+      "barbed_wire",
+      "bulletproof_camera"
+    ],
+    "uniqueGadget": "stim_pistol",
+    "icon": "assets/operators/png/doc.png",
     "primaryWeapons": [
       "sg_cqb",
       "mp5"
@@ -918,13 +914,7 @@
     "secondaryWeapons": [
       "p9",
       "lfp586"
-    ],
-    "gadgets": [
-      "barbed_wire",
-      "bulletproof_camera"
-    ],
-    "uniqueGadget": "stim_pistol",
-    "icon": "assets/operators/png/doc.png"
+    ]
   },
   {
     "id": "rook",
@@ -933,6 +923,12 @@
     "org": "GIGN",
     "speed": 1,
     "armor": 3,
+    "gadgets": [
+      "proximity_alarm",
+      "impact_grenade"
+    ],
+    "uniqueGadget": "armor_pack",
+    "icon": "assets/operators/png/rook.png",
     "primaryWeapons": [
       "p90",
       "mp5"
@@ -940,13 +936,7 @@
     "secondaryWeapons": [
       "lfp586",
       "p9"
-    ],
-    "gadgets": [
-      "proximity_alarm",
-      "impact_grenade"
-    ],
-    "uniqueGadget": "armor_pack",
-    "icon": "assets/operators/png/rook.png"
+    ]
   },
   {
     "id": "kapkan",
@@ -955,20 +945,19 @@
     "org": "Spetsnaz",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "9x19vsn",
-      "sasg_12"
-    ],
-    "secondaryWeapons": [
-      "pmu12",
-      "gsh_18"
-    ],
     "gadgets": [
       "nitro_cell",
       "impact_grenade"
     ],
     "uniqueGadget": "edb",
-    "icon": "assets/operators/png/kapkan.png"
+    "icon": "assets/operators/png/kapkan.png",
+    "primaryWeapons": [
+      "9x19svn",
+      "sasg_12"
+    ],
+    "secondaryWeapons": [
+      "gsh_18"
+    ]
   },
   {
     "id": "tachanka",
@@ -977,21 +966,20 @@
     "org": "Spetsnaz",
     "speed": 1,
     "armor": 3,
-    "primaryWeapons": [
-      "dp27",
-      "sasg_12",
-      "9x19vsn"
-    ],
-    "secondaryWeapons": [
-      "pmu12",
-      "gsh_18"
-    ],
     "gadgets": [
       "barbed_wire",
       "proximity_alarm"
     ],
     "uniqueGadget": "shumikha_launcher",
-    "icon": "assets/operators/png/tachanka.png"
+    "icon": "assets/operators/png/tachanka.png",
+    "primaryWeapons": [
+      "dp27",
+      "sasg_12",
+      "9x19svn"
+    ],
+    "secondaryWeapons": [
+      "gsh_18"
+    ]
   },
   {
     "id": "jager",
@@ -1000,19 +988,19 @@
     "org": "GSG 9",
     "speed": 3,
     "armor": 1,
-    "primaryWeapons": [
-      "m870",
-      "416_c_carbine"
-    ],
-    "secondaryWeapons": [
-      "p12"
-    ],
     "gadgets": [
       "bulletproof_camera",
       "barbed_wire"
     ],
     "uniqueGadget": "ads",
-    "icon": "assets/operators/png/jager.png"
+    "icon": "assets/operators/png/jager.png",
+    "primaryWeapons": [
+      "416_c_carbine",
+      "m870"
+    ],
+    "secondaryWeapons": [
+      "p12"
+    ]
   },
   {
     "id": "bandit",
@@ -1021,19 +1009,19 @@
     "org": "GSG 9",
     "speed": 3,
     "armor": 1,
+    "gadgets": [
+      "barbed_wire",
+      "nitro_cell"
+    ],
+    "uniqueGadget": "ced_mk_iii",
+    "icon": "assets/operators/png/bandit.png",
     "primaryWeapons": [
       "mp7",
       "m870"
     ],
     "secondaryWeapons": [
       "p12"
-    ],
-    "gadgets": [
-      "barbed_wire",
-      "nitro_cell"
-    ],
-    "uniqueGadget": "ced_mk_iii",
-    "icon": "assets/operators/png/bandit.png"
+    ]
   },
   {
     "id": "frost",
@@ -1042,19 +1030,19 @@
     "org": "JTF2",
     "speed": 2,
     "armor": 2,
+    "gadgets": [
+      "barbed_wire",
+      "bulletproof_camera"
+    ],
+    "uniqueGadget": "bear_trap",
+    "icon": "assets/operators/png/frost.png",
     "primaryWeapons": [
       "super_90",
       "9mm_c1"
     ],
     "secondaryWeapons": [
       "mk1_9mm"
-    ],
-    "gadgets": [
-      "barbed_wire",
-      "bulletproof_camera"
-    ],
-    "uniqueGadget": "bear_trap",
-    "icon": "assets/operators/png/frost.png"
+    ]
   },
   {
     "id": "valkyrie",
@@ -1063,19 +1051,19 @@
     "org": "NAVY SEAL",
     "speed": 2,
     "armor": 2,
+    "gadgets": [
+      "nitro_cell",
+      "impact_grenade"
+    ],
+    "uniqueGadget": "black_eye",
+    "icon": "assets/operators/png/valkyrie.png",
     "primaryWeapons": [
       "mpx",
       "ump45"
     ],
     "secondaryWeapons": [
       "d_50"
-    ],
-    "gadgets": [
-      "nitro_cell",
-      "impact_grenade"
-    ],
-    "uniqueGadget": "black_eye",
-    "icon": "assets/operators/png/valkyrie.png"
+    ]
   },
   {
     "id": "caveira",
@@ -1084,19 +1072,19 @@
     "org": "BOPE",
     "speed": 3,
     "armor": 1,
-    "primaryWeapons": [
-      "tac_50_c_rof",
-      "m12"
-    ],
-    "secondaryWeapons": [
-      "luison"
-    ],
     "gadgets": [
       "impact_grenade",
       "nitro_cell"
     ],
     "uniqueGadget": "silent_step",
-    "icon": "assets/operators/png/caveira.png"
+    "icon": "assets/operators/png/caveira.png",
+    "primaryWeapons": [
+      "spas_12",
+      "m12"
+    ],
+    "secondaryWeapons": [
+      "luison"
+    ]
   },
   {
     "id": "echo",
@@ -1105,20 +1093,20 @@
     "org": "SAT",
     "speed": 1,
     "armor": 3,
-    "primaryWeapons": [
-      "supernova",
-      "mp5sd"
-    ],
-    "secondaryWeapons": [
-      "p229",
-      "ux_blitz"
-    ],
     "gadgets": [
       "impact_grenade",
       "nitro_cell"
     ],
     "uniqueGadget": "yokai",
-    "icon": "assets/operators/png/echo.png"
+    "icon": "assets/operators/png/echo.png",
+    "primaryWeapons": [
+      "supernova",
+      "bosg_12_2",
+      "mp5sd"
+    ],
+    "secondaryWeapons": [
+      "p229"
+    ]
   },
   {
     "id": "mira",
@@ -1127,20 +1115,19 @@
     "org": "GEO",
     "speed": 1,
     "armor": 3,
-    "primaryWeapons": [
-      "vector_.45_acp",
-      "ifak_60"
-    ],
-    "secondaryWeapons": [
-      "itak_f2",
-      "ux_blitz"
-    ],
     "gadgets": [
       "proximity_alarm",
       "nitro_cell"
     ],
     "uniqueGadget": "black_mirror",
-    "icon": "assets/operators/png/mira.png"
+    "icon": "assets/operators/png/mira.png",
+    "primaryWeapons": [
+      "vector_45_acp",
+      "ita12l"
+    ],
+    "secondaryWeapons": [
+      "ita12s"
+    ]
   },
   {
     "id": "lesion",
@@ -1149,20 +1136,19 @@
     "org": "SDU",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "t_5_smg",
-      "supernova"
-    ],
-    "secondaryWeapons": [
-      "q_929",
-      "ux_blitz"
-    ],
     "gadgets": [
       "bulletproof_camera",
       "impact_grenade"
     ],
     "uniqueGadget": "gu_mines",
-    "icon": "assets/operators/png/lesion.png"
+    "icon": "assets/operators/png/lesion.png",
+    "primaryWeapons": [
+      "t_5_smg",
+      "supernova"
+    ],
+    "secondaryWeapons": [
+      "q_929"
+    ]
   },
   {
     "id": "ela",
@@ -1171,19 +1157,20 @@
     "org": "GROM",
     "speed": 3,
     "armor": 1,
-    "primaryWeapons": [
-      "scorpion_evo_3_a1",
-      "ela_shotgun"
-    ],
-    "secondaryWeapons": [
-      "rg15"
-    ],
     "gadgets": [
       "barbed_wire",
       "impact_grenade"
     ],
     "uniqueGadget": "grzmot_mine",
-    "icon": "assets/operators/png/ela.png"
+    "icon": "assets/operators/png/ela.png",
+    "primaryWeapons": [
+      "scorpion_evo_3_a1",
+      "fo_12"
+    ],
+    "secondaryWeapons": [
+      "rg15",
+      "bailiff_410"
+    ]
   },
   {
     "id": "vigil",
@@ -1192,20 +1179,20 @@
     "org": "707th SMB",
     "speed": 3,
     "armor": 1,
-    "primaryWeapons": [
-      "k1a",
-      "dmr"
-    ],
-    "secondaryWeapons": [
-      "c75_auto",
-      "smg_12"
-    ],
     "gadgets": [
       "bulletproof_camera",
       "nitro_cell"
     ],
     "uniqueGadget": "erc_7",
-    "icon": "assets/operators/png/vigil.png"
+    "icon": "assets/operators/png/vigil.png",
+    "primaryWeapons": [
+      "k1a",
+      "arx200"
+    ],
+    "secondaryWeapons": [
+      "c75_auto",
+      "smg_12"
+    ]
   },
   {
     "id": "maestro",
@@ -1214,20 +1201,21 @@
     "org": "GIS",
     "speed": 1,
     "armor": 3,
-    "primaryWeapons": [
-      "atk_v2",
-      "mx4_storm"
-    ],
-    "secondaryWeapons": [
-      "bailiff_410",
-      "itak_f2"
-    ],
     "gadgets": [
       "barbed_wire",
       "impact_grenade"
     ],
     "uniqueGadget": "evil_eye",
-    "icon": "assets/operators/png/maestro.png"
+    "icon": "assets/operators/png/maestro.png",
+    "primaryWeapons": [
+      "alda_556",
+      "acs12_pb",
+      "vector_45_acp"
+    ],
+    "secondaryWeapons": [
+      "bailiff_410",
+      "ita12s"
+    ]
   },
   {
     "id": "alibi",
@@ -1236,20 +1224,20 @@
     "org": "GIS",
     "speed": 3,
     "armor": 1,
-    "primaryWeapons": [
-      "mx4_storm",
-      "ax308"
-    ],
-    "secondaryWeapons": [
-      "bailiff_410",
-      "keratos_.357"
-    ],
     "gadgets": [
       "impact_grenade",
       "bulletproof_camera"
     ],
     "uniqueGadget": "prisma",
-    "icon": "assets/operators/png/alibi.png"
+    "icon": "assets/operators/png/alibi.png",
+    "primaryWeapons": [
+      "mx4_storm",
+      "spas_15"
+    ],
+    "secondaryWeapons": [
+      "bailiff_410",
+      "keratos_357"
+    ]
   },
   {
     "id": "clash",
@@ -1258,19 +1246,19 @@
     "org": "GSUTR",
     "speed": 1,
     "armor": 3,
+    "gadgets": [
+      "impact_grenade",
+      "barbed_wire"
+    ],
+    "uniqueGadget": "cce_shield",
+    "icon": "assets/operators/png/clash.png",
     "primaryWeapons": [
       "cce_shield"
     ],
     "secondaryWeapons": [
       "spsmg9",
       "p_10c"
-    ],
-    "gadgets": [
-      "impact_grenade",
-      "barbed_wire"
-    ],
-    "uniqueGadget": "cce_shield",
-    "icon": "assets/operators/png/clash.png"
+    ]
   },
   {
     "id": "kaid",
@@ -1279,20 +1267,20 @@
     "org": "GIGR",
     "speed": 1,
     "armor": 3,
-    "primaryWeapons": [
-      "tcsg12",
-      "aug_a3"
-    ],
-    "secondaryWeapons": [
-      "lfp586",
-      "p9"
-    ],
     "gadgets": [
       "nitro_cell",
       "barbed_wire"
     ],
     "uniqueGadget": "rtila_electroclaw",
-    "icon": "assets/operators/png/kaid.png"
+    "icon": "assets/operators/png/kaid.png",
+    "primaryWeapons": [
+      "tcsg12",
+      "aug_a3"
+    ],
+    "secondaryWeapons": [
+      "sdp_9mm",
+      "keratos_357"
+    ]
   },
   {
     "id": "mozzie",
@@ -1301,20 +1289,20 @@
     "org": "SASR",
     "speed": 3,
     "armor": 1,
-    "primaryWeapons": [
-      "commando_9",
-      "p10_roni"
-    ],
-    "secondaryWeapons": [
-      "super_shorty",
-      "gsh_18"
-    ],
     "gadgets": [
       "nitro_cell",
       "bulletproof_camera"
     ],
     "uniqueGadget": "pest",
-    "icon": "assets/operators/png/mozzie.png"
+    "icon": "assets/operators/png/mozzie.png",
+    "primaryWeapons": [
+      "commando_9",
+      "p10roni"
+    ],
+    "secondaryWeapons": [
+      "supershorty",
+      "gsh_18"
+    ]
   },
   {
     "id": "warden",
@@ -1323,20 +1311,20 @@
     "org": "Secret Service",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "m590a1",
-      "mpx"
-    ],
-    "secondaryWeapons": [
-      "d_50",
-      "p_10c"
-    ],
     "gadgets": [
       "proximity_alarm",
       "nitro_cell"
     ],
     "uniqueGadget": "glance_smart_glasses",
-    "icon": "assets/operators/png/warden.png"
+    "icon": "assets/operators/png/warden.png",
+    "primaryWeapons": [
+      "mpx",
+      "m590a1"
+    ],
+    "secondaryWeapons": [
+      "d_50",
+      "p_10c"
+    ]
   },
   {
     "id": "goyo",
@@ -1345,19 +1333,19 @@
     "org": "FUERZAS ESPECIALES",
     "speed": 1,
     "armor": 3,
-    "primaryWeapons": [
-      "vector_.45_acp",
-      "bearing_9"
-    ],
-    "secondaryWeapons": [
-      "keratos_.357"
-    ],
     "gadgets": [
       "nitro_cell",
       "smoke_grenade"
     ],
     "uniqueGadget": "volcan_canister",
-    "icon": "assets/operators/png/goyo.png"
+    "icon": "assets/operators/png/goyo.png",
+    "primaryWeapons": [
+      "vector_45_acp",
+      "tcsg12"
+    ],
+    "secondaryWeapons": [
+      "keratos_357"
+    ]
   },
   {
     "id": "wamai",
@@ -1366,20 +1354,20 @@
     "org": "Nighthaven",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "aug_a2",
-      "m590a1"
-    ],
-    "secondaryWeapons": [
-      "keratos_.357",
-      "p12"
-    ],
     "gadgets": [
       "bulletproof_camera",
       "impact_grenade"
     ],
     "uniqueGadget": "mag_net_system",
-    "icon": "assets/operators/png/wamai.png"
+    "icon": "assets/operators/png/wamai.png",
+    "primaryWeapons": [
+      "aug_a2",
+      "m590a1"
+    ],
+    "secondaryWeapons": [
+      "keratos_357",
+      "p12"
+    ]
   },
   {
     "id": "oryx",
@@ -1388,20 +1376,20 @@
     "org": "GIGR",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "spas_12",
-      "t_5_smg"
-    ],
-    "secondaryWeapons": [
-      "bailiff_410",
-      "rbp_mk0"
-    ],
     "gadgets": [
       "barbed_wire",
       "proximity_alarm"
     ],
     "uniqueGadget": "remah_dash",
-    "icon": "assets/operators/png/oryx.png"
+    "icon": "assets/operators/png/oryx.png",
+    "primaryWeapons": [
+      "fo_12",
+      "t_5_smg"
+    ],
+    "secondaryWeapons": [
+      "bailiff_410",
+      "p_10c"
+    ]
   },
   {
     "id": "melusi",
@@ -1410,19 +1398,19 @@
     "org": "INKABA TFU",
     "speed": 1,
     "armor": 3,
+    "gadgets": [
+      "bulletproof_camera",
+      "impact_grenade"
+    ],
+    "uniqueGadget": "banshee_sonic_defense",
+    "icon": "assets/operators/png/melusi.png",
     "primaryWeapons": [
       "super_90",
       "mp5"
     ],
     "secondaryWeapons": [
       "rg15"
-    ],
-    "gadgets": [
-      "bulletproof_camera",
-      "impact_grenade"
-    ],
-    "uniqueGadget": "banshee_sonic_defense",
-    "icon": "assets/operators/png/melusi.png"
+    ]
   },
   {
     "id": "aruni",
@@ -1431,20 +1419,20 @@
     "org": "Nighthaven",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "p10_roni",
-      "mk_14_ebr",
-      "aug_a3"
-    ],
-    "secondaryWeapons": [
-      "prd_msn"
-    ],
     "gadgets": [
       "barbed_wire",
       "bulletproof_camera"
     ],
     "uniqueGadget": "surya_gate",
-    "icon": "assets/operators/png/aruni.png"
+    "icon": "assets/operators/png/aruni.png",
+    "primaryWeapons": [
+      "p10roni",
+      "mk_14_ebr",
+      "aug_a3"
+    ],
+    "secondaryWeapons": [
+      "prb92"
+    ]
   },
   {
     "id": "thunderbird",
@@ -1453,20 +1441,20 @@
     "org": "Nakoda Nation",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "spear_.308",
-      "spas_12",
-      "bearing_9"
-    ],
-    "secondaryWeapons": [
-      "sparc_9"
-    ],
     "gadgets": [
       "barbed_wire",
       "impact_grenade"
     ],
     "uniqueGadget": "kona_station",
-    "icon": "assets/operators/png/thunderbird.png"
+    "icon": "assets/operators/png/thunderbird.png",
+    "primaryWeapons": [
+      "spear_308",
+      "spas_12"
+    ],
+    "secondaryWeapons": [
+      "bearing_9",
+      "mk1_9mm"
+    ]
   },
   {
     "id": "thorn",
@@ -1475,19 +1463,19 @@
     "org": "GIGR",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "uza",
-      "m870"
-    ],
-    "secondaryWeapons": [
-      "rbp_mk0"
-    ],
     "gadgets": [
       "barbed_wire",
       "bulletproof_camera"
     ],
     "uniqueGadget": "razorbloom",
-    "icon": "assets/operators/png/thorn.png"
+    "icon": "assets/operators/png/thorn.png",
+    "primaryWeapons": [
+      "ump45",
+      "m870"
+    ],
+    "secondaryWeapons": [
+      "prb92"
+    ]
   },
   {
     "id": "azami",
@@ -1496,19 +1484,19 @@
     "org": "SAT",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "9x19vsn",
-      "mp5"
-    ],
-    "secondaryWeapons": [
-      "d_50"
-    ],
     "gadgets": [
       "impact_grenade",
       "proximity_alarm"
     ],
     "uniqueGadget": "kiba_barrier",
-    "icon": "assets/operators/png/azami.png"
+    "icon": "assets/operators/png/azami.png",
+    "primaryWeapons": [
+      "9x19svn",
+      "mp5"
+    ],
+    "secondaryWeapons": [
+      "d_50"
+    ]
   },
   {
     "id": "solis",
@@ -1517,19 +1505,19 @@
     "org": "AFEAU",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "p90",
-      "sr_25"
-    ],
-    "secondaryWeapons": [
-      "svd"
-    ],
     "gadgets": [
       "bulletproof_camera",
       "nitro_cell"
     ],
     "uniqueGadget": "spec_io_electro_sensor",
-    "icon": "assets/operators/png/solis.png"
+    "icon": "assets/operators/png/solis.png",
+    "primaryWeapons": [
+      "p90",
+      "sr_25"
+    ],
+    "secondaryWeapons": [
+      "p12"
+    ]
   },
   {
     "id": "fenrir",
@@ -1538,19 +1526,19 @@
     "org": "Swedish Army",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "mp7",
-      "p12"
-    ],
-    "secondaryWeapons": [
-      "pdw9"
-    ],
     "gadgets": [
       "bulletproof_camera",
       "proximity_alarm"
     ],
     "uniqueGadget": "f_natt_doomstove",
-    "icon": "assets/operators/png/fenrir.png"
+    "icon": "assets/operators/png/fenrir.png",
+    "primaryWeapons": [
+      "pmr90a2",
+      "mp7"
+    ],
+    "secondaryWeapons": [
+      "reaper_mk2"
+    ]
   },
   {
     "id": "tubarao",
@@ -1559,19 +1547,19 @@
     "org": "Marinha do Brasil",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "car_8x",
-      "mpr45"
-    ],
-    "secondaryWeapons": [
-      "q_929"
-    ],
     "gadgets": [
       "impact_grenade",
       "nitro_cell"
     ],
     "uniqueGadget": "zoto_canister",
-    "icon": "assets/operators/png/tubarao.png"
+    "icon": "assets/operators/png/tubarao.png",
+    "primaryWeapons": [
+      "mpx",
+      "spas_15"
+    ],
+    "secondaryWeapons": [
+      "q_929"
+    ]
   },
   {
     "id": "sentry",
@@ -1580,19 +1568,20 @@
     "org": "US Army",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "m249",
-      "skeleton_key"
-    ],
-    "secondaryWeapons": [
-      "1911_tacops"
-    ],
     "gadgets": [
       "barbed_wire",
       "bulletproof_camera"
     ],
     "uniqueGadget": "gadget_pouch",
-    "icon": "assets/operators/png/sentry.png"
+    "icon": "assets/operators/png/sentry.png",
+    "primaryWeapons": [
+      "m249",
+      "pcx_33"
+    ],
+    "secondaryWeapons": [
+      "glaive_12",
+      "1911_tacops"
+    ]
   },
   {
     "id": "skopos",
@@ -1601,19 +1590,19 @@
     "org": "Nighthaven",
     "speed": 3,
     "armor": 1,
+    "gadgets": [
+      "impact_grenade",
+      "proximity_alarm"
+    ],
+    "uniqueGadget": "reticle",
+    "icon": "assets/operators/png/skopos.png",
     "primaryWeapons": [
       "556xi",
       "pdw9"
     ],
     "secondaryWeapons": [
       "p229"
-    ],
-    "gadgets": [
-      "impact_grenade",
-      "proximity_alarm"
-    ],
-    "uniqueGadget": "reticle",
-    "icon": "assets/operators/png/skopos.png"
+    ]
   },
   {
     "id": "denari",
@@ -1622,20 +1611,19 @@
     "org": "GIS",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      "mx4_storm",
-      "ax308"
-    ],
-    "secondaryWeapons": [
-      "bailiff_410",
-      "keratos_.357"
-    ],
     "gadgets": [
       "bulletproof_camera",
       "nitro_cell"
     ],
     "uniqueGadget": "spectre",
-    "icon": "assets/operators/png/denari.png"
+    "icon": "assets/operators/png/denari.png",
+    "primaryWeapons": [
+      "mx4_storm"
+    ],
+    "secondaryWeapons": [
+      "bailiff_410",
+      "keratos_357"
+    ]
   },
   {
     "id": "recruit_blue",
@@ -1644,11 +1632,11 @@
     "org": "Unspecified",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [],
-    "secondaryWeapons": [],
     "gadgets": [],
     "uniqueGadget": null,
-    "icon": "assets/operators/png/recruit_blue.png"
+    "icon": "assets/operators/png/recruit_blue.png",
+    "primaryWeapons": [],
+    "secondaryWeapons": []
   },
   {
     "id": "recruit_green",
@@ -1657,11 +1645,11 @@
     "org": "Unspecified",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [],
-    "secondaryWeapons": [],
     "gadgets": [],
     "uniqueGadget": null,
-    "icon": "assets/operators/png/recruit_green.png"
+    "icon": "assets/operators/png/recruit_green.png",
+    "primaryWeapons": [],
+    "secondaryWeapons": []
   },
   {
     "id": "recruit_orange",
@@ -1670,11 +1658,11 @@
     "org": "Unspecified",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [],
-    "secondaryWeapons": [],
     "gadgets": [],
     "uniqueGadget": null,
-    "icon": "assets/operators/png/recruit_orange.png"
+    "icon": "assets/operators/png/recruit_orange.png",
+    "primaryWeapons": [],
+    "secondaryWeapons": []
   },
   {
     "id": "recruit_red",
@@ -1683,11 +1671,11 @@
     "org": "Unspecified",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [],
-    "secondaryWeapons": [],
     "gadgets": [],
     "uniqueGadget": null,
-    "icon": "assets/operators/png/recruit_red.png"
+    "icon": "assets/operators/png/recruit_red.png",
+    "primaryWeapons": [],
+    "secondaryWeapons": []
   },
   {
     "id": "recruit_yellow",
@@ -1696,10 +1684,10 @@
     "org": "Unspecified",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [],
-    "secondaryWeapons": [],
     "gadgets": [],
     "uniqueGadget": null,
-    "icon": "assets/operators/png/recruit_yellow.png"
+    "icon": "assets/operators/png/recruit_yellow.png",
+    "primaryWeapons": [],
+    "secondaryWeapons": []
   }
 ]
