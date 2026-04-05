@@ -1,0 +1,289 @@
+/* =============================================
+   R6 Loadout DB – Dark Theme Styles
+   ============================================= */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #1a1a2e;
+  --surface: #16213e;
+  --card-bg: #0f3460;
+  --card-hover: #1a4a80;
+  --accent-atk: #e94560;
+  --accent-def: #0f7aad;
+  --text: #e0e0e0;
+  --text-muted: #9aa0b0;
+  --border: rgba(255, 255, 255, 0.08);
+  --dot-active: #f5a623;
+  --dot-inactive: rgba(255, 255, 255, 0.15);
+  --unique-color: #f5a623;
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Helvetica Neue', sans-serif;
+}
+
+html, body {
+  min-height: 100%;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  line-height: 1.5;
+}
+
+/* ── Header ────────────────────────────────── */
+header {
+  background-color: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 1.25rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+/* ── Search Bar ────────────────────────────── */
+.search-bar {
+  flex: 1;
+  max-width: 420px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 0.55rem 1rem;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 0.95rem;
+  font-family: var(--font);
+  outline: none;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.search-bar input::placeholder {
+  color: var(--text-muted);
+}
+
+.search-bar input:focus {
+  border-color: var(--accent-def);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ── Main ──────────────────────────────────── */
+main {
+  padding: 2rem;
+}
+
+/* ── Operator Grid ─────────────────────────── */
+.operator-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.25rem;
+}
+
+/* ── Operator Card ─────────────────────────── */
+.op-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  transition: background-color 0.2s, transform 0.15s;
+}
+
+.op-card:hover {
+  background-color: var(--card-hover);
+  transform: translateY(-2px);
+}
+
+/* ── Card Header ───────────────────────────── */
+.op-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.op-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: rgba(255, 255, 255, 0.05);
+  flex-shrink: 0;
+}
+
+.op-icon-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.op-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.op-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.op-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.org {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ── Badges ────────────────────────────────── */
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.badge-atk {
+  background-color: var(--accent-atk);
+  color: #fff;
+}
+
+.badge-def {
+  background-color: var(--accent-def);
+  color: #fff;
+}
+
+/* ── Ratings ───────────────────────────────── */
+.op-ratings {
+  display: flex;
+  gap: 1rem;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.rating-label {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  min-width: 42px;
+}
+
+.rating-dots {
+  display: flex;
+  gap: 4px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--dot-inactive);
+}
+
+.dot.active {
+  background-color: var(--dot-active);
+}
+
+/* ── Sections (weapons / gadgets) ──────────── */
+.op-section h3 {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 0.35rem;
+}
+
+.op-section ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.weapon-item,
+.gadget-item {
+  font-size: 0.88rem;
+  color: var(--text);
+}
+
+.weapon-type {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+}
+
+.gadget-unique {
+  color: var(--unique-color);
+  font-weight: 600;
+}
+
+/* ── Status messages ───────────────────────── */
+.loading,
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--text-muted);
+  padding: 3rem 1rem;
+  font-size: 1rem;
+}
+
+.loading code {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+}
+
+/* ── Responsive tweaks ─────────────────────── */
+@media (max-width: 600px) {
+  header {
+    padding: 1rem;
+  }
+
+  header h1 {
+    font-size: 1.2rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  .operator-grid {
+    grid-template-columns: 1fr;
+  }
+}

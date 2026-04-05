@@ -1,0 +1,54 @@
+[
+  {
+    "id": "sledge",
+    "name": "Sledge",
+    "side": "attack",
+    "org": "SAS",
+    "speed": 2,
+    "armor": 2,
+    "primaryWeapons": ["l85a2", "m590a1"],
+    "secondaryWeapons": ["p226_mk25"],
+    "gadgets": ["frag_grenade", "stun_grenade"],
+    "uniqueGadget": "breaching_hammer",
+    "icon": "assets/operators/png/sledge.png"
+  },
+  {
+    "id": "ash",
+    "name": "Ash",
+    "side": "attack",
+    "org": "FBI SWAT",
+    "speed": 3,
+    "armor": 1,
+    "primaryWeapons": ["g36c", "r4c"],
+    "secondaryWeapons": ["m45_meusoc", "5_7_usg"],
+    "gadgets": ["breach_charge", "claymore"],
+    "uniqueGadget": "breaching_round",
+    "icon": "assets/operators/png/ash.png"
+  },
+  {
+    "id": "rook",
+    "name": "Rook",
+    "side": "defense",
+    "org": "GIGN",
+    "speed": 1,
+    "armor": 3,
+    "primaryWeapons": ["p90", "mp5"],
+    "secondaryWeapons": ["lfp586", "p9"],
+    "gadgets": ["proximity_alarm", "impact_grenade"],
+    "uniqueGadget": "armor_pack",
+    "icon": "assets/operators/png/rook.png"
+  },
+  {
+    "id": "doc",
+    "name": "Doc",
+    "side": "defense",
+    "org": "GIGN",
+    "speed": 1,
+    "armor": 3,
+    "primaryWeapons": ["sg_cqb", "mp5"],
+    "secondaryWeapons": ["p9", "lfp586"],
+    "gadgets": ["barbed_wire", "bulletproof_camera"],
+    "uniqueGadget": "stim_pistol",
+    "icon": "assets/operators/png/doc.png"
+  }
+]

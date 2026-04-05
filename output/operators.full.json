@@ -1,0 +1,362 @@
+[
+  {
+    "id": "sledge",
+    "name": "Sledge",
+    "side": "attack",
+    "org": "SAS",
+    "speed": 2,
+    "armor": 2,
+    "primaryWeapons": [
+      {
+        "id": "l85a2",
+        "name": "L85A2",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "firingModes": [
+          "Full-Auto",
+          "Single"
+        ],
+        "damage": 47,
+        "fireRate": 670,
+        "mobility": 50,
+        "capacity": 30,
+        "image": "assets/weapons/primary/l85a2.png"
+      },
+      {
+        "id": "m590a1",
+        "name": "M590A1",
+        "type": "Shotgun",
+        "category": "primary",
+        "firingModes": [
+          "Pump-Action"
+        ],
+        "damage": 48,
+        "fireRate": 85,
+        "mobility": 50,
+        "capacity": 7,
+        "image": "assets/weapons/primary/m590a1.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p226_mk25",
+        "name": "P226 MK 25",
+        "type": "Handgun",
+        "category": "secondary",
+        "firingModes": [
+          "Semi-Auto"
+        ],
+        "damage": 50,
+        "fireRate": 550,
+        "mobility": 50,
+        "capacity": 15,
+        "image": "assets/weapons/secondary/p226_mk25.png"
+      }
+    ],
+    "gadgets": [
+      {
+        "id": "frag_grenade",
+        "name": "Frag Grenade",
+        "type": "generic",
+        "description": "A throwable explosive that deals damage to operators and destroys soft surfaces.",
+        "image": "assets/gadgets/generic/frag_grenade.png"
+      },
+      {
+        "id": "stun_grenade",
+        "name": "Stun Grenade",
+        "type": "generic",
+        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
+        "image": "assets/gadgets/generic/stun_grenade.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "breaching_hammer",
+      "name": "Breaching Hammer",
+      "type": "unique",
+      "description": "Sledge's unique gadget. A large hammer that silently destroys soft walls without explosives.",
+      "image": "assets/gadgets/unique/breaching_hammer.png"
+    },
+    "icon": "assets/operators/png/sledge.png"
+  },
+  {
+    "id": "ash",
+    "name": "Ash",
+    "side": "attack",
+    "org": "FBI SWAT",
+    "speed": 3,
+    "armor": 1,
+    "primaryWeapons": [
+      {
+        "id": "g36c",
+        "name": "G36C",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "firingModes": [
+          "Full-Auto",
+          "Single"
+        ],
+        "damage": 38,
+        "fireRate": 780,
+        "mobility": 50,
+        "capacity": 30,
+        "image": "assets/weapons/primary/g36c.png"
+      },
+      {
+        "id": "r4c",
+        "name": "R4-C",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "firingModes": [
+          "Full-Auto",
+          "Single"
+        ],
+        "damage": 37,
+        "fireRate": 860,
+        "mobility": 50,
+        "capacity": 30,
+        "image": "assets/weapons/primary/r4c.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "m45_meusoc",
+        "name": "M45 MEUSOC",
+        "type": "Handgun",
+        "category": "secondary",
+        "firingModes": [
+          "Semi-Auto"
+        ],
+        "damage": 58,
+        "fireRate": 550,
+        "mobility": 50,
+        "capacity": 7,
+        "image": "assets/weapons/secondary/m45_meusoc.png"
+      },
+      {
+        "id": "5_7_usg",
+        "name": "5.7 USG",
+        "type": "Handgun",
+        "category": "secondary",
+        "firingModes": [
+          "Semi-Auto"
+        ],
+        "damage": 42,
+        "fireRate": 550,
+        "mobility": 50,
+        "capacity": 20,
+        "image": "assets/weapons/secondary/5_7_usg.png"
+      }
+    ],
+    "gadgets": [
+      {
+        "id": "breach_charge",
+        "name": "Breach Charge",
+        "type": "generic",
+        "description": "An explosive charge that destroys soft walls, floors, and ceilings.",
+        "image": "assets/gadgets/generic/breach_charge.png"
+      },
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "breaching_round",
+      "name": "Breaching Round",
+      "type": "unique",
+      "description": "Ash's unique gadget. A remote-detonated grenade launcher round that destroys barricades and defender gadgets from range.",
+      "image": "assets/gadgets/unique/breaching_round.png"
+    },
+    "icon": "assets/operators/png/ash.png"
+  },
+  {
+    "id": "rook",
+    "name": "Rook",
+    "side": "defense",
+    "org": "GIGN",
+    "speed": 1,
+    "armor": 3,
+    "primaryWeapons": [
+      {
+        "id": "p90",
+        "name": "P90",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "firingModes": [
+          "Full-Auto",
+          "Single"
+        ],
+        "damage": 22,
+        "fireRate": 970,
+        "mobility": 50,
+        "capacity": 50,
+        "image": "assets/weapons/primary/p90.png"
+      },
+      {
+        "id": "mp5",
+        "name": "MP5",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "firingModes": [
+          "Full-Auto",
+          "Single"
+        ],
+        "damage": 27,
+        "fireRate": 800,
+        "mobility": 50,
+        "capacity": 30,
+        "image": "assets/weapons/primary/mp5.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "lfp586",
+        "name": "LFP586",
+        "type": "Handgun",
+        "category": "secondary",
+        "firingModes": [
+          "Semi-Auto"
+        ],
+        "damage": 78,
+        "fireRate": 550,
+        "mobility": 50,
+        "capacity": 6,
+        "image": "assets/weapons/secondary/lfp586.png"
+      },
+      {
+        "id": "p9",
+        "name": "P9",
+        "type": "Handgun",
+        "category": "secondary",
+        "firingModes": [
+          "Semi-Auto"
+        ],
+        "damage": 45,
+        "fireRate": 550,
+        "mobility": 50,
+        "capacity": 16,
+        "image": "assets/weapons/secondary/p9.png"
+      }
+    ],
+    "gadgets": [
+      {
+        "id": "proximity_alarm",
+        "name": "Proximity Alarm",
+        "type": "generic",
+        "description": "An alarm that triggers when enemies move through its detection range.",
+        "image": "assets/gadgets/generic/proximity_alarm.png"
+      },
+      {
+        "id": "impact_grenade",
+        "name": "Impact Grenade",
+        "type": "generic",
+        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
+        "image": "assets/gadgets/generic/impact_grenade.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "armor_pack",
+      "name": "Armor Pack",
+      "type": "unique",
+      "description": "Rook's unique gadget. A bag of armor packs that all operators can pick up to increase their armor rating.",
+      "image": "assets/gadgets/unique/armor_pack.png"
+    },
+    "icon": "assets/operators/png/rook.png"
+  },
+  {
+    "id": "doc",
+    "name": "Doc",
+    "side": "defense",
+    "org": "GIGN",
+    "speed": 1,
+    "armor": 3,
+    "primaryWeapons": [
+      {
+        "id": "sg_cqb",
+        "name": "SG-CQB",
+        "type": "Shotgun",
+        "category": "primary",
+        "firingModes": [
+          "Pump-Action"
+        ],
+        "damage": 53,
+        "fireRate": 85,
+        "mobility": 50,
+        "capacity": 7,
+        "image": "assets/weapons/primary/sg_cqb.png"
+      },
+      {
+        "id": "mp5",
+        "name": "MP5",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "firingModes": [
+          "Full-Auto",
+          "Single"
+        ],
+        "damage": 27,
+        "fireRate": 800,
+        "mobility": 50,
+        "capacity": 30,
+        "image": "assets/weapons/primary/mp5.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p9",
+        "name": "P9",
+        "type": "Handgun",
+        "category": "secondary",
+        "firingModes": [
+          "Semi-Auto"
+        ],
+        "damage": 45,
+        "fireRate": 550,
+        "mobility": 50,
+        "capacity": 16,
+        "image": "assets/weapons/secondary/p9.png"
+      },
+      {
+        "id": "lfp586",
+        "name": "LFP586",
+        "type": "Handgun",
+        "category": "secondary",
+        "firingModes": [
+          "Semi-Auto"
+        ],
+        "damage": 78,
+        "fireRate": 550,
+        "mobility": 50,
+        "capacity": 6,
+        "image": "assets/weapons/secondary/lfp586.png"
+      }
+    ],
+    "gadgets": [
+      {
+        "id": "barbed_wire",
+        "name": "Barbed Wire",
+        "type": "generic",
+        "description": "Slows down enemies who walk through it and makes noise to alert defenders.",
+        "image": "assets/gadgets/generic/barbed_wire.png"
+      },
+      {
+        "id": "bulletproof_camera",
+        "name": "Bulletproof Camera",
+        "type": "generic",
+        "description": "A hardened camera that can be placed on walls to provide intel on attackers.",
+        "image": "assets/gadgets/generic/bulletproof_camera.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "stim_pistol",
+      "name": "Stim Pistol",
+      "type": "unique",
+      "description": "Doc's unique gadget. A syringe pistol that can heal or overheal the user and teammates.",
+      "image": "assets/gadgets/unique/stim_pistol.png"
+    },
+    "icon": "assets/operators/png/doc.png"
+  }
+]
