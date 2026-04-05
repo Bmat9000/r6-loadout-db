@@ -141,6 +141,19 @@ Great source for operator icons: [marcopixel/r6operators](https://github.com/mar
 
 ---
 
+## 🖼️ Converting Weapon Images to PNG
+
+To convert all `.avif` and `.webp` weapon images in `assets/weapons/` to `.png`, run:
+
+```bash
+npm install
+npm run convert-images
+```
+
+The script will convert each file and delete the original, logging progress as it goes.
+
+---
+
 ## 📄 License
 
 MIT
