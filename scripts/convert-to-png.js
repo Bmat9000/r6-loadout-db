@@ -5,9 +5,12 @@ const sharp = require('sharp');
 const folders = [
   path.join(__dirname, '..', 'assets', 'weapons', 'primary'),
   path.join(__dirname, '..', 'assets', 'weapons', 'secondary'),
+  path.join(__dirname, '..', 'assets', 'gadgets', 'unique'),
+  path.join(__dirname, '..', 'assets', 'gadgets', 'generic'),
 ];
 
 function getConvertibleFiles(folder) {
+  if (!fs.existsSync(folder)) return [];
   const files = fs.readdirSync(folder);
   return files.filter(f => /\.(avif|webp)$/i.test(f));
 }
