@@ -9,13 +9,20 @@
 <body>
   <header>
     <h1>🎮 R6 Loadout DB</h1>
-    <div class="search-bar">
-      <input
-        type="text"
-        id="searchInput"
-        placeholder="Search operators by name..."
-        autocomplete="off"
-      />
+    <div class="header-controls">
+      <div class="filter-tabs" id="filterTabs">
+        <button class="tab-btn active" data-side="all">ALL</button>
+        <button class="tab-btn" data-side="attack">ATK</button>
+        <button class="tab-btn" data-side="defense">DEF</button>
+      </div>
+      <div class="search-bar">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search operators..."
+          autocomplete="off"
+        />
+      </div>
     </div>
   </header>
 
@@ -25,12 +32,26 @@
     </div>
   </main>
 
+  <!-- Detail Modal -->
+  <div id="detailOverlay" class="detail-overlay" aria-modal="true" role="dialog" aria-label="Operator detail">
+    <div class="detail-panel" id="detailPanel">
+      <button class="detail-close" id="detailClose" aria-label="Close">✕</button>
+      <div id="detailContent"></div>
+    </div>
+  </div>
+
   <script>
     const searchInput = document.getElementById('searchInput');
     const operatorGrid = document.getElementById('operatorGrid');
+    const filterTabs = document.getElementById('filterTabs');
+    const detailOverlay = document.getElementById('detailOverlay');
+    const detailClose = document.getElementById('detailClose');
+    const detailContent = document.getElementById('detailContent');
 
     let allOperators = [];
+    let activeSide = 'all';
 
+    /* ── Helpers ─────────────────────────────── */
     function getSideLabel(side) {
       if (side === 'attack') return '<span class="badge badge-atk">ATK</span>';
       if (side === 'defense') return '<span class="badge badge-def">DEF</span>';
@@ -45,40 +66,51 @@
       return dots;
     }
 
-    function renderWeapon(weapon) {
-      return `<li class="weapon-item">${weapon.name} <em class="weapon-type">(${weapon.type})</em></li>`;
+    function toTitleCase(str) {
+      return String(str)
+        .replace(/_/g, ' ')
+        .replace(/\b\w/g, (c) => c.toUpperCase());
     }
 
-    function renderGadget(gadget) {
-      return `<li class="gadget-item">${gadget.name}</li>`;
+    function escapeHtml(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
     }
 
+    function statBar(label, value, max) {
+      const pct = Math.min(100, Math.round((value / max) * 100));
+      return `
+        <div class="stat-row">
+          <span class="stat-label">${escapeHtml(label)}</span>
+          <div class="stat-bar-track">
+            <div class="stat-bar-fill" style="width:${pct}%"></div>
+          </div>
+          <span class="stat-value">${escapeHtml(String(value))}</span>
+        </div>`;
+    }
+
+    /* ── Operator card (grid) ─────────────────── */
     function renderCard(op) {
       const iconSrc = op.icon || '';
       const iconHtml = iconSrc
-        ? `<img class="op-icon" src="${iconSrc}" alt="${op.name}" onerror="this.style.display='none'" />`
-        : `<div class="op-icon op-icon-placeholder">${op.name.charAt(0)}</div>`;
-
-      const primaryHtml = (op.primaryWeapons || []).map(renderWeapon).join('');
-      const secondaryHtml = (op.secondaryWeapons || []).map(renderWeapon).join('');
-      const gadgetsHtml = (op.gadgets || []).map(renderGadget).join('');
-      const uniqueHtml = op.uniqueGadget
-        ? `<li class="gadget-item gadget-unique">⭐ ${op.uniqueGadget.name}</li>`
-        : '';
+        ? `<img class="op-icon" src="${escapeHtml(iconSrc)}" alt="${escapeHtml(op.name)}" onerror="this.style.display='none'" />`
+        : `<div class="op-icon op-icon-placeholder">${escapeHtml(op.name.charAt(0))}</div>`;
 
       return `
-        <div class="op-card">
+        <div class="op-card" role="button" tabindex="0" data-op-id="${escapeHtml(op.id)}" aria-label="View ${escapeHtml(op.name)} loadout">
           <div class="op-card-header">
             ${iconHtml}
             <div class="op-info">
-              <h2 class="op-name">${op.name}</h2>
+              <h2 class="op-name">${escapeHtml(op.name)}</h2>
               <div class="op-meta">
                 ${getSideLabel(op.side)}
-                <span class="org">${op.org}</span>
+                <span class="org">${escapeHtml(op.org)}</span>
               </div>
             </div>
           </div>
-
           <div class="op-ratings">
             <div class="rating">
               <span class="rating-label">Speed</span>
@@ -89,46 +121,171 @@
               <span class="rating-dots">${getRatingDots(op.armor, 3)}</span>
             </div>
           </div>
-
-          <div class="op-section">
-            <h3>Primary Weapons</h3>
-            <ul>${primaryHtml}</ul>
-          </div>
-
-          <div class="op-section">
-            <h3>Secondary Weapons</h3>
-            <ul>${secondaryHtml}</ul>
-          </div>
-
-          <div class="op-section">
-            <h3>Gadgets</h3>
-            <ul>
-              ${gadgetsHtml}
-              ${uniqueHtml}
-            </ul>
-          </div>
-        </div>
-      `;
+        </div>`;
     }
 
+    /* ── Detail panel ────────────────────────── */
+    function renderWeaponDetail(weapon) {
+      const imgHtml = weapon.image
+        ? `<img class="weapon-img" src="${escapeHtml(weapon.image)}" alt="${escapeHtml(weapon.name)}" onerror="this.style.display='none'" />`
+        : '';
+      return `
+        <div class="weapon-card">
+          ${imgHtml}
+          <div class="weapon-info">
+            <div class="weapon-name">${escapeHtml(weapon.name)}</div>
+            <div class="weapon-type-label">${escapeHtml(weapon.type)}</div>
+            <div class="weapon-stats">
+              ${statBar('Damage', weapon.damage, 100)}
+              ${statBar('Fire Rate', weapon.fireRate, 1200)}
+              ${statBar('Mobility', weapon.mobility, 100)}
+              ${statBar('Capacity', weapon.capacity, 60)}
+            </div>
+          </div>
+        </div>`;
+    }
+
+    function renderDetail(op) {
+      const iconSrc = op.icon || '';
+      const iconHtml = iconSrc
+        ? `<img class="detail-op-icon" src="${escapeHtml(iconSrc)}" alt="${escapeHtml(op.name)}" onerror="this.style.display='none'" />`
+        : `<div class="detail-op-icon op-icon-placeholder">${escapeHtml(op.name.charAt(0))}</div>`;
+
+      const primaryHtml = (op.primaryWeapons || []).map(renderWeaponDetail).join('');
+      const secondaryHtml = (op.secondaryWeapons || []).map(renderWeaponDetail).join('');
+
+      const gadgetsHtml = (op.gadgets || []).map((g) => {
+        const imgHtml = g.image
+          ? `<img class="gadget-icon" src="${escapeHtml(g.image)}" alt="${escapeHtml(g.name)}" onerror="this.style.display='none'" />`
+          : '';
+        return `<div class="gadget-chip">${imgHtml}<span>${escapeHtml(g.name || toTitleCase(g.id))}</span></div>`;
+      }).join('');
+
+      let uniqueHtml = '';
+      if (op.uniqueGadget) {
+        const ug = op.uniqueGadget;
+        const ugName = ug.name || toTitleCase(ug.id || '');
+        const ugImgSrc = ug.image || ug.uniqueGadgetIcon || '';
+        const ugImg = ugImgSrc
+          ? `<img class="unique-gadget-icon" src="${escapeHtml(ugImgSrc)}" alt="${escapeHtml(ugName)}" onerror="this.style.display='none'" />`
+          : '';
+        uniqueHtml = `
+          <div class="detail-section">
+            <h3 class="detail-section-title">Unique Gadget</h3>
+            <div class="unique-gadget-card">
+              ${ugImg}
+              <span class="unique-gadget-name">${escapeHtml(ugName)}</span>
+            </div>
+          </div>`;
+      }
+
+      return `
+        <div class="detail-header">
+          ${iconHtml}
+          <div class="detail-op-info">
+            <h2 class="detail-op-name">${escapeHtml(op.name)}</h2>
+            <div class="detail-op-meta">
+              ${getSideLabel(op.side)}
+              <span class="org">${escapeHtml(op.org)}</span>
+            </div>
+            <div class="op-ratings">
+              <div class="rating">
+                <span class="rating-label">Speed</span>
+                <span class="rating-dots">${getRatingDots(op.speed, 3)}</span>
+              </div>
+              <div class="rating">
+                <span class="rating-label">Armor</span>
+                <span class="rating-dots">${getRatingDots(op.armor, 3)}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3 class="detail-section-title">Primary Weapons</h3>
+          <div class="weapons-list">${primaryHtml || '<p class="none-label">None</p>'}</div>
+        </div>
+
+        <div class="detail-section">
+          <h3 class="detail-section-title">Secondary Weapons</h3>
+          <div class="weapons-list">${secondaryHtml || '<p class="none-label">None</p>'}</div>
+        </div>
+
+        <div class="detail-section">
+          <h3 class="detail-section-title">Gadgets</h3>
+          <div class="gadgets-list">${gadgetsHtml || '<p class="none-label">None</p>'}</div>
+        </div>
+
+        ${uniqueHtml}`;
+    }
+
+    function openDetail(opId) {
+      const op = allOperators.find((o) => o.id === opId);
+      if (!op) return;
+      detailContent.innerHTML = renderDetail(op);
+      detailOverlay.classList.add('open');
+      document.body.style.overflow = 'hidden';
+      detailClose.focus();
+    }
+
+    function closeDetail() {
+      detailOverlay.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    /* ── Rendering ───────────────────────────── */
     function renderOperators(operators) {
       if (operators.length === 0) {
         operatorGrid.innerHTML = '<p class="no-results">No operators found.</p>';
         return;
       }
       operatorGrid.innerHTML = operators.map(renderCard).join('');
+
+      operatorGrid.querySelectorAll('.op-card').forEach((card) => {
+        card.addEventListener('click', () => openDetail(card.dataset.opId));
+        card.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openDetail(card.dataset.opId);
+          }
+        });
+      });
     }
 
-    function filterOperators(query) {
-      const q = query.trim().toLowerCase();
-      if (!q) return allOperators;
-      return allOperators.filter((op) => op.name.toLowerCase().includes(q));
+    function applyFilters() {
+      const q = searchInput.value.trim().toLowerCase();
+      let filtered = allOperators;
+      if (activeSide !== 'all') {
+        filtered = filtered.filter((op) => op.side === activeSide);
+      }
+      if (q) {
+        filtered = filtered.filter((op) => op.name.toLowerCase().includes(q));
+      }
+      renderOperators(filtered);
     }
 
-    searchInput.addEventListener('input', () => {
-      renderOperators(filterOperators(searchInput.value));
+    /* ── Tab buttons ─────────────────────────── */
+    filterTabs.addEventListener('click', (e) => {
+      const btn = e.target.closest('.tab-btn');
+      if (!btn) return;
+      filterTabs.querySelectorAll('.tab-btn').forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeSide = btn.dataset.side;
+      applyFilters();
     });
 
+    searchInput.addEventListener('input', applyFilters);
+
+    /* ── Modal events ────────────────────────── */
+    detailClose.addEventListener('click', closeDetail);
+    detailOverlay.addEventListener('click', (e) => {
+      if (e.target === detailOverlay) closeDetail();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeDetail();
+    });
+
+    /* ── Data fetch ──────────────────────────── */
     fetch('output/operators.full.json')
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -140,7 +297,7 @@
           operatorGrid.innerHTML =
             '<p class="loading">No operators found. Run <code>npm run build</code> first to generate <code>output/operators.full.json</code>.</p>';
         } else {
-          renderOperators(allOperators);
+          applyFilters();
         }
       })
       .catch((err) => {
@@ -148,7 +305,7 @@
           <p class="loading">
             ⚠️ Could not load operator data.<br/>
             Make sure to run <code>npm run build</code> first, then open this file via a local server (not <code>file://</code>).<br/>
-            Error: ${err.message}
+            Error: ${escapeHtml(err.message)}
           </p>`;
       });
   </script>
