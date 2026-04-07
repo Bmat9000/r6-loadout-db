@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>R6 Loadout DB</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎮 R6 Loadout DB</h1>
+    <div class="header-controls">
+      <div class="filter-tabs" id="filterTabs">
+        <button class="tab-btn active" data-side="all">ALL</button>
+        <button class="tab-btn" data-side="attack">ATK</button>
+        <button class="tab-btn" data-side="defense">DEF</button>
+      </div>
+      <div class="search-bar">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search operators..."
+          autocomplete="off"
+        />
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="operatorGrid" class="operator-grid">
+      <p class="loading">Loading operators...</p>
+    </div>
+  </main>
+
+  <!-- Detail Modal -->
+  <div id="detailOverlay" class="detail-overlay" aria-modal="true" role="dialog" aria-label="Operator detail">
+    <div class="detail-panel" id="detailPanel">
+      <button class="detail-close" id="detailClose" aria-label="Close">✕</button>
+      <div id="detailContent"></div>
+    </div>
+  </div>
+
+  <script>
+    const searchInput = document.getElementById('searchInput');
+    const operatorGrid = document.getElementById('operatorGrid');
+    const filterTabs = document.getElementById('filterTabs');
+    const detailOverlay = document.getElementById('detailOverlay');
+    const detailClose = document.getElementById('detailClose');
+    const detailContent = document.getElementById('detailContent');
+
+    let allOperators = [];
+    let activeSide = 'all';
+
+    /* ── Helpers ─────────────────────────────── */
+    function getSideLabel(side) {
+      if (side === 'attack') return '<span class="badge badge-atk">ATK</span>';
+      if (side === 'defense') return '<span class="badge badge-def">DEF</span>';
+      return `<span class="badge">${side}</span>`;
+    }
+
+    function getRatingDots(value, max) {
+      let dots = '';
+      for (let i = 1; i <= max; i++) {
+        dots += `<span class="dot${i <= value ? ' active' : ''}"></span>`;
+      }
+      return dots;
+    }
+
+    function toTitleCase(str) {
+      return String(str)
+        .replace(/_/g, ' ')
+        .replace(/\b\w/g, (c) => c.toUpperCase());
+    }
+
+    function escapeHtml(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function statBar(label, value, max) {
+      const numValue = Number(value) || 0;
+      const numMax = Number(max) || 1;
+      const pct = Math.max(0, Math.min(100, Math.round((numValue / numMax) * 100)));
+      return `
+        <div class="stat-row">
+          <span class="stat-label">${escapeHtml(label)}</span>
+          <div class="stat-bar-track">
+            <div class="stat-bar-fill" style="width:${pct}%"></div>
+          </div>
+          <span class="stat-value">${escapeHtml(String(numValue))}</span>
+        </div>`;
+    }
+
+    /* ── Operator card (grid) ─────────────────── */
+    function renderCard(op) {
+      const iconSrc = op.icon || '';
+      const iconHtml = iconSrc
+        ? `<img class="op-icon" src="${escapeHtml(iconSrc)}" alt="${escapeHtml(op.name)}" onerror="this.style.display='none'" />`
+        : `<div class="op-icon op-icon-placeholder">${escapeHtml(op.name.charAt(0))}</div>`;
+
+      return `
+        <div class="op-card" role="button" tabindex="0" data-op-id="${escapeHtml(op.id)}" aria-label="View ${escapeHtml(op.name)} loadout">
+          <div class="op-card-header">
+            ${iconHtml}
+            <div class="op-info">
+              <h2 class="op-name">${escapeHtml(op.name)}</h2>
+              <div class="op-meta">
+                ${getSideLabel(op.side)}
+                <span class="org">${escapeHtml(op.org)}</span>
+              </div>
+            </div>
+          </div>
+          <div class="op-ratings">
+            <div class="rating">
+              <span class="rating-label">Speed</span>
+              <span class="rating-dots">${getRatingDots(op.speed, 3)}</span>
+            </div>
+            <div class="rating">
+              <span class="rating-label">Armor</span>
+              <span class="rating-dots">${getRatingDots(op.armor, 3)}</span>
+            </div>
+          </div>
+        </div>`;
+    }
+
+    /* ── Detail panel ────────────────────────── */
+    function renderWeaponDetail(weapon) {
+      const imgHtml = weapon.image
+        ? `<img class="weapon-img" src="${escapeHtml(weapon.image)}" alt="${escapeHtml(weapon.name)}" onerror="this.style.display='none'" />`
+        : '';
+      return `
+        <div class="weapon-card">
+          ${imgHtml}
+          <div class="weapon-info">
+            <div class="weapon-name">${escapeHtml(weapon.name)}</div>
+            <div class="weapon-type-label">${escapeHtml(weapon.type)}</div>
+            <div class="weapon-stats">
+              ${statBar('Damage', weapon.damage, 100)}
+              ${statBar('Fire Rate', weapon.fireRate, 1200)}
+              ${statBar('Mobility', weapon.mobility, 100)}
+              ${statBar('Capacity', weapon.capacity, 60)}
+            </div>
+          </div>
+        </div>`;
+    }
+
+    function renderDetail(op) {
+      const iconSrc = op.icon || '';
+      const iconHtml = iconSrc
+        ? `<img class="detail-op-icon" src="${escapeHtml(iconSrc)}" alt="${escapeHtml(op.name)}" onerror="this.style.display='none'" />`
+        : `<div class="detail-op-icon op-icon-placeholder">${escapeHtml(op.name.charAt(0))}</div>`;
+
+      const primaryHtml = (op.primaryWeapons || []).map(renderWeaponDetail).join('');
+      const secondaryHtml = (op.secondaryWeapons || []).map(renderWeaponDetail).join('');
+
+      const gadgetsHtml = (op.gadgets || []).map((g) => {
+        const imgHtml = g.image
+          ? `<img class="gadget-icon" src="${escapeHtml(g.image)}" alt="${escapeHtml(g.name)}" onerror="this.style.display='none'" />`
+          : '';
+        return `<div class="gadget-chip">${imgHtml}<span>${escapeHtml(g.name || toTitleCase(g.id) || 'Unknown Gadget')}</span></div>`;
+      }).join('');
+
+      let uniqueHtml = '';
+      if (op.uniqueGadget) {
+        const ug = op.uniqueGadget;
+        const ugName = ug.name || toTitleCase(ug.id || '');
+        const ugImgSrc = ug.image || ug.uniqueGadgetIcon || '';
+        const ugImg = ugImgSrc
+          ? `<img class="unique-gadget-icon" src="${escapeHtml(ugImgSrc)}" alt="${escapeHtml(ugName)}" onerror="this.style.display='none'" />`
+          : '';
+        uniqueHtml = `
+          <div class="detail-section">
+            <h3 class="detail-section-title">Unique Gadget</h3>
+            <div class="unique-gadget-card">
+              ${ugImg}
+              <span class="unique-gadget-name">${escapeHtml(ugName)}</span>
+            </div>
+          </div>`;
+      }
+
+      return `
+        <div class="detail-header">
+          ${iconHtml}
+          <div class="detail-op-info">
+            <h2 class="detail-op-name">${escapeHtml(op.name)}</h2>
+            <div class="detail-op-meta">
+              ${getSideLabel(op.side)}
+              <span class="org">${escapeHtml(op.org)}</span>
+            </div>
+            <div class="op-ratings">
+              <div class="rating">
+                <span class="rating-label">Speed</span>
+                <span class="rating-dots">${getRatingDots(op.speed, 3)}</span>
+              </div>
+              <div class="rating">
+                <span class="rating-label">Armor</span>
+                <span class="rating-dots">${getRatingDots(op.armor, 3)}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3 class="detail-section-title">Primary Weapons</h3>
+          <div class="weapons-list">${primaryHtml || '<p class="none-label">None</p>'}</div>
+        </div>
+
+        <div class="detail-section">
+          <h3 class="detail-section-title">Secondary Weapons</h3>
+          <div class="weapons-list">${secondaryHtml || '<p class="none-label">None</p>'}</div>
+        </div>
+
+        <div class="detail-section">
+          <h3 class="detail-section-title">Gadgets</h3>
+          <div class="gadgets-list">${gadgetsHtml || '<p class="none-label">None</p>'}</div>
+        </div>
+
+        ${uniqueHtml}`;
+    }
+
+    function openDetail(opId) {
+      const op = allOperators.find((o) => o.id === opId);
+      if (!op) return;
+      detailContent.innerHTML = renderDetail(op);
+      detailOverlay.classList.add('open');
+      document.body.style.overflow = 'hidden';
+      const heading = detailContent.querySelector('h2');
+      if (heading) {
+        heading.setAttribute('tabindex', '-1');
+        heading.focus();
+      } else {
+        detailClose.focus();
+      }
+    }
+
+    function closeDetail() {
+      detailOverlay.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    /* ── Rendering ───────────────────────────── */
+    function renderOperators(operators) {
+      if (operators.length === 0) {
+        operatorGrid.innerHTML = '<p class="no-results">No operators found.</p>';
+        return;
+      }
+      operatorGrid.innerHTML = operators.map(renderCard).join('');
+
+      operatorGrid.querySelectorAll('.op-card').forEach((card) => {
+        card.addEventListener('click', () => openDetail(card.dataset.opId));
+        card.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openDetail(card.dataset.opId);
+          }
+        });
+      });
+    }
+
+    function applyFilters() {
+      const q = searchInput.value.trim().toLowerCase();
+      let filtered = allOperators;
+      if (activeSide !== 'all') {
+        filtered = filtered.filter((op) => op.side === activeSide);
+      }
+      if (q) {
+        filtered = filtered.filter((op) => op.name.toLowerCase().includes(q));
+      }
+      renderOperators(filtered);
+    }
+
+    /* ── Tab buttons ─────────────────────────── */
+    filterTabs.addEventListener('click', (e) => {
+      const btn = e.target.closest('.tab-btn');
+      if (!btn) return;
+      filterTabs.querySelectorAll('.tab-btn').forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeSide = btn.dataset.side;
+      applyFilters();
+    });
+
+    searchInput.addEventListener('input', applyFilters);
+
+    /* ── Modal events ────────────────────────── */
+    detailClose.addEventListener('click', closeDetail);
+    detailOverlay.addEventListener('click', (e) => {
+      if (e.target === detailOverlay) closeDetail();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeDetail();
+    });
+
+    /* ── Data fetch ──────────────────────────── */
+    fetch('output/operators.full.json')
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
+      .then((data) => {
+        allOperators = data;
+        if (allOperators.length === 0) {
+          operatorGrid.innerHTML =
+            '<p class="loading">No operators found. Run <code>npm run build</code> first to generate <code>output/operators.full.json</code>.</p>';
+        } else {
+          applyFilters();
+        }
+      })
+      .catch((err) => {
+        operatorGrid.innerHTML = `
+          <p class="loading">
+            ⚠️ Could not load operator data.<br/>
+            Make sure to run <code>npm run build</code> first, then open this file via a local server (not <code>file://</code>).<br/>
+            Error: ${escapeHtml(err.message)}
+          </p>`;
+      });
+  </script>
+</body>
+</html>
