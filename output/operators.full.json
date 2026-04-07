@@ -6,53 +6,6 @@
     "org": "SAS",
     "speed": 2,
     "armor": 2,
-    "primaryWeapons": [
-      {
-        "id": "l85a2",
-        "name": "L85A2",
-        "type": "Assault Rifle",
-        "category": "primary",
-        "firingModes": [
-          "Full-Auto",
-          "Single"
-        ],
-        "damage": 47,
-        "fireRate": 670,
-        "mobility": 50,
-        "capacity": 30,
-        "image": "assets/weapons/primary/l85a2.png"
-      },
-      {
-        "id": "m590a1",
-        "name": "M590A1",
-        "type": "Shotgun",
-        "category": "primary",
-        "firingModes": [
-          "Pump-Action"
-        ],
-        "damage": 48,
-        "fireRate": 85,
-        "mobility": 50,
-        "capacity": 7,
-        "image": "assets/weapons/primary/m590a1.png"
-      }
-    ],
-    "secondaryWeapons": [
-      {
-        "id": "p226_mk25",
-        "name": "P226 MK 25",
-        "type": "Handgun",
-        "category": "secondary",
-        "firingModes": [
-          "Semi-Auto"
-        ],
-        "damage": 50,
-        "fireRate": 550,
-        "mobility": 50,
-        "capacity": 15,
-        "image": "assets/weapons/secondary/p226_mk25.png"
-      }
-    ],
     "gadgets": [
       {
         "id": "frag_grenade",
@@ -76,7 +29,92 @@
       "description": "Sledge's unique gadget. A large hammer that silently destroys soft walls without explosives.",
       "image": "assets/gadgets/unique/breaching_hammer.png"
     },
-    "icon": "assets/operators/png/sledge.png"
+    "icon": "assets/operators/png/sledge.png",
+    "primaryWeapons": [
+      {
+        "id": "l85a2",
+        "name": "L85A2",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/L85A2.png"
+      },
+      {
+        "id": "m590a1",
+        "name": "M590A1",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M590A1.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p226_mk_25",
+        "name": "P226 Mk 25",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P226_Mk_25.png"
+      }
+    ]
+  },
+  {
+    "id": "thatcher",
+    "name": "Thatcher",
+    "side": "attack",
+    "org": "SAS",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      },
+      {
+        "id": "breach_charge",
+        "name": "Breach Charge",
+        "type": "generic",
+        "description": "An explosive charge that destroys soft walls, floors, and ceilings.",
+        "image": "assets/gadgets/generic/breach_charge.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "emp_grenade"
+    },
+    "icon": "assets/operators/png/thatcher.png",
+    "primaryWeapons": [
+      {
+        "id": "ar33",
+        "name": "AR33",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/AR33.png"
+      },
+      {
+        "id": "l85a2",
+        "name": "L85A2",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/L85A2.png"
+      },
+      {
+        "id": "m590a1",
+        "name": "M590A1",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M590A1.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p226_mk_25",
+        "name": "P226 Mk 25",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P226_Mk_25.png"
+      }
+    ]
   },
   {
     "id": "ash",
@@ -85,68 +123,6 @@
     "org": "FBI SWAT",
     "speed": 3,
     "armor": 1,
-    "primaryWeapons": [
-      {
-        "id": "g36c",
-        "name": "G36C",
-        "type": "Assault Rifle",
-        "category": "primary",
-        "firingModes": [
-          "Full-Auto",
-          "Single"
-        ],
-        "damage": 38,
-        "fireRate": 780,
-        "mobility": 50,
-        "capacity": 30,
-        "image": "assets/weapons/primary/g36c.png"
-      },
-      {
-        "id": "r4c",
-        "name": "R4-C",
-        "type": "Assault Rifle",
-        "category": "primary",
-        "firingModes": [
-          "Full-Auto",
-          "Single"
-        ],
-        "damage": 37,
-        "fireRate": 860,
-        "mobility": 50,
-        "capacity": 30,
-        "image": "assets/weapons/primary/r4c.png"
-      }
-    ],
-    "secondaryWeapons": [
-      {
-        "id": "m45_meusoc",
-        "name": "M45 MEUSOC",
-        "type": "Handgun",
-        "category": "secondary",
-        "firingModes": [
-          "Semi-Auto"
-        ],
-        "damage": 58,
-        "fireRate": 550,
-        "mobility": 50,
-        "capacity": 7,
-        "image": "assets/weapons/secondary/m45_meusoc.png"
-      },
-      {
-        "id": "5_7_usg",
-        "name": "5.7 USG",
-        "type": "Handgun",
-        "category": "secondary",
-        "firingModes": [
-          "Semi-Auto"
-        ],
-        "damage": 42,
-        "fireRate": 550,
-        "mobility": 50,
-        "capacity": 20,
-        "image": "assets/weapons/secondary/5_7_usg.png"
-      }
-    ],
     "gadgets": [
       {
         "id": "breach_charge",
@@ -170,101 +146,2091 @@
       "description": "Ash's unique gadget. A remote-detonated grenade launcher round that destroys barricades and defender gadgets from range.",
       "image": "assets/gadgets/unique/breaching_round.png"
     },
-    "icon": "assets/operators/png/ash.png"
-  },
-  {
-    "id": "rook",
-    "name": "Rook",
-    "side": "defense",
-    "org": "GIGN",
-    "speed": 1,
-    "armor": 3,
+    "icon": "assets/operators/png/ash.png",
     "primaryWeapons": [
       {
-        "id": "p90",
-        "name": "P90",
-        "type": "Submachine Gun",
+        "id": "g36c",
+        "name": "G36C",
+        "type": "Assault Rifle",
         "category": "primary",
-        "firingModes": [
-          "Full-Auto",
-          "Single"
-        ],
-        "damage": 22,
-        "fireRate": 970,
-        "mobility": 50,
-        "capacity": 50,
-        "image": "assets/weapons/primary/p90.png"
+        "image": "assets/weapons/primary/G36C.png"
       },
       {
-        "id": "mp5",
-        "name": "MP5",
-        "type": "Submachine Gun",
+        "id": "r4_c",
+        "name": "R4-C",
+        "type": "Assault Rifle",
         "category": "primary",
-        "firingModes": [
-          "Full-Auto",
-          "Single"
-        ],
-        "damage": 27,
-        "fireRate": 800,
-        "mobility": 50,
-        "capacity": 30,
-        "image": "assets/weapons/primary/mp5.png"
+        "image": "assets/weapons/primary/R4-C.png"
       }
     ],
     "secondaryWeapons": [
       {
-        "id": "lfp586",
-        "name": "LFP586",
+        "id": "m45_meusoc",
+        "name": "M45 MEUSOC",
         "type": "Handgun",
         "category": "secondary",
-        "firingModes": [
-          "Semi-Auto"
-        ],
-        "damage": 78,
-        "fireRate": 550,
-        "mobility": 50,
-        "capacity": 6,
-        "image": "assets/weapons/secondary/lfp586.png"
+        "image": "assets/weapons/secondary/M45_MEUSOC.png"
       },
+      {
+        "id": "5_7_usg",
+        "name": "5.7 USG",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/5.7_USG.png"
+      }
+    ]
+  },
+  {
+    "id": "thermite",
+    "name": "Thermite",
+    "side": "attack",
+    "org": "FBI SWAT",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "stun_grenade",
+        "name": "Stun Grenade",
+        "type": "generic",
+        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
+        "image": "assets/gadgets/generic/stun_grenade.png"
+      },
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "exothermic_charge"
+    },
+    "icon": "assets/operators/png/thermite.png",
+    "primaryWeapons": [
+      {
+        "id": "556xi",
+        "name": "556xi",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/556xi.png"
+      },
+      {
+        "id": "m1014",
+        "name": "M1014",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M1014.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "m45_meusoc",
+        "name": "M45 MEUSOC",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/M45_MEUSOC.png"
+      },
+      {
+        "id": "5_7_usg",
+        "name": "5.7 USG",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/5.7_USG.png"
+      }
+    ]
+  },
+  {
+    "id": "twitch",
+    "name": "Twitch",
+    "side": "attack",
+    "org": "GIGN",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "stun_grenade",
+        "name": "Stun Grenade",
+        "type": "generic",
+        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
+        "image": "assets/gadgets/generic/stun_grenade.png"
+      },
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "shock_drone"
+    },
+    "icon": "assets/operators/png/twitch.png",
+    "primaryWeapons": [
+      {
+        "id": "f2",
+        "name": "F2",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/F2.png"
+      },
+      {
+        "id": "417",
+        "name": "417",
+        "type": "Marksman Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/417.png"
+      },
+      {
+        "id": "sg_cqb",
+        "name": "SG-CQB",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SG-CQB.png"
+      }
+    ],
+    "secondaryWeapons": [
       {
         "id": "p9",
         "name": "P9",
         "type": "Handgun",
         "category": "secondary",
-        "firingModes": [
-          "Semi-Auto"
-        ],
-        "damage": 45,
-        "fireRate": 550,
-        "mobility": 50,
-        "capacity": 16,
-        "image": "assets/weapons/secondary/p9.png"
+        "image": "assets/weapons/secondary/P9.png"
+      },
+      {
+        "id": "lfp586",
+        "name": "LFP586",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/LFP586.png"
+      }
+    ]
+  },
+  {
+    "id": "montagne",
+    "name": "Montagne",
+    "side": "attack",
+    "org": "GIGN",
+    "speed": 1,
+    "armor": 3,
+    "gadgets": [
+      {
+        "id": "stun_grenade",
+        "name": "Stun Grenade",
+        "type": "generic",
+        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
+        "image": "assets/gadgets/generic/stun_grenade.png"
+      },
+      {
+        "id": "hard_breach_charge"
       }
     ],
+    "uniqueGadget": {
+      "id": "extendable_shield"
+    },
+    "icon": "assets/operators/png/montagne.png",
+    "primaryWeapons": [
+      {
+        "id": "extendable_shield",
+        "name": "Extendable Shield",
+        "type": "Shield",
+        "category": "primary",
+        "image": "assets/weapons/primary/Extendable-Shield.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p9",
+        "name": "P9",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P9.png"
+      },
+      {
+        "id": "lfp586",
+        "name": "LFP586",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/LFP586.png"
+      }
+    ]
+  },
+  {
+    "id": "glaz",
+    "name": "Glaz",
+    "side": "attack",
+    "org": "Spetsnaz",
+    "speed": 3,
+    "armor": 1,
     "gadgets": [
+      {
+        "id": "smoke_grenade"
+      },
+      {
+        "id": "frag_grenade",
+        "name": "Frag Grenade",
+        "type": "generic",
+        "description": "A throwable explosive that deals damage to operators and destroys soft surfaces.",
+        "image": "assets/gadgets/generic/frag_grenade.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "flip_sight"
+    },
+    "icon": "assets/operators/png/glaz.png",
+    "primaryWeapons": [
+      {
+        "id": "ots_03",
+        "name": "OTs-03",
+        "type": "Marksman Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/OTs-03.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "gsh_18",
+        "name": "GSh-18",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/GSh-18.png"
+      }
+    ]
+  },
+  {
+    "id": "fuze",
+    "name": "Fuze",
+    "side": "attack",
+    "org": "Spetsnaz",
+    "speed": 1,
+    "armor": 3,
+    "gadgets": [
+      {
+        "id": "breach_charge",
+        "name": "Breach Charge",
+        "type": "generic",
+        "description": "An explosive charge that destroys soft walls, floors, and ceilings.",
+        "image": "assets/gadgets/generic/breach_charge.png"
+      },
+      {
+        "id": "hard_breach_charge"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "cluster_charge"
+    },
+    "icon": "assets/operators/png/fuze.png",
+    "primaryWeapons": [
+      {
+        "id": "ak_12",
+        "name": "AK-12",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/AK-12.png"
+      },
+      {
+        "id": "6p41",
+        "name": "6P41",
+        "type": "Light Machine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/6P41.png"
+      },
+      {
+        "id": "ballistic_shield",
+        "name": "Ballistic Shield",
+        "type": "Shield",
+        "category": "primary",
+        "image": "assets/weapons/primary/Ballistic_Shield.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "gsh_18",
+        "name": "GSh-18",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/GSh-18.png"
+      }
+    ]
+  },
+  {
+    "id": "blitz",
+    "name": "Blitz",
+    "side": "attack",
+    "org": "GSG 9",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "smoke_grenade"
+      },
+      {
+        "id": "breach_charge",
+        "name": "Breach Charge",
+        "type": "generic",
+        "description": "An explosive charge that destroys soft walls, floors, and ceilings.",
+        "image": "assets/gadgets/generic/breach_charge.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "flash_shield"
+    },
+    "icon": "assets/operators/png/blitz.png",
+    "primaryWeapons": [
+      {
+        "id": "g52_tactical_shield",
+        "name": "G52 Tactical Shield",
+        "type": "Shield",
+        "category": "primary",
+        "image": "assets/weapons/primary/G52-Tactical_Shield.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p12",
+        "name": "P12",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P12.png"
+      }
+    ]
+  },
+  {
+    "id": "iq",
+    "name": "IQ",
+    "side": "attack",
+    "org": "GSG 9",
+    "speed": 3,
+    "armor": 1,
+    "gadgets": [
+      {
+        "id": "breach_charge",
+        "name": "Breach Charge",
+        "type": "generic",
+        "description": "An explosive charge that destroys soft walls, floors, and ceilings.",
+        "image": "assets/gadgets/generic/breach_charge.png"
+      },
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "electronics_detector"
+    },
+    "icon": "assets/operators/png/iq.png",
+    "primaryWeapons": [
+      {
+        "id": "ar_15_50",
+        "name": "AR-15.50",
+        "type": "Marksman Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/AR-15.50.png"
+      },
+      {
+        "id": "552_commando",
+        "name": "552 Commando",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/552_Commando.png"
+      },
+      {
+        "id": "g8a1",
+        "name": "G8A1",
+        "type": "Light Machine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/G8A1.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p12",
+        "name": "P12",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P12.png"
+      }
+    ]
+  },
+  {
+    "id": "buck",
+    "name": "Buck",
+    "side": "attack",
+    "org": "JTF2",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "stun_grenade",
+        "name": "Stun Grenade",
+        "type": "generic",
+        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
+        "image": "assets/gadgets/generic/stun_grenade.png"
+      },
+      {
+        "id": "hard_breach_charge"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "skeleton_key"
+    },
+    "icon": "assets/operators/png/buck.png",
+    "primaryWeapons": [
+      {
+        "id": "c8_sfw",
+        "name": "C8-SFW",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/C8-SFW.png"
+      },
+      {
+        "id": "9mm_c1",
+        "name": "9mm C1",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/9mm_C1.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "mk1_9mm",
+        "name": "Mk1 9mm",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Mk1_9mm_BI.png"
+      }
+    ]
+  },
+  {
+    "id": "blackbeard",
+    "name": "Blackbeard",
+    "side": "attack",
+    "org": "NAVY SEAL",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "stun_grenade",
+        "name": "Stun Grenade",
+        "type": "generic",
+        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
+        "image": "assets/gadgets/generic/stun_grenade.png"
+      },
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "gun_shield"
+    },
+    "icon": "assets/operators/png/blackbeard.png",
+    "primaryWeapons": [
+      {
+        "id": "mk17_cqb",
+        "name": "Mk17 CQB",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/Mk17_CQB.png"
+      },
+      {
+        "id": "sr_25",
+        "name": "SR-25",
+        "type": "Marksman Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/SR-25.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "d_50",
+        "name": "D-50",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/D-50.png"
+      }
+    ]
+  },
+  {
+    "id": "capitao",
+    "name": "Capitao",
+    "side": "attack",
+    "org": "BOPE",
+    "speed": 3,
+    "armor": 1,
+    "gadgets": [
+      {
+        "id": "hard_breach_charge"
+      },
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "tactical_crossbow"
+    },
+    "icon": "assets/operators/png/capitao.png",
+    "primaryWeapons": [
+      {
+        "id": "para_308",
+        "name": "PARA-308",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/PARA-308.png"
+      },
+      {
+        "id": "m249",
+        "name": "M249",
+        "type": "Light Machine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M249.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "prb92",
+        "name": "PRB92",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/PRB92.png"
+      }
+    ]
+  },
+  {
+    "id": "hibana",
+    "name": "Hibana",
+    "side": "attack",
+    "org": "SAT",
+    "speed": 3,
+    "armor": 1,
+    "gadgets": [
+      {
+        "id": "stun_grenade",
+        "name": "Stun Grenade",
+        "type": "generic",
+        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
+        "image": "assets/gadgets/generic/stun_grenade.png"
+      },
+      {
+        "id": "breach_charge",
+        "name": "Breach Charge",
+        "type": "generic",
+        "description": "An explosive charge that destroys soft walls, floors, and ceilings.",
+        "image": "assets/gadgets/generic/breach_charge.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "x_kairos"
+    },
+    "icon": "assets/operators/png/hibana.png",
+    "primaryWeapons": [
+      {
+        "id": "type_89",
+        "name": "Type-89",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/Type-89.png"
+      },
+      {
+        "id": "supernova",
+        "name": "SuperNova",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SuperNova.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p229",
+        "name": "P229",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P229.png"
+      }
+    ]
+  },
+  {
+    "id": "jackal",
+    "name": "Jackal",
+    "side": "attack",
+    "org": "GEO",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      },
+      {
+        "id": "smoke_grenade"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "eyenox_model_iii"
+    },
+    "icon": "assets/operators/png/jackal.png",
+    "primaryWeapons": [
+      {
+        "id": "c7e",
+        "name": "C7E",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/C7E.png"
+      },
+      {
+        "id": "pdw9",
+        "name": "PDW9",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/PDW9.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "bearing_9",
+        "name": "Bearing 9",
+        "type": "Machine Pistol",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Bearing_9.png"
+      },
+      {
+        "id": "q_929",
+        "name": "Q-929",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Q-929.png"
+      }
+    ]
+  },
+  {
+    "id": "ying",
+    "name": "Ying",
+    "side": "attack",
+    "org": "SDU",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "hard_breach_charge"
+      },
+      {
+        "id": "smoke_grenade"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "candela"
+    },
+    "icon": "assets/operators/png/ying.png",
+    "primaryWeapons": [
+      {
+        "id": "t_95_lsw",
+        "name": "T-95 LSW",
+        "type": "Light Machine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/T-95_LSW.png"
+      },
+      {
+        "id": "supernova",
+        "name": "SuperNova",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SuperNova.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "q_929",
+        "name": "Q-929",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Q-929.png"
+      }
+    ]
+  },
+  {
+    "id": "zofia",
+    "name": "Zofia",
+    "side": "attack",
+    "org": "GROM",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "breach_charge",
+        "name": "Breach Charge",
+        "type": "generic",
+        "description": "An explosive charge that destroys soft walls, floors, and ceilings.",
+        "image": "assets/gadgets/generic/breach_charge.png"
+      },
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "ksl12_launcher"
+    },
+    "icon": "assets/operators/png/zofia.png",
+    "primaryWeapons": [
+      {
+        "id": "lmg_e",
+        "name": "LMG-E",
+        "type": "Light Machine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/LMG-E.png"
+      },
+      {
+        "id": "m762",
+        "name": "M762",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/M762.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "rg15",
+        "name": "RG15",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/RG15.png"
+      },
+      {
+        "id": "bailiff_410",
+        "name": "Bailiff 410",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Bailiff_410.png"
+      }
+    ]
+  },
+  {
+    "id": "dokkaebi",
+    "name": "Dokkaebi",
+    "side": "attack",
+    "org": "707th SMB",
+    "speed": 3,
+    "armor": 1,
+    "gadgets": [
+      {
+        "id": "stun_grenade",
+        "name": "Stun Grenade",
+        "type": "generic",
+        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
+        "image": "assets/gadgets/generic/stun_grenade.png"
+      },
+      {
+        "id": "frag_grenade",
+        "name": "Frag Grenade",
+        "type": "generic",
+        "description": "A throwable explosive that deals damage to operators and destroys soft surfaces.",
+        "image": "assets/gadgets/generic/frag_grenade.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "logic_bomb"
+    },
+    "icon": "assets/operators/png/dokkaebi.png",
+    "primaryWeapons": [
+      {
+        "id": "mk_14_ebr",
+        "name": "Mk 14 EBR",
+        "type": "Marksman Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/Mk_14_EBR.png"
+      },
+      {
+        "id": "bosg_12_2",
+        "name": "BOSG.12.2",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/BOSG.12.2.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "c75_auto",
+        "name": "C75 Auto",
+        "type": "Machine Pistol",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/C75_Auto.png"
+      },
+      {
+        "id": "smg_12",
+        "name": "SMG-12",
+        "type": "Machine Pistol",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/SMG-12.png"
+      }
+    ]
+  },
+  {
+    "id": "lion",
+    "name": "Lion",
+    "side": "attack",
+    "org": "CBRN",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "stun_grenade",
+        "name": "Stun Grenade",
+        "type": "generic",
+        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
+        "image": "assets/gadgets/generic/stun_grenade.png"
+      },
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "ems5_scan"
+    },
+    "icon": "assets/operators/png/lion.png",
+    "primaryWeapons": [
+      {
+        "id": "v308",
+        "name": "V308",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/V308.png"
+      },
+      {
+        "id": "417",
+        "name": "417",
+        "type": "Marksman Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/417.png"
+      },
+      {
+        "id": "m249",
+        "name": "M249",
+        "type": "Light Machine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M249.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p9",
+        "name": "P9",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P9.png"
+      },
+      {
+        "id": "lfp586",
+        "name": "LFP586",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/LFP586.png"
+      }
+    ]
+  },
+  {
+    "id": "finka",
+    "name": "Finka",
+    "side": "attack",
+    "org": "Spetsnaz",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "hard_breach_charge"
+      },
+      {
+        "id": "frag_grenade",
+        "name": "Frag Grenade",
+        "type": "generic",
+        "description": "A throwable explosive that deals damage to operators and destroys soft surfaces.",
+        "image": "assets/gadgets/generic/frag_grenade.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "adrenal_surge"
+    },
+    "icon": "assets/operators/png/finka.png",
+    "primaryWeapons": [
+      {
+        "id": "spear_308",
+        "name": "Spear .308",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/Spear_.308.png"
+      },
+      {
+        "id": "6p41",
+        "name": "6P41",
+        "type": "Light Machine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/6P41.png"
+      },
+      {
+        "id": "sasg_12",
+        "name": "SASG-12",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SASG-12.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "gsh_18",
+        "name": "GSh-18",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/GSh-18.png"
+      }
+    ]
+  },
+  {
+    "id": "maverick",
+    "name": "Maverick",
+    "side": "attack",
+    "org": "NIGHTHAVEN",
+    "speed": 3,
+    "armor": 1,
+    "gadgets": [
+      {
+        "id": "stun_grenade",
+        "name": "Stun Grenade",
+        "type": "generic",
+        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
+        "image": "assets/gadgets/generic/stun_grenade.png"
+      },
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "breaching_torch"
+    },
+    "icon": "assets/operators/png/maverick.png",
+    "primaryWeapons": [
+      {
+        "id": "ar_15_50",
+        "name": "AR-15.50",
+        "type": "Marksman Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/AR-15.50.png"
+      },
+      {
+        "id": "m4",
+        "name": "M4",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/M4.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "1911_tacops",
+        "name": "1911 TACOPS",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/1911_TACOPS.png"
+      }
+    ]
+  },
+  {
+    "id": "nomad",
+    "name": "Nomad",
+    "side": "attack",
+    "org": "GIGR",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "stun_grenade",
+        "name": "Stun Grenade",
+        "type": "generic",
+        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
+        "image": "assets/gadgets/generic/stun_grenade.png"
+      },
+      {
+        "id": "breach_charge",
+        "name": "Breach Charge",
+        "type": "generic",
+        "description": "An explosive charge that destroys soft walls, floors, and ceilings.",
+        "image": "assets/gadgets/generic/breach_charge.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "airjab_repulsion_mine"
+    },
+    "icon": "assets/operators/png/nomad.png",
+    "primaryWeapons": [
+      {
+        "id": "commando_9",
+        "name": "Commando 9",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/Commando_9.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "44_mag_semi_auto",
+        "name": "44 Mag Semi-Auto",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/44_Mag_Semi-Auto.png"
+      }
+    ]
+  },
+  {
+    "id": "gridlock",
+    "name": "Gridlock",
+    "side": "attack",
+    "org": "SASR",
+    "speed": 1,
+    "armor": 3,
+    "gadgets": [
+      {
+        "id": "breach_charge",
+        "name": "Breach Charge",
+        "type": "generic",
+        "description": "An explosive charge that destroys soft walls, floors, and ceilings.",
+        "image": "assets/gadgets/generic/breach_charge.png"
+      },
+      {
+        "id": "smoke_grenade"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "trax_stingers"
+    },
+    "icon": "assets/operators/png/gridlock.png",
+    "primaryWeapons": [
+      {
+        "id": "f90",
+        "name": "F90",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/f90.png"
+      },
+      {
+        "id": "m249_saw",
+        "name": "M249 SAW",
+        "type": "Light Machine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M249_SAW.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "supershorty",
+        "name": "Super Shorty",
+        "type": "Shotgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/supershorty.png"
+      },
+      {
+        "id": "gsh_18",
+        "name": "GSh-18",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/GSh-18.png"
+      }
+    ]
+  },
+  {
+    "id": "nokk",
+    "name": "Nokk",
+    "side": "attack",
+    "org": "Jaeger Corps",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "frag_grenade",
+        "name": "Frag Grenade",
+        "type": "generic",
+        "description": "A throwable explosive that deals damage to operators and destroys soft surfaces.",
+        "image": "assets/gadgets/generic/frag_grenade.png"
+      },
+      {
+        "id": "hard_breach_charge"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "hel_presence_reduction"
+    },
+    "icon": "assets/operators/png/nokk.png",
+    "primaryWeapons": [
+      {
+        "id": "fmg_9",
+        "name": "FMG-9",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/FMG-9.png"
+      },
+      {
+        "id": "six12_sd",
+        "name": "SIX12 SD",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SIX12_SD.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "5_7_usg",
+        "name": "5.7 USG",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/5.7_USG.png"
+      },
+      {
+        "id": "d_50",
+        "name": "D-50",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/D-50.png"
+      }
+    ]
+  },
+  {
+    "id": "amaru",
+    "name": "Amaru",
+    "side": "attack",
+    "org": "APCA",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "hard_breach_charge"
+      },
+      {
+        "id": "stun_grenade",
+        "name": "Stun Grenade",
+        "type": "generic",
+        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
+        "image": "assets/gadgets/generic/stun_grenade.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "garra_hook"
+    },
+    "icon": "assets/operators/png/amaru.png",
+    "primaryWeapons": [
+      {
+        "id": "g8a1",
+        "name": "G8A1",
+        "type": "Light Machine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/G8A1.png"
+      },
+      {
+        "id": "supernova",
+        "name": "SuperNova",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SuperNova.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "bearing_9",
+        "name": "Bearing 9",
+        "type": "Machine Pistol",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Bearing_9.png"
+      },
+      {
+        "id": "smg_11",
+        "name": "SMG-11",
+        "type": "Machine Pistol",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/SMG-11.png"
+      }
+    ]
+  },
+  {
+    "id": "kali",
+    "name": "Kali",
+    "side": "attack",
+    "org": "Night Ravens",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      },
+      {
+        "id": "breach_charge",
+        "name": "Breach Charge",
+        "type": "generic",
+        "description": "An explosive charge that destroys soft walls, floors, and ceilings.",
+        "image": "assets/gadgets/generic/breach_charge.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "lv_lance"
+    },
+    "icon": "assets/operators/png/kali.png",
+    "primaryWeapons": [
+      {
+        "id": "csrx_300",
+        "name": "CSRX 300",
+        "type": "Marksman Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/CSRX_300.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "spsmg9",
+        "name": "SPSMG9",
+        "type": "Machine Pistol",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/SPSMG9.png"
+      },
+      {
+        "id": "p226_mk_25",
+        "name": "P226 Mk 25",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P226_Mk_25.png"
+      }
+    ]
+  },
+  {
+    "id": "iana",
+    "name": "Iana",
+    "side": "attack",
+    "org": "REU",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "stun_grenade",
+        "name": "Stun Grenade",
+        "type": "generic",
+        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
+        "image": "assets/gadgets/generic/stun_grenade.png"
+      },
+      {
+        "id": "smoke_grenade"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "gemini_replicator"
+    },
+    "icon": "assets/operators/png/iana.png",
+    "primaryWeapons": [
+      {
+        "id": "arx200",
+        "name": "ARX200",
+        "type": "Marksman Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/ARX200.png"
+      },
+      {
+        "id": "g36c",
+        "name": "G36C",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/G36C.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "mk1_9mm",
+        "name": "Mk1 9mm",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Mk1_9mm_BI.png"
+      }
+    ]
+  },
+  {
+    "id": "ace",
+    "name": "Ace",
+    "side": "attack",
+    "org": "Jaeger Corps",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "breach_charge",
+        "name": "Breach Charge",
+        "type": "generic",
+        "description": "An explosive charge that destroys soft walls, floors, and ceilings.",
+        "image": "assets/gadgets/generic/breach_charge.png"
+      },
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "s_e_l_m_a"
+    },
+    "icon": "assets/operators/png/ace.png",
+    "primaryWeapons": [
+      {
+        "id": "m1014",
+        "name": "M1014",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M1014.png"
+      },
+      {
+        "id": "ak_12",
+        "name": "AK-12",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/AK-12.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p9",
+        "name": "P9",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P9.png"
+      }
+    ]
+  },
+  {
+    "id": "zero",
+    "name": "Zero",
+    "side": "attack",
+    "org": "Third Echelon",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "frag_grenade",
+        "name": "Frag Grenade",
+        "type": "generic",
+        "description": "A throwable explosive that deals damage to operators and destroys soft surfaces.",
+        "image": "assets/gadgets/generic/frag_grenade.png"
+      },
+      {
+        "id": "hard_breach_charge"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "argus_launcher"
+    },
+    "icon": "assets/operators/png/zero.png",
+    "primaryWeapons": [
+      {
+        "id": "mp7",
+        "name": "MP7",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/MP7.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "5_7_usg",
+        "name": "5.7 USG",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/5.7_USG.png"
+      }
+    ]
+  },
+  {
+    "id": "flores",
+    "name": "Flores",
+    "side": "attack",
+    "org": "APCA",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      },
+      {
+        "id": "stun_grenade",
+        "name": "Stun Grenade",
+        "type": "generic",
+        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
+        "image": "assets/gadgets/generic/stun_grenade.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "rce_ratero_charge"
+    },
+    "icon": "assets/operators/png/flores.png",
+    "primaryWeapons": [
+      {
+        "id": "ar33",
+        "name": "AR33",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/AR33.png"
+      },
+      {
+        "id": "sr_25",
+        "name": "SR-25",
+        "type": "Marksman Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/SR-25.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "gsh_18",
+        "name": "GSh-18",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/GSh-18.png"
+      }
+    ]
+  },
+  {
+    "id": "osa",
+    "name": "Osa",
+    "side": "attack",
+    "org": "NIGHTHAVEN",
+    "speed": 1,
+    "armor": 3,
+    "gadgets": [
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      },
+      {
+        "id": "hard_breach_charge"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "talon_8_shield"
+    },
+    "icon": "assets/operators/png/osa.png",
+    "primaryWeapons": [
+      {
+        "id": "556xi",
+        "name": "556xi",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/556xi.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "pmm",
+        "name": "PMM",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/PMM.png"
+      }
+    ]
+  },
+  {
+    "id": "sens",
+    "name": "Sens",
+    "side": "attack",
+    "org": "LFT",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "hard_breach_charge"
+      },
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "rok_array"
+    },
+    "icon": "assets/operators/png/sens.png",
+    "primaryWeapons": [
+      {
+        "id": "pof9",
+        "name": "POF9",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/POF9.png"
+      },
+      {
+        "id": "417",
+        "name": "417",
+        "type": "Marksman Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/417.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p12",
+        "name": "P12",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P12.png"
+      }
+    ]
+  },
+  {
+    "id": "grim",
+    "name": "Grim",
+    "side": "attack",
+    "org": "Nighthaven",
+    "speed": 3,
+    "armor": 1,
+    "gadgets": [
+      {
+        "id": "breach_charge",
+        "name": "Breach Charge",
+        "type": "generic",
+        "description": "An explosive charge that destroys soft walls, floors, and ceilings.",
+        "image": "assets/gadgets/generic/breach_charge.png"
+      },
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "kawan_hive_launcher"
+    },
+    "icon": "assets/operators/png/grim.png",
+    "primaryWeapons": [
+      {
+        "id": "552_commando",
+        "name": "552 Commando",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/552_Commando.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p229",
+        "name": "P229",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P229.png"
+      }
+    ]
+  },
+  {
+    "id": "brava",
+    "name": "Brava",
+    "side": "attack",
+    "org": "BOPE",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      },
+      {
+        "id": "hard_breach_charge"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "kludge_drone"
+    },
+    "icon": "assets/operators/png/brava.png",
+    "primaryWeapons": [
+      {
+        "id": "p10roni",
+        "name": "P10 Roni",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/p10roni.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "supershorty",
+        "name": "Super Shorty",
+        "type": "Shotgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/supershorty.png"
+      }
+    ]
+  },
+  {
+    "id": "ram",
+    "name": "Ram",
+    "side": "attack",
+    "org": "SFOD-D",
+    "speed": 1,
+    "armor": 3,
+    "gadgets": [
+      {
+        "id": "hard_breach_charge"
+      },
+      {
+        "id": "stun_grenade",
+        "name": "Stun Grenade",
+        "type": "generic",
+        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
+        "image": "assets/gadgets/generic/stun_grenade.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "bfu_ram"
+    },
+    "icon": "assets/operators/png/ram.png",
+    "primaryWeapons": [
+      {
+        "id": "r4_c",
+        "name": "R4-C",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/R4-C.png"
+      },
+      {
+        "id": "lmg_e",
+        "name": "LMG-E",
+        "type": "Light Machine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/LMG-E.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "44vendetta",
+        "name": "44 Vendetta",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/44VENDETTA.png"
+      }
+    ]
+  },
+  {
+    "id": "deimos",
+    "name": "Deimos",
+    "side": "attack",
+    "org": "NIGHTHAVEN",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "frag_grenade",
+        "name": "Frag Grenade",
+        "type": "generic",
+        "description": "A throwable explosive that deals damage to operators and destroys soft surfaces.",
+        "image": "assets/gadgets/generic/frag_grenade.png"
+      },
+      {
+        "id": "hard_breach_charge"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "deathmark"
+    },
+    "icon": "assets/operators/png/deimos.png",
+    "primaryWeapons": [
+      {
+        "id": "ak_74m",
+        "name": "AK-74M",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/AK-74M.png"
+      },
+      {
+        "id": "m870",
+        "name": "M870",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M870.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "tacit_45",
+        "name": "TACIT 45",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/TACIT_45.png"
+      }
+    ]
+  },
+  {
+    "id": "striker",
+    "name": "Striker",
+    "side": "attack",
+    "org": "US Army",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "breach_charge",
+        "name": "Breach Charge",
+        "type": "generic",
+        "description": "An explosive charge that destroys soft walls, floors, and ceilings.",
+        "image": "assets/gadgets/generic/breach_charge.png"
+      },
+      {
+        "id": "stun_grenade",
+        "name": "Stun Grenade",
+        "type": "generic",
+        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
+        "image": "assets/gadgets/generic/stun_grenade.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "gadget_pouch"
+    },
+    "icon": "assets/operators/png/striker.png",
+    "primaryWeapons": [
+      {
+        "id": "m4",
+        "name": "M4",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/M4.png"
+      },
+      {
+        "id": "f2000",
+        "name": "F2000",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/F2000.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "1911_tacops",
+        "name": "1911 TACOPS",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/1911_TACOPS.png"
+      }
+    ]
+  },
+  {
+    "id": "rauora",
+    "name": "Rauora",
+    "side": "attack",
+    "org": "NZ SAS",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "breach_charge",
+        "name": "Breach Charge",
+        "type": "generic",
+        "description": "An explosive charge that destroys soft walls, floors, and ceilings.",
+        "image": "assets/gadgets/generic/breach_charge.png"
+      },
+      {
+        "id": "claymore",
+        "name": "Claymore",
+        "type": "generic",
+        "description": "A proximity-triggered directional mine that detonates when enemies cross its laser.",
+        "image": "assets/gadgets/generic/claymore.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "parawing_kit"
+    },
+    "icon": "assets/operators/png/rauora.png",
+    "primaryWeapons": [
+      {
+        "id": "ump45",
+        "name": "UMP45",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/UMP45.png"
+      },
+      {
+        "id": "sg_cqb",
+        "name": "SG-CQB",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SG-CQB.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "rg15",
+        "name": "RG15",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/RG15.png"
+      }
+    ]
+  },
+  {
+    "id": "smoke",
+    "name": "Smoke",
+    "side": "defense",
+    "org": "SAS",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "barbed_wire",
+        "name": "Barbed Wire",
+        "type": "generic",
+        "description": "Slows down enemies who walk through it and makes noise to alert defenders.",
+        "image": "assets/gadgets/generic/barbed_wire.png"
+      },
       {
         "id": "proximity_alarm",
         "name": "Proximity Alarm",
         "type": "generic",
         "description": "An alarm that triggers when enemies move through its detection range.",
         "image": "assets/gadgets/generic/proximity_alarm.png"
-      },
-      {
-        "id": "impact_grenade",
-        "name": "Impact Grenade",
-        "type": "generic",
-        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
-        "image": "assets/gadgets/generic/impact_grenade.png"
       }
     ],
     "uniqueGadget": {
-      "id": "armor_pack",
-      "name": "Armor Pack",
-      "type": "unique",
-      "description": "Rook's unique gadget. A bag of armor packs that all operators can pick up to increase their armor rating.",
-      "image": "assets/gadgets/unique/armor_pack.png"
+      "id": "remote_gas_canister"
     },
-    "icon": "assets/operators/png/rook.png"
+    "icon": "assets/operators/png/smoke.png",
+    "primaryWeapons": [
+      {
+        "id": "fmg_9",
+        "name": "FMG-9",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/FMG-9.png"
+      },
+      {
+        "id": "m590a1",
+        "name": "M590A1",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M590A1.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p226_mk_25",
+        "name": "P226 Mk 25",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P226_Mk_25.png"
+      },
+      {
+        "id": "smg_11",
+        "name": "SMG-11",
+        "type": "Machine Pistol",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/SMG-11.png"
+      }
+    ]
+  },
+  {
+    "id": "mute",
+    "name": "Mute",
+    "side": "defense",
+    "org": "SAS",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "bulletproof_camera",
+        "name": "Bulletproof Camera",
+        "type": "generic",
+        "description": "A hardened camera that can be placed on walls to provide intel on attackers.",
+        "image": "assets/gadgets/generic/bulletproof_camera.png"
+      },
+      {
+        "id": "nitro_cell"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "signal_jammer"
+    },
+    "icon": "assets/operators/png/mute.png",
+    "primaryWeapons": [
+      {
+        "id": "mp5k",
+        "name": "MP5K",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/MP5K.png"
+      },
+      {
+        "id": "m590a1",
+        "name": "M590A1",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M590A1.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p226_mk_25",
+        "name": "P226 Mk 25",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P226_Mk_25.png"
+      },
+      {
+        "id": "smg_11",
+        "name": "SMG-11",
+        "type": "Machine Pistol",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/SMG-11.png"
+      }
+    ]
+  },
+  {
+    "id": "castle",
+    "name": "Castle",
+    "side": "defense",
+    "org": "FBI SWAT",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "nitro_cell"
+      },
+      {
+        "id": "proximity_alarm",
+        "name": "Proximity Alarm",
+        "type": "generic",
+        "description": "An alarm that triggers when enemies move through its detection range.",
+        "image": "assets/gadgets/generic/proximity_alarm.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "armored_pack"
+    },
+    "icon": "assets/operators/png/castle.png",
+    "primaryWeapons": [
+      {
+        "id": "ump45",
+        "name": "UMP45",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/UMP45.png"
+      },
+      {
+        "id": "m1014",
+        "name": "M1014",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M1014.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "5_7_usg",
+        "name": "5.7 USG",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/5.7_USG.png"
+      },
+      {
+        "id": "m45_meusoc",
+        "name": "M45 MEUSOC",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/M45_MEUSOC.png"
+      }
+    ]
+  },
+  {
+    "id": "pulse",
+    "name": "Pulse",
+    "side": "defense",
+    "org": "FBI SWAT",
+    "speed": 3,
+    "armor": 1,
+    "gadgets": [
+      {
+        "id": "nitro_cell"
+      },
+      {
+        "id": "barbed_wire",
+        "name": "Barbed Wire",
+        "type": "generic",
+        "description": "Slows down enemies who walk through it and makes noise to alert defenders.",
+        "image": "assets/gadgets/generic/barbed_wire.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "heartbeat_sensor"
+    },
+    "icon": "assets/operators/png/pulse.png",
+    "primaryWeapons": [
+      {
+        "id": "ump45",
+        "name": "UMP45",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/UMP45.png"
+      },
+      {
+        "id": "m1014",
+        "name": "M1014",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M1014.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "5_7_usg",
+        "name": "5.7 USG",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/5.7_USG.png"
+      },
+      {
+        "id": "m45_meusoc",
+        "name": "M45 MEUSOC",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/M45_MEUSOC.png"
+      }
+    ]
   },
   {
     "id": "doc",
@@ -273,67 +2239,6 @@
     "org": "GIGN",
     "speed": 1,
     "armor": 3,
-    "primaryWeapons": [
-      {
-        "id": "sg_cqb",
-        "name": "SG-CQB",
-        "type": "Shotgun",
-        "category": "primary",
-        "firingModes": [
-          "Pump-Action"
-        ],
-        "damage": 53,
-        "fireRate": 85,
-        "mobility": 50,
-        "capacity": 7,
-        "image": "assets/weapons/primary/sg_cqb.png"
-      },
-      {
-        "id": "mp5",
-        "name": "MP5",
-        "type": "Submachine Gun",
-        "category": "primary",
-        "firingModes": [
-          "Full-Auto",
-          "Single"
-        ],
-        "damage": 27,
-        "fireRate": 800,
-        "mobility": 50,
-        "capacity": 30,
-        "image": "assets/weapons/primary/mp5.png"
-      }
-    ],
-    "secondaryWeapons": [
-      {
-        "id": "p9",
-        "name": "P9",
-        "type": "Handgun",
-        "category": "secondary",
-        "firingModes": [
-          "Semi-Auto"
-        ],
-        "damage": 45,
-        "fireRate": 550,
-        "mobility": 50,
-        "capacity": 16,
-        "image": "assets/weapons/secondary/p9.png"
-      },
-      {
-        "id": "lfp586",
-        "name": "LFP586",
-        "type": "Handgun",
-        "category": "secondary",
-        "firingModes": [
-          "Semi-Auto"
-        ],
-        "damage": 78,
-        "fireRate": 550,
-        "mobility": 50,
-        "capacity": 6,
-        "image": "assets/weapons/secondary/lfp586.png"
-      }
-    ],
     "gadgets": [
       {
         "id": "barbed_wire",
@@ -357,6 +2262,1908 @@
       "description": "Doc's unique gadget. A syringe pistol that can heal or overheal the user and teammates.",
       "image": "assets/gadgets/unique/stim_pistol.png"
     },
-    "icon": "assets/operators/png/doc.png"
+    "icon": "assets/operators/png/doc.png",
+    "primaryWeapons": [
+      {
+        "id": "sg_cqb",
+        "name": "SG-CQB",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SG-CQB.png"
+      },
+      {
+        "id": "mp5",
+        "name": "MP5",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/MP5.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p9",
+        "name": "P9",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P9.png"
+      },
+      {
+        "id": "lfp586",
+        "name": "LFP586",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/LFP586.png"
+      }
+    ]
+  },
+  {
+    "id": "rook",
+    "name": "Rook",
+    "side": "defense",
+    "org": "GIGN",
+    "speed": 1,
+    "armor": 3,
+    "gadgets": [
+      {
+        "id": "proximity_alarm",
+        "name": "Proximity Alarm",
+        "type": "generic",
+        "description": "An alarm that triggers when enemies move through its detection range.",
+        "image": "assets/gadgets/generic/proximity_alarm.png"
+      },
+      {
+        "id": "impact_grenade",
+        "name": "Impact Grenade",
+        "type": "generic",
+        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
+        "image": "assets/gadgets/generic/impact_grenade.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "armor_pack",
+      "name": "Armor Pack",
+      "type": "unique",
+      "description": "Rook's unique gadget. A bag of armor packs that all operators can pick up to increase their armor rating.",
+      "image": "assets/gadgets/unique/armor_pack.png"
+    },
+    "icon": "assets/operators/png/rook.png",
+    "primaryWeapons": [
+      {
+        "id": "p90",
+        "name": "P90",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/P90.png"
+      },
+      {
+        "id": "mp5",
+        "name": "MP5",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/MP5.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "lfp586",
+        "name": "LFP586",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/LFP586.png"
+      },
+      {
+        "id": "p9",
+        "name": "P9",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P9.png"
+      }
+    ]
+  },
+  {
+    "id": "kapkan",
+    "name": "Kapkan",
+    "side": "defense",
+    "org": "Spetsnaz",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "nitro_cell"
+      },
+      {
+        "id": "impact_grenade",
+        "name": "Impact Grenade",
+        "type": "generic",
+        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
+        "image": "assets/gadgets/generic/impact_grenade.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "edb"
+    },
+    "icon": "assets/operators/png/kapkan.png",
+    "primaryWeapons": [
+      {
+        "id": "9x19svn",
+        "name": "9X19SVN",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/9X19SVN.png"
+      },
+      {
+        "id": "sasg_12",
+        "name": "SASG-12",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SASG-12.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "gsh_18",
+        "name": "GSh-18",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/GSh-18.png"
+      }
+    ]
+  },
+  {
+    "id": "tachanka",
+    "name": "Tachanka",
+    "side": "defense",
+    "org": "Spetsnaz",
+    "speed": 1,
+    "armor": 3,
+    "gadgets": [
+      {
+        "id": "barbed_wire",
+        "name": "Barbed Wire",
+        "type": "generic",
+        "description": "Slows down enemies who walk through it and makes noise to alert defenders.",
+        "image": "assets/gadgets/generic/barbed_wire.png"
+      },
+      {
+        "id": "proximity_alarm",
+        "name": "Proximity Alarm",
+        "type": "generic",
+        "description": "An alarm that triggers when enemies move through its detection range.",
+        "image": "assets/gadgets/generic/proximity_alarm.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "shumikha_launcher"
+    },
+    "icon": "assets/operators/png/tachanka.png",
+    "primaryWeapons": [
+      {
+        "id": "dp27",
+        "name": "DP27",
+        "type": "Light Machine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/DP27.png"
+      },
+      {
+        "id": "sasg_12",
+        "name": "SASG-12",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SASG-12.png"
+      },
+      {
+        "id": "9x19svn",
+        "name": "9X19SVN",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/9X19SVN.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "gsh_18",
+        "name": "GSh-18",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/GSh-18.png"
+      }
+    ]
+  },
+  {
+    "id": "jager",
+    "name": "Jager",
+    "side": "defense",
+    "org": "GSG 9",
+    "speed": 3,
+    "armor": 1,
+    "gadgets": [
+      {
+        "id": "bulletproof_camera",
+        "name": "Bulletproof Camera",
+        "type": "generic",
+        "description": "A hardened camera that can be placed on walls to provide intel on attackers.",
+        "image": "assets/gadgets/generic/bulletproof_camera.png"
+      },
+      {
+        "id": "barbed_wire",
+        "name": "Barbed Wire",
+        "type": "generic",
+        "description": "Slows down enemies who walk through it and makes noise to alert defenders.",
+        "image": "assets/gadgets/generic/barbed_wire.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "ads"
+    },
+    "icon": "assets/operators/png/jager.png",
+    "primaryWeapons": [
+      {
+        "id": "416_c_carbine",
+        "name": "416-C Carbine",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/416-C_Carbine.png"
+      },
+      {
+        "id": "m870",
+        "name": "M870",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M870.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p12",
+        "name": "P12",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P12.png"
+      }
+    ]
+  },
+  {
+    "id": "bandit",
+    "name": "Bandit",
+    "side": "defense",
+    "org": "GSG 9",
+    "speed": 3,
+    "armor": 1,
+    "gadgets": [
+      {
+        "id": "barbed_wire",
+        "name": "Barbed Wire",
+        "type": "generic",
+        "description": "Slows down enemies who walk through it and makes noise to alert defenders.",
+        "image": "assets/gadgets/generic/barbed_wire.png"
+      },
+      {
+        "id": "nitro_cell"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "ced_mk_iii"
+    },
+    "icon": "assets/operators/png/bandit.png",
+    "primaryWeapons": [
+      {
+        "id": "mp7",
+        "name": "MP7",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/MP7.png"
+      },
+      {
+        "id": "m870",
+        "name": "M870",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M870.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p12",
+        "name": "P12",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P12.png"
+      }
+    ]
+  },
+  {
+    "id": "frost",
+    "name": "Frost",
+    "side": "defense",
+    "org": "JTF2",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "barbed_wire",
+        "name": "Barbed Wire",
+        "type": "generic",
+        "description": "Slows down enemies who walk through it and makes noise to alert defenders.",
+        "image": "assets/gadgets/generic/barbed_wire.png"
+      },
+      {
+        "id": "bulletproof_camera",
+        "name": "Bulletproof Camera",
+        "type": "generic",
+        "description": "A hardened camera that can be placed on walls to provide intel on attackers.",
+        "image": "assets/gadgets/generic/bulletproof_camera.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "bear_trap"
+    },
+    "icon": "assets/operators/png/frost.png",
+    "primaryWeapons": [
+      {
+        "id": "super_90",
+        "name": "Super 90",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/Super_90.png"
+      },
+      {
+        "id": "9mm_c1",
+        "name": "9mm C1",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/9mm_C1.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "mk1_9mm",
+        "name": "Mk1 9mm",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Mk1_9mm_BI.png"
+      }
+    ]
+  },
+  {
+    "id": "valkyrie",
+    "name": "Valkyrie",
+    "side": "defense",
+    "org": "NAVY SEAL",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "nitro_cell"
+      },
+      {
+        "id": "impact_grenade",
+        "name": "Impact Grenade",
+        "type": "generic",
+        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
+        "image": "assets/gadgets/generic/impact_grenade.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "black_eye"
+    },
+    "icon": "assets/operators/png/valkyrie.png",
+    "primaryWeapons": [
+      {
+        "id": "mpx",
+        "name": "MPX",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/MPX.png"
+      },
+      {
+        "id": "ump45",
+        "name": "UMP45",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/UMP45.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "d_50",
+        "name": "D-50",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/D-50.png"
+      }
+    ]
+  },
+  {
+    "id": "caveira",
+    "name": "Caveira",
+    "side": "defense",
+    "org": "BOPE",
+    "speed": 3,
+    "armor": 1,
+    "gadgets": [
+      {
+        "id": "impact_grenade",
+        "name": "Impact Grenade",
+        "type": "generic",
+        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
+        "image": "assets/gadgets/generic/impact_grenade.png"
+      },
+      {
+        "id": "nitro_cell"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "silent_step"
+    },
+    "icon": "assets/operators/png/caveira.png",
+    "primaryWeapons": [
+      {
+        "id": "spas_12",
+        "name": "SPAS-12",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SPAS-12.png"
+      },
+      {
+        "id": "m12",
+        "name": "M12",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M12.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "luison",
+        "name": "Luison",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Luison.png"
+      }
+    ]
+  },
+  {
+    "id": "echo",
+    "name": "Echo",
+    "side": "defense",
+    "org": "SAT",
+    "speed": 1,
+    "armor": 3,
+    "gadgets": [
+      {
+        "id": "impact_grenade",
+        "name": "Impact Grenade",
+        "type": "generic",
+        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
+        "image": "assets/gadgets/generic/impact_grenade.png"
+      },
+      {
+        "id": "nitro_cell"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "yokai"
+    },
+    "icon": "assets/operators/png/echo.png",
+    "primaryWeapons": [
+      {
+        "id": "supernova",
+        "name": "SuperNova",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SuperNova.png"
+      },
+      {
+        "id": "bosg_12_2",
+        "name": "BOSG.12.2",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/BOSG.12.2.png"
+      },
+      {
+        "id": "mp5sd",
+        "name": "MP5SD",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/MP5SD.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p229",
+        "name": "P229",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P229.png"
+      }
+    ]
+  },
+  {
+    "id": "mira",
+    "name": "Mira",
+    "side": "defense",
+    "org": "GEO",
+    "speed": 1,
+    "armor": 3,
+    "gadgets": [
+      {
+        "id": "proximity_alarm",
+        "name": "Proximity Alarm",
+        "type": "generic",
+        "description": "An alarm that triggers when enemies move through its detection range.",
+        "image": "assets/gadgets/generic/proximity_alarm.png"
+      },
+      {
+        "id": "nitro_cell"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "black_mirror"
+    },
+    "icon": "assets/operators/png/mira.png",
+    "primaryWeapons": [
+      {
+        "id": "vector_45_acp",
+        "name": "Vector .45 ACP",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/Vector_.45_ACP.png"
+      },
+      {
+        "id": "ita12l",
+        "name": "ITA12L",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/ITA12L.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "ita12s",
+        "name": "ITA12S",
+        "type": "Shotgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/ITA12S.png"
+      }
+    ]
+  },
+  {
+    "id": "lesion",
+    "name": "Lesion",
+    "side": "defense",
+    "org": "SDU",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "bulletproof_camera",
+        "name": "Bulletproof Camera",
+        "type": "generic",
+        "description": "A hardened camera that can be placed on walls to provide intel on attackers.",
+        "image": "assets/gadgets/generic/bulletproof_camera.png"
+      },
+      {
+        "id": "impact_grenade",
+        "name": "Impact Grenade",
+        "type": "generic",
+        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
+        "image": "assets/gadgets/generic/impact_grenade.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "gu_mines"
+    },
+    "icon": "assets/operators/png/lesion.png",
+    "primaryWeapons": [
+      {
+        "id": "t_5_smg",
+        "name": "T-5 SMG",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/T-5_SMG.png"
+      },
+      {
+        "id": "supernova",
+        "name": "SuperNova",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SuperNova.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "q_929",
+        "name": "Q-929",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Q-929.png"
+      }
+    ]
+  },
+  {
+    "id": "ela",
+    "name": "Ela",
+    "side": "defense",
+    "org": "GROM",
+    "speed": 3,
+    "armor": 1,
+    "gadgets": [
+      {
+        "id": "barbed_wire",
+        "name": "Barbed Wire",
+        "type": "generic",
+        "description": "Slows down enemies who walk through it and makes noise to alert defenders.",
+        "image": "assets/gadgets/generic/barbed_wire.png"
+      },
+      {
+        "id": "impact_grenade",
+        "name": "Impact Grenade",
+        "type": "generic",
+        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
+        "image": "assets/gadgets/generic/impact_grenade.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "grzmot_mine"
+    },
+    "icon": "assets/operators/png/ela.png",
+    "primaryWeapons": [
+      {
+        "id": "scorpion_evo_3_a1",
+        "name": "Scorpion EVO 3 A1",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/Scorpion_EVO_3_A1.png"
+      },
+      {
+        "id": "fo_12",
+        "name": "FO-12",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/FO-12.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "rg15",
+        "name": "RG15",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/RG15.png"
+      },
+      {
+        "id": "bailiff_410",
+        "name": "Bailiff 410",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Bailiff_410.png"
+      }
+    ]
+  },
+  {
+    "id": "vigil",
+    "name": "Vigil",
+    "side": "defense",
+    "org": "707th SMB",
+    "speed": 3,
+    "armor": 1,
+    "gadgets": [
+      {
+        "id": "bulletproof_camera",
+        "name": "Bulletproof Camera",
+        "type": "generic",
+        "description": "A hardened camera that can be placed on walls to provide intel on attackers.",
+        "image": "assets/gadgets/generic/bulletproof_camera.png"
+      },
+      {
+        "id": "nitro_cell"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "erc_7"
+    },
+    "icon": "assets/operators/png/vigil.png",
+    "primaryWeapons": [
+      {
+        "id": "k1a",
+        "name": "K1A",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/K1A.png"
+      },
+      {
+        "id": "arx200",
+        "name": "ARX200",
+        "type": "Marksman Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/ARX200.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "c75_auto",
+        "name": "C75 Auto",
+        "type": "Machine Pistol",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/C75_Auto.png"
+      },
+      {
+        "id": "smg_12",
+        "name": "SMG-12",
+        "type": "Machine Pistol",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/SMG-12.png"
+      }
+    ]
+  },
+  {
+    "id": "maestro",
+    "name": "Maestro",
+    "side": "defense",
+    "org": "GIS",
+    "speed": 1,
+    "armor": 3,
+    "gadgets": [
+      {
+        "id": "barbed_wire",
+        "name": "Barbed Wire",
+        "type": "generic",
+        "description": "Slows down enemies who walk through it and makes noise to alert defenders.",
+        "image": "assets/gadgets/generic/barbed_wire.png"
+      },
+      {
+        "id": "impact_grenade",
+        "name": "Impact Grenade",
+        "type": "generic",
+        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
+        "image": "assets/gadgets/generic/impact_grenade.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "evil_eye"
+    },
+    "icon": "assets/operators/png/maestro.png",
+    "primaryWeapons": [
+      {
+        "id": "alda_556",
+        "name": "ALDA 5.56",
+        "type": "Light Machine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/ALDA_5.56.png"
+      },
+      {
+        "id": "acs12_pb",
+        "name": "ACS12",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/ACS12_PB.png"
+      },
+      {
+        "id": "vector_45_acp",
+        "name": "Vector .45 ACP",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/Vector_.45_ACP.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "bailiff_410",
+        "name": "Bailiff 410",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Bailiff_410.png"
+      },
+      {
+        "id": "ita12s",
+        "name": "ITA12S",
+        "type": "Shotgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/ITA12S.png"
+      }
+    ]
+  },
+  {
+    "id": "alibi",
+    "name": "Alibi",
+    "side": "defense",
+    "org": "GIS",
+    "speed": 3,
+    "armor": 1,
+    "gadgets": [
+      {
+        "id": "impact_grenade",
+        "name": "Impact Grenade",
+        "type": "generic",
+        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
+        "image": "assets/gadgets/generic/impact_grenade.png"
+      },
+      {
+        "id": "bulletproof_camera",
+        "name": "Bulletproof Camera",
+        "type": "generic",
+        "description": "A hardened camera that can be placed on walls to provide intel on attackers.",
+        "image": "assets/gadgets/generic/bulletproof_camera.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "prisma"
+    },
+    "icon": "assets/operators/png/alibi.png",
+    "primaryWeapons": [
+      {
+        "id": "mx4_storm",
+        "name": "Mx4 Storm",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/Mx4_Storm.png"
+      },
+      {
+        "id": "spas_15",
+        "name": "SPAS-15",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SPAS-15.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "bailiff_410",
+        "name": "Bailiff 410",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Bailiff_410.png"
+      },
+      {
+        "id": "keratos_357",
+        "name": "Keratos .357",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Keratos_.357.png"
+      }
+    ]
+  },
+  {
+    "id": "clash",
+    "name": "Clash",
+    "side": "defense",
+    "org": "GSUTR",
+    "speed": 1,
+    "armor": 3,
+    "gadgets": [
+      {
+        "id": "impact_grenade",
+        "name": "Impact Grenade",
+        "type": "generic",
+        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
+        "image": "assets/gadgets/generic/impact_grenade.png"
+      },
+      {
+        "id": "barbed_wire",
+        "name": "Barbed Wire",
+        "type": "generic",
+        "description": "Slows down enemies who walk through it and makes noise to alert defenders.",
+        "image": "assets/gadgets/generic/barbed_wire.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "cce_shield"
+    },
+    "icon": "assets/operators/png/clash.png",
+    "primaryWeapons": [
+      {
+        "id": "cce_shield",
+        "name": "CCE Shield",
+        "type": "Shield",
+        "category": "primary",
+        "image": "assets/weapons/primary/CCE_Shield.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "spsmg9",
+        "name": "SPSMG9",
+        "type": "Machine Pistol",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/SPSMG9.png"
+      },
+      {
+        "id": "p_10c",
+        "name": "P-10C",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P-10C.png"
+      }
+    ]
+  },
+  {
+    "id": "kaid",
+    "name": "Kaid",
+    "side": "defense",
+    "org": "GIGR",
+    "speed": 1,
+    "armor": 3,
+    "gadgets": [
+      {
+        "id": "nitro_cell"
+      },
+      {
+        "id": "barbed_wire",
+        "name": "Barbed Wire",
+        "type": "generic",
+        "description": "Slows down enemies who walk through it and makes noise to alert defenders.",
+        "image": "assets/gadgets/generic/barbed_wire.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "rtila_electroclaw"
+    },
+    "icon": "assets/operators/png/kaid.png",
+    "primaryWeapons": [
+      {
+        "id": "tcsg12",
+        "name": "TCSG12",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/TCSG12.png"
+      },
+      {
+        "id": "aug_a3",
+        "name": "AUG A3",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/AUG_A3.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "sdp_9mm",
+        "name": "SDP 9mm",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/SDP_9mm.png"
+      },
+      {
+        "id": "keratos_357",
+        "name": "Keratos .357",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Keratos_.357.png"
+      }
+    ]
+  },
+  {
+    "id": "mozzie",
+    "name": "Mozzie",
+    "side": "defense",
+    "org": "SASR",
+    "speed": 3,
+    "armor": 1,
+    "gadgets": [
+      {
+        "id": "nitro_cell"
+      },
+      {
+        "id": "bulletproof_camera",
+        "name": "Bulletproof Camera",
+        "type": "generic",
+        "description": "A hardened camera that can be placed on walls to provide intel on attackers.",
+        "image": "assets/gadgets/generic/bulletproof_camera.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "pest"
+    },
+    "icon": "assets/operators/png/mozzie.png",
+    "primaryWeapons": [
+      {
+        "id": "commando_9",
+        "name": "Commando 9",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/Commando_9.png"
+      },
+      {
+        "id": "p10roni",
+        "name": "P10 Roni",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/p10roni.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "supershorty",
+        "name": "Super Shorty",
+        "type": "Shotgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/supershorty.png"
+      },
+      {
+        "id": "gsh_18",
+        "name": "GSh-18",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/GSh-18.png"
+      }
+    ]
+  },
+  {
+    "id": "warden",
+    "name": "Warden",
+    "side": "defense",
+    "org": "Secret Service",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "proximity_alarm",
+        "name": "Proximity Alarm",
+        "type": "generic",
+        "description": "An alarm that triggers when enemies move through its detection range.",
+        "image": "assets/gadgets/generic/proximity_alarm.png"
+      },
+      {
+        "id": "nitro_cell"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "glance_smart_glasses"
+    },
+    "icon": "assets/operators/png/warden.png",
+    "primaryWeapons": [
+      {
+        "id": "mpx",
+        "name": "MPX",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/MPX.png"
+      },
+      {
+        "id": "m590a1",
+        "name": "M590A1",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M590A1.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "d_50",
+        "name": "D-50",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/D-50.png"
+      },
+      {
+        "id": "p_10c",
+        "name": "P-10C",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P-10C.png"
+      }
+    ]
+  },
+  {
+    "id": "goyo",
+    "name": "Goyo",
+    "side": "defense",
+    "org": "FUERZAS ESPECIALES",
+    "speed": 1,
+    "armor": 3,
+    "gadgets": [
+      {
+        "id": "nitro_cell"
+      },
+      {
+        "id": "smoke_grenade"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "volcan_canister"
+    },
+    "icon": "assets/operators/png/goyo.png",
+    "primaryWeapons": [
+      {
+        "id": "vector_45_acp",
+        "name": "Vector .45 ACP",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/Vector_.45_ACP.png"
+      },
+      {
+        "id": "tcsg12",
+        "name": "TCSG12",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/TCSG12.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "keratos_357",
+        "name": "Keratos .357",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Keratos_.357.png"
+      }
+    ]
+  },
+  {
+    "id": "wamai",
+    "name": "Wamai",
+    "side": "defense",
+    "org": "Nighthaven",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "bulletproof_camera",
+        "name": "Bulletproof Camera",
+        "type": "generic",
+        "description": "A hardened camera that can be placed on walls to provide intel on attackers.",
+        "image": "assets/gadgets/generic/bulletproof_camera.png"
+      },
+      {
+        "id": "impact_grenade",
+        "name": "Impact Grenade",
+        "type": "generic",
+        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
+        "image": "assets/gadgets/generic/impact_grenade.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "mag_net_system"
+    },
+    "icon": "assets/operators/png/wamai.png",
+    "primaryWeapons": [
+      {
+        "id": "aug_a2",
+        "name": "AUG A2",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/AUG_A2.png"
+      },
+      {
+        "id": "m590a1",
+        "name": "M590A1",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M590A1.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "keratos_357",
+        "name": "Keratos .357",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Keratos_.357.png"
+      },
+      {
+        "id": "p12",
+        "name": "P12",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P12.png"
+      }
+    ]
+  },
+  {
+    "id": "oryx",
+    "name": "Oryx",
+    "side": "defense",
+    "org": "GIGR",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "barbed_wire",
+        "name": "Barbed Wire",
+        "type": "generic",
+        "description": "Slows down enemies who walk through it and makes noise to alert defenders.",
+        "image": "assets/gadgets/generic/barbed_wire.png"
+      },
+      {
+        "id": "proximity_alarm",
+        "name": "Proximity Alarm",
+        "type": "generic",
+        "description": "An alarm that triggers when enemies move through its detection range.",
+        "image": "assets/gadgets/generic/proximity_alarm.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "remah_dash"
+    },
+    "icon": "assets/operators/png/oryx.png",
+    "primaryWeapons": [
+      {
+        "id": "fo_12",
+        "name": "FO-12",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/FO-12.png"
+      },
+      {
+        "id": "t_5_smg",
+        "name": "T-5 SMG",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/T-5_SMG.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "bailiff_410",
+        "name": "Bailiff 410",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Bailiff_410.png"
+      },
+      {
+        "id": "p_10c",
+        "name": "P-10C",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P-10C.png"
+      }
+    ]
+  },
+  {
+    "id": "melusi",
+    "name": "Melusi",
+    "side": "defense",
+    "org": "INKABA TFU",
+    "speed": 1,
+    "armor": 3,
+    "gadgets": [
+      {
+        "id": "bulletproof_camera",
+        "name": "Bulletproof Camera",
+        "type": "generic",
+        "description": "A hardened camera that can be placed on walls to provide intel on attackers.",
+        "image": "assets/gadgets/generic/bulletproof_camera.png"
+      },
+      {
+        "id": "impact_grenade",
+        "name": "Impact Grenade",
+        "type": "generic",
+        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
+        "image": "assets/gadgets/generic/impact_grenade.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "banshee_sonic_defense"
+    },
+    "icon": "assets/operators/png/melusi.png",
+    "primaryWeapons": [
+      {
+        "id": "super_90",
+        "name": "Super 90",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/Super_90.png"
+      },
+      {
+        "id": "mp5",
+        "name": "MP5",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/MP5.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "rg15",
+        "name": "RG15",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/RG15.png"
+      }
+    ]
+  },
+  {
+    "id": "aruni",
+    "name": "Aruni",
+    "side": "defense",
+    "org": "Nighthaven",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "barbed_wire",
+        "name": "Barbed Wire",
+        "type": "generic",
+        "description": "Slows down enemies who walk through it and makes noise to alert defenders.",
+        "image": "assets/gadgets/generic/barbed_wire.png"
+      },
+      {
+        "id": "bulletproof_camera",
+        "name": "Bulletproof Camera",
+        "type": "generic",
+        "description": "A hardened camera that can be placed on walls to provide intel on attackers.",
+        "image": "assets/gadgets/generic/bulletproof_camera.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "surya_gate"
+    },
+    "icon": "assets/operators/png/aruni.png",
+    "primaryWeapons": [
+      {
+        "id": "p10roni",
+        "name": "P10 Roni",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/p10roni.png"
+      },
+      {
+        "id": "mk_14_ebr",
+        "name": "Mk 14 EBR",
+        "type": "Marksman Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/Mk_14_EBR.png"
+      },
+      {
+        "id": "aug_a3",
+        "name": "AUG A3",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/AUG_A3.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "prb92",
+        "name": "PRB92",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/PRB92.png"
+      }
+    ]
+  },
+  {
+    "id": "thunderbird",
+    "name": "Thunderbird",
+    "side": "defense",
+    "org": "Nakoda Nation",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "barbed_wire",
+        "name": "Barbed Wire",
+        "type": "generic",
+        "description": "Slows down enemies who walk through it and makes noise to alert defenders.",
+        "image": "assets/gadgets/generic/barbed_wire.png"
+      },
+      {
+        "id": "impact_grenade",
+        "name": "Impact Grenade",
+        "type": "generic",
+        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
+        "image": "assets/gadgets/generic/impact_grenade.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "kona_station"
+    },
+    "icon": "assets/operators/png/thunderbird.png",
+    "primaryWeapons": [
+      {
+        "id": "spear_308",
+        "name": "Spear .308",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/Spear_.308.png"
+      },
+      {
+        "id": "spas_12",
+        "name": "SPAS-12",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SPAS-12.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "bearing_9",
+        "name": "Bearing 9",
+        "type": "Machine Pistol",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Bearing_9.png"
+      },
+      {
+        "id": "mk1_9mm",
+        "name": "Mk1 9mm",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Mk1_9mm_BI.png"
+      }
+    ]
+  },
+  {
+    "id": "thorn",
+    "name": "Thorn",
+    "side": "defense",
+    "org": "GIGR",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "barbed_wire",
+        "name": "Barbed Wire",
+        "type": "generic",
+        "description": "Slows down enemies who walk through it and makes noise to alert defenders.",
+        "image": "assets/gadgets/generic/barbed_wire.png"
+      },
+      {
+        "id": "bulletproof_camera",
+        "name": "Bulletproof Camera",
+        "type": "generic",
+        "description": "A hardened camera that can be placed on walls to provide intel on attackers.",
+        "image": "assets/gadgets/generic/bulletproof_camera.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "razorbloom"
+    },
+    "icon": "assets/operators/png/thorn.png",
+    "primaryWeapons": [
+      {
+        "id": "ump45",
+        "name": "UMP45",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/UMP45.png"
+      },
+      {
+        "id": "m870",
+        "name": "M870",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M870.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "prb92",
+        "name": "PRB92",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/PRB92.png"
+      }
+    ]
+  },
+  {
+    "id": "azami",
+    "name": "Azami",
+    "side": "defense",
+    "org": "SAT",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "impact_grenade",
+        "name": "Impact Grenade",
+        "type": "generic",
+        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
+        "image": "assets/gadgets/generic/impact_grenade.png"
+      },
+      {
+        "id": "proximity_alarm",
+        "name": "Proximity Alarm",
+        "type": "generic",
+        "description": "An alarm that triggers when enemies move through its detection range.",
+        "image": "assets/gadgets/generic/proximity_alarm.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "kiba_barrier"
+    },
+    "icon": "assets/operators/png/azami.png",
+    "primaryWeapons": [
+      {
+        "id": "9x19svn",
+        "name": "9X19SVN",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/9X19SVN.png"
+      },
+      {
+        "id": "mp5",
+        "name": "MP5",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/MP5.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "d_50",
+        "name": "D-50",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/D-50.png"
+      }
+    ]
+  },
+  {
+    "id": "solis",
+    "name": "Solis",
+    "side": "defense",
+    "org": "AFEAU",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "bulletproof_camera",
+        "name": "Bulletproof Camera",
+        "type": "generic",
+        "description": "A hardened camera that can be placed on walls to provide intel on attackers.",
+        "image": "assets/gadgets/generic/bulletproof_camera.png"
+      },
+      {
+        "id": "nitro_cell"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "spec_io_electro_sensor"
+    },
+    "icon": "assets/operators/png/solis.png",
+    "primaryWeapons": [
+      {
+        "id": "p90",
+        "name": "P90",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/P90.png"
+      },
+      {
+        "id": "sr_25",
+        "name": "SR-25",
+        "type": "Marksman Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/SR-25.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p12",
+        "name": "P12",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P12.png"
+      }
+    ]
+  },
+  {
+    "id": "fenrir",
+    "name": "Fenrir",
+    "side": "defense",
+    "org": "Swedish Army",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "bulletproof_camera",
+        "name": "Bulletproof Camera",
+        "type": "generic",
+        "description": "A hardened camera that can be placed on walls to provide intel on attackers.",
+        "image": "assets/gadgets/generic/bulletproof_camera.png"
+      },
+      {
+        "id": "proximity_alarm",
+        "name": "Proximity Alarm",
+        "type": "generic",
+        "description": "An alarm that triggers when enemies move through its detection range.",
+        "image": "assets/gadgets/generic/proximity_alarm.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "f_natt_doomstove"
+    },
+    "icon": "assets/operators/png/fenrir.png",
+    "primaryWeapons": [
+      {
+        "id": "pmr90a2",
+        "name": "PMR90A2",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/PMR90A2.png"
+      },
+      {
+        "id": "mp7",
+        "name": "MP7",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/MP7.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "reaper_mk2",
+        "name": "Reaper MK2",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/reaper-mk2.png"
+      }
+    ]
+  },
+  {
+    "id": "tubarao",
+    "name": "Tubarao",
+    "side": "defense",
+    "org": "Marinha do Brasil",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "impact_grenade",
+        "name": "Impact Grenade",
+        "type": "generic",
+        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
+        "image": "assets/gadgets/generic/impact_grenade.png"
+      },
+      {
+        "id": "nitro_cell"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "zoto_canister"
+    },
+    "icon": "assets/operators/png/tubarao.png",
+    "primaryWeapons": [
+      {
+        "id": "mpx",
+        "name": "MPX",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/MPX.png"
+      },
+      {
+        "id": "spas_15",
+        "name": "SPAS-15",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SPAS-15.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "q_929",
+        "name": "Q-929",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Q-929.png"
+      }
+    ]
+  },
+  {
+    "id": "sentry",
+    "name": "Sentry",
+    "side": "defense",
+    "org": "US Army",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "barbed_wire",
+        "name": "Barbed Wire",
+        "type": "generic",
+        "description": "Slows down enemies who walk through it and makes noise to alert defenders.",
+        "image": "assets/gadgets/generic/barbed_wire.png"
+      },
+      {
+        "id": "bulletproof_camera",
+        "name": "Bulletproof Camera",
+        "type": "generic",
+        "description": "A hardened camera that can be placed on walls to provide intel on attackers.",
+        "image": "assets/gadgets/generic/bulletproof_camera.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "gadget_pouch"
+    },
+    "icon": "assets/operators/png/sentry.png",
+    "primaryWeapons": [
+      {
+        "id": "m249",
+        "name": "M249",
+        "type": "Light Machine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M249.png"
+      },
+      {
+        "id": "pcx_33",
+        "name": "PCX-33",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/pcx-33.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "glaive_12",
+        "name": "Glaive-12",
+        "type": "Shotgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/glaive-12.png"
+      },
+      {
+        "id": "1911_tacops",
+        "name": "1911 TACOPS",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/1911_TACOPS.png"
+      }
+    ]
+  },
+  {
+    "id": "skopos",
+    "name": "Skopos",
+    "side": "defense",
+    "org": "Nighthaven",
+    "speed": 3,
+    "armor": 1,
+    "gadgets": [
+      {
+        "id": "impact_grenade",
+        "name": "Impact Grenade",
+        "type": "generic",
+        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
+        "image": "assets/gadgets/generic/impact_grenade.png"
+      },
+      {
+        "id": "proximity_alarm",
+        "name": "Proximity Alarm",
+        "type": "generic",
+        "description": "An alarm that triggers when enemies move through its detection range.",
+        "image": "assets/gadgets/generic/proximity_alarm.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "reticle"
+    },
+    "icon": "assets/operators/png/skopos.png",
+    "primaryWeapons": [
+      {
+        "id": "556xi",
+        "name": "556xi",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/556xi.png"
+      },
+      {
+        "id": "pdw9",
+        "name": "PDW9",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/PDW9.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "p229",
+        "name": "P229",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P229.png"
+      }
+    ]
+  },
+  {
+    "id": "denari",
+    "name": "Denari",
+    "side": "defense",
+    "org": "GIS",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "bulletproof_camera",
+        "name": "Bulletproof Camera",
+        "type": "generic",
+        "description": "A hardened camera that can be placed on walls to provide intel on attackers.",
+        "image": "assets/gadgets/generic/bulletproof_camera.png"
+      },
+      {
+        "id": "nitro_cell"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "spectre"
+    },
+    "icon": "assets/operators/png/denari.png",
+    "primaryWeapons": [
+      {
+        "id": "mx4_storm",
+        "name": "Mx4 Storm",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/Mx4_Storm.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "bailiff_410",
+        "name": "Bailiff 410",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Bailiff_410.png"
+      },
+      {
+        "id": "keratos_357",
+        "name": "Keratos .357",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Keratos_.357.png"
+      }
+    ]
+  },
+  {
+    "id": "recruit_blue",
+    "name": "Recruit (Blue)",
+    "side": "attack",
+    "org": "Unspecified",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [],
+    "uniqueGadget": null,
+    "icon": "assets/operators/png/recruit_blue.png",
+    "primaryWeapons": [],
+    "secondaryWeapons": []
+  },
+  {
+    "id": "recruit_green",
+    "name": "Recruit (Green)",
+    "side": "attack",
+    "org": "Unspecified",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [],
+    "uniqueGadget": null,
+    "icon": "assets/operators/png/recruit_green.png",
+    "primaryWeapons": [],
+    "secondaryWeapons": []
+  },
+  {
+    "id": "recruit_orange",
+    "name": "Recruit (Orange)",
+    "side": "attack",
+    "org": "Unspecified",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [],
+    "uniqueGadget": null,
+    "icon": "assets/operators/png/recruit_orange.png",
+    "primaryWeapons": [],
+    "secondaryWeapons": []
+  },
+  {
+    "id": "recruit_red",
+    "name": "Recruit (Red)",
+    "side": "defense",
+    "org": "Unspecified",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [],
+    "uniqueGadget": null,
+    "icon": "assets/operators/png/recruit_red.png",
+    "primaryWeapons": [],
+    "secondaryWeapons": []
+  },
+  {
+    "id": "recruit_yellow",
+    "name": "Recruit (Yellow)",
+    "side": "defense",
+    "org": "Unspecified",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [],
+    "uniqueGadget": null,
+    "icon": "assets/operators/png/recruit_yellow.png",
+    "primaryWeapons": [],
+    "secondaryWeapons": []
   }
 ]
