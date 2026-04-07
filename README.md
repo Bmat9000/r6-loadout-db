@@ -2,6 +2,8 @@
 
 A community database of **Rainbow Six Siege** operators, weapons, and gadgets — with a dark-themed browser viewer and a Node.js build script that merges all data into a single, fully-resolved JSON file.
 
+🌐 **Live site:** [https://bmat9000.github.io/r6-loadout-db/](https://bmat9000.github.io/r6-loadout-db/)
+
 ---
 
 ## 📁 Folder Structure
@@ -30,6 +32,7 @@ r6-loadout-db/
 ├── scripts/
 │   └── build-final-json.js  ← build script
 │
+├── index.html             ← GitHub Pages entry point (same as viewer.html)
 ├── viewer.html            ← browser-based operator viewer
 ├── style.css              ← dark theme styles
 └── package.json
@@ -39,29 +42,33 @@ r6-loadout-db/
 
 ## 🚀 Getting Started
 
-### 1. Generate the full JSON
+### View it live
 
-Run the build script to merge `operators.json`, `weapons.json`, and `gadgets.json` into a single resolved file:
+Visit the live site at [https://bmat9000.github.io/r6-loadout-db/](https://bmat9000.github.io/r6-loadout-db/) — no setup required!
 
-```bash
-npm run build
-```
+### For developers — use the data
 
-The output is written to `output/operators.full.json`.
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/Bmat9000/r6-loadout-db.git
+   cd r6-loadout-db
+   ```
 
-### 2. Open the viewer
+2. **Data files** are in `data/operators.json` and `data/weapons.json`
 
-Open `viewer.html` in a browser **via a local HTTP server** (required for the `fetch()` call):
+3. **Assets** are in the `assets/` folder
 
-```bash
-# Using Node.js (npx)
-npx serve .
+4. **Generate the merged JSON** (optional — `output/operators.full.json` is already committed):
+   ```bash
+   npm install
+   npm run build
+   ```
 
-# Or Python
-python3 -m http.server 8080
-```
-
-Then navigate to `http://localhost:8080/viewer.html`.
+5. **Run locally**:
+   ```bash
+   npx serve .
+   ```
+   Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
