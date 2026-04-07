@@ -1,5 +1,27 @@
 [
   {
+    "id": "striker",
+    "name": "Striker",
+    "side": "attack",
+    "org": "US Army",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      "breach_charge",
+      "stun_grenade"
+    ],
+    "uniqueGadget": "gadget_pouch",
+    "icon": "assets/operators/png/striker.png",
+    "primaryWeapons": [
+      "m4",
+      "f2000"
+    ],
+    "secondaryWeapons": [
+      "1911_tacops"
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Silent-Step.png"
+  },
+  {
     "id": "sledge",
     "name": "Sledge",
     "side": "attack",
@@ -18,7 +40,8 @@
     ],
     "secondaryWeapons": [
       "p226_mk_25"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Tactical-Breaching-Hammer.png"
   },
   {
     "id": "thatcher",
@@ -40,7 +63,8 @@
     ],
     "secondaryWeapons": [
       "p226_mk_25"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-thatcher.png"
   },
   {
     "id": "ash",
@@ -62,7 +86,8 @@
     "secondaryWeapons": [
       "m45_meusoc",
       "5_7_usg"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Breaching-Rounds.png"
   },
   {
     "id": "thermite",
@@ -84,7 +109,8 @@
     "secondaryWeapons": [
       "m45_meusoc",
       "5_7_usg"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Exothermic-Charge.png"
   },
   {
     "id": "twitch",
@@ -107,7 +133,8 @@
     "secondaryWeapons": [
       "p9",
       "lfp586"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Shock-Drones.png"
   },
   {
     "id": "montagne",
@@ -128,7 +155,8 @@
     "secondaryWeapons": [
       "p9",
       "lfp586"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Extendable-Shield.png"
   },
   {
     "id": "glaz",
@@ -148,7 +176,8 @@
     ],
     "secondaryWeapons": [
       "gsh_18"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Flip-Sight.png"
   },
   {
     "id": "fuze",
@@ -170,7 +199,8 @@
     ],
     "secondaryWeapons": [
       "gsh_18"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Cluster-Charge.png"
   },
   {
     "id": "blitz",
@@ -190,7 +220,8 @@
     ],
     "secondaryWeapons": [
       "p12"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Flash-Shield.png"
   },
   {
     "id": "iq",
@@ -212,7 +243,8 @@
     ],
     "secondaryWeapons": [
       "p12"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Electronics-Detector.png"
   },
   {
     "id": "buck",
@@ -233,7 +265,8 @@
     ],
     "secondaryWeapons": [
       "mk1_9mm"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Skeleton-Key.png"
   },
   {
     "id": "blackbeard",
@@ -254,7 +287,8 @@
     ],
     "secondaryWeapons": [
       "d_50"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-blackbeard__1_.png"
   },
   {
     "id": "capitao",
@@ -275,7 +309,8 @@
     ],
     "secondaryWeapons": [
       "prb92"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Tactical-Crossbow.png"
   },
   {
     "id": "hibana",
@@ -296,7 +331,8 @@
     ],
     "secondaryWeapons": [
       "p229"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/X-Kairos.png"
   },
   {
     "id": "jackal",
@@ -318,7 +354,8 @@
     "secondaryWeapons": [
       "bearing_9",
       "q_929"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Eyenox-Model-III.png"
   },
   {
     "id": "ying",
@@ -339,7 +376,8 @@
     ],
     "secondaryWeapons": [
       "q_929"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Candela.png"
   },
   {
     "id": "zofia",
@@ -361,7 +399,8 @@
     "secondaryWeapons": [
       "rg15",
       "bailiff_410"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Grzmot-Mine.png"
   },
   {
     "id": "dokkaebi",
@@ -383,7 +422,8 @@
     "secondaryWeapons": [
       "c75_auto",
       "smg_12"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Logic-Bomb.png"
   },
   {
     "id": "lion",
@@ -406,7 +446,8 @@
     "secondaryWeapons": [
       "p9",
       "lfp586"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/EE-ONE-D.png"
   },
   {
     "id": "finka",
@@ -428,7 +469,8 @@
     ],
     "secondaryWeapons": [
       "gsh_18"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Adrenal-Surge.png"
   },
   {
     "id": "maverick",
@@ -449,7 +491,8 @@
     ],
     "secondaryWeapons": [
       "1911_tacops"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Breaching-Torch.png"
   },
   {
     "id": "nomad",
@@ -469,7 +512,8 @@
     ],
     "secondaryWeapons": [
       "44_mag_semi_auto"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Airjab-Launcher.png"
   },
   {
     "id": "gridlock",
@@ -491,7 +535,8 @@
     "secondaryWeapons": [
       "supershorty",
       "gsh_18"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Trax-Stingers.png"
   },
   {
     "id": "nokk",
@@ -513,7 +558,8 @@
     "secondaryWeapons": [
       "5_7_usg",
       "d_50"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/HEL-Presence-Reduction.png"
   },
   {
     "id": "amaru",
@@ -535,7 +581,8 @@
     "secondaryWeapons": [
       "bearing_9",
       "smg_11"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Garra-Hook.png"
   },
   {
     "id": "kali",
@@ -556,7 +603,8 @@
     "secondaryWeapons": [
       "spsmg9",
       "p226_mk_25"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/LV_Explosive_Lance.png"
   },
   {
     "id": "iana",
@@ -577,7 +625,8 @@
     ],
     "secondaryWeapons": [
       "mk1_9mm"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-iana.png"
   },
   {
     "id": "ace",
@@ -598,7 +647,8 @@
     ],
     "secondaryWeapons": [
       "p9"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-ace.png"
   },
   {
     "id": "zero",
@@ -618,7 +668,8 @@
     ],
     "secondaryWeapons": [
       "5_7_usg"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-zero.png"
   },
   {
     "id": "flores",
@@ -639,7 +690,8 @@
     ],
     "secondaryWeapons": [
       "gsh_18"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-flores.png"
   },
   {
     "id": "osa",
@@ -659,7 +711,8 @@
     ],
     "secondaryWeapons": [
       "pmm"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-osa.png"
   },
   {
     "id": "sens",
@@ -680,7 +733,8 @@
     ],
     "secondaryWeapons": [
       "p12"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-sens.png"
   },
   {
     "id": "grim",
@@ -700,7 +754,8 @@
     ],
     "secondaryWeapons": [
       "p229"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-grim.png"
   },
   {
     "id": "brava",
@@ -720,7 +775,8 @@
     ],
     "secondaryWeapons": [
       "supershorty"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-brava.png"
   },
   {
     "id": "ram",
@@ -741,7 +797,8 @@
     ],
     "secondaryWeapons": [
       "44vendetta"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-ram.png"
   },
   {
     "id": "deimos",
@@ -762,28 +819,8 @@
     ],
     "secondaryWeapons": [
       "tacit_45"
-    ]
-  },
-  {
-    "id": "striker",
-    "name": "Striker",
-    "side": "attack",
-    "org": "US Army",
-    "speed": 2,
-    "armor": 2,
-    "gadgets": [
-      "breach_charge",
-      "stun_grenade"
     ],
-    "uniqueGadget": "gadget_pouch",
-    "icon": "assets/operators/png/striker.png",
-    "primaryWeapons": [
-      "m4",
-      "f2000"
-    ],
-    "secondaryWeapons": [
-      "1911_tacops"
-    ]
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-deimos.png"
   },
   {
     "id": "rauora",
@@ -804,7 +841,95 @@
     ],
     "secondaryWeapons": [
       "rg15"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-rauora.png"
+  },
+  {
+    "id": "skopos",
+    "name": "Skopos",
+    "side": "attack",
+    "org": "NIGHTHAVEN",
+    "speed": 3,
+    "armor": 1,
+    "gadgets": [
+      "breach_charge",
+      "claymore"
+    ],
+    "uniqueGadget": "raven_drone",
+    "icon": "assets/operators/png/skopos.png",
+    "primaryWeapons": [
+      "pcx_33"
+    ],
+    "secondaryWeapons": [
+      "glaive_12"
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-skopos.png"
+  },
+  {
+    "id": "denari",
+    "name": "Denari",
+    "side": "attack",
+    "org": "NIGHTHAVEN",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      "stun_grenade",
+      "smoke_grenade"
+    ],
+    "uniqueGadget": "mining_drill",
+    "icon": "assets/operators/png/denari.png",
+    "primaryWeapons": [
+      "uzk50gi"
+    ],
+    "secondaryWeapons": [
+      "glaive_12"
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-denari.png"
+  },
+  {
+    "id": "solidsnake",
+    "name": "Solid Snake",
+    "side": "attack",
+    "org": "FOX HOUND",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      "frag_grenade",
+      "hard_breach_charge"
+    ],
+    "uniqueGadget": "cardboard_box",
+    "icon": "assets/operators/png/solidsnake.png",
+    "primaryWeapons": [
+      "pmr90a2",
+      "uzk50gi"
+    ],
+    "secondaryWeapons": [
+      "reaper_mk2"
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-solidsnake.png"
+  },
+  {
+    "id": "sentry",
+    "name": "Sentry",
+    "side": "defense",
+    "org": "US Army",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      "barbed_wire",
+      "bulletproof_camera"
+    ],
+    "uniqueGadget": "gadget_pouch",
+    "icon": "assets/operators/png/sentry.png",
+    "primaryWeapons": [
+      "m249",
+      "pcx_33"
+    ],
+    "secondaryWeapons": [
+      "glaive_12",
+      "1911_tacops"
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Silent-Step.png"
   },
   {
     "id": "smoke",
@@ -826,7 +951,8 @@
     "secondaryWeapons": [
       "p226_mk_25",
       "smg_11"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Remote-Gas-Grenade.png"
   },
   {
     "id": "mute",
@@ -848,7 +974,8 @@
     "secondaryWeapons": [
       "p226_mk_25",
       "smg_11"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Signal-Disruptor.png"
   },
   {
     "id": "castle",
@@ -870,7 +997,8 @@
     "secondaryWeapons": [
       "5_7_usg",
       "m45_meusoc"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Armor-Panel.png"
   },
   {
     "id": "pulse",
@@ -892,7 +1020,8 @@
     "secondaryWeapons": [
       "5_7_usg",
       "m45_meusoc"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Heartbeat-Sensor.png"
   },
   {
     "id": "doc",
@@ -914,7 +1043,8 @@
     "secondaryWeapons": [
       "p9",
       "lfp586"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Stim-Pistol.png"
   },
   {
     "id": "rook",
@@ -936,7 +1066,8 @@
     "secondaryWeapons": [
       "lfp586",
       "p9"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Armor-Pack.png"
   },
   {
     "id": "kapkan",
@@ -957,7 +1088,8 @@
     ],
     "secondaryWeapons": [
       "gsh_18"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Entry-Denial-Device.png"
   },
   {
     "id": "tachanka",
@@ -979,7 +1111,8 @@
     ],
     "secondaryWeapons": [
       "gsh_18"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Shumikha-Launcher.png"
   },
   {
     "id": "jager",
@@ -1000,7 +1133,8 @@
     ],
     "secondaryWeapons": [
       "p12"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Active-Defense-System.png"
   },
   {
     "id": "bandit",
@@ -1021,7 +1155,8 @@
     ],
     "secondaryWeapons": [
       "p12"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Shock-Wire.png"
   },
   {
     "id": "frost",
@@ -1042,7 +1177,8 @@
     ],
     "secondaryWeapons": [
       "mk1_9mm"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Welcome-Mate.png"
   },
   {
     "id": "valkyrie",
@@ -1063,7 +1199,8 @@
     ],
     "secondaryWeapons": [
       "d_50"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Black-Eye.png"
   },
   {
     "id": "caveira",
@@ -1084,7 +1221,8 @@
     ],
     "secondaryWeapons": [
       "luison"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Silent-Step.png"
   },
   {
     "id": "echo",
@@ -1106,7 +1244,8 @@
     ],
     "secondaryWeapons": [
       "p229"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Yokai.png"
   },
   {
     "id": "mira",
@@ -1127,72 +1266,8 @@
     ],
     "secondaryWeapons": [
       "ita12s"
-    ]
-  },
-  {
-    "id": "lesion",
-    "name": "Lesion",
-    "side": "defense",
-    "org": "SDU",
-    "speed": 2,
-    "armor": 2,
-    "gadgets": [
-      "bulletproof_camera",
-      "impact_grenade"
     ],
-    "uniqueGadget": "gu_mines",
-    "icon": "assets/operators/png/lesion.png",
-    "primaryWeapons": [
-      "t_5_smg",
-      "supernova"
-    ],
-    "secondaryWeapons": [
-      "q_929"
-    ]
-  },
-  {
-    "id": "ela",
-    "name": "Ela",
-    "side": "defense",
-    "org": "GROM",
-    "speed": 3,
-    "armor": 1,
-    "gadgets": [
-      "barbed_wire",
-      "impact_grenade"
-    ],
-    "uniqueGadget": "grzmot_mine",
-    "icon": "assets/operators/png/ela.png",
-    "primaryWeapons": [
-      "scorpion_evo_3_a1",
-      "fo_12"
-    ],
-    "secondaryWeapons": [
-      "rg15",
-      "bailiff_410"
-    ]
-  },
-  {
-    "id": "vigil",
-    "name": "Vigil",
-    "side": "defense",
-    "org": "707th SMB",
-    "speed": 3,
-    "armor": 1,
-    "gadgets": [
-      "bulletproof_camera",
-      "nitro_cell"
-    ],
-    "uniqueGadget": "erc_7",
-    "icon": "assets/operators/png/vigil.png",
-    "primaryWeapons": [
-      "k1a",
-      "arx200"
-    ],
-    "secondaryWeapons": [
-      "c75_auto",
-      "smg_12"
-    ]
+    "uniqueGadgetIcon": "assets/gadgets/unique/Black-mirror.png"
   },
   {
     "id": "maestro",
@@ -1215,7 +1290,8 @@
     "secondaryWeapons": [
       "bailiff_410",
       "ita12s"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Evil-Eye.png"
   },
   {
     "id": "alibi",
@@ -1237,50 +1313,8 @@
     "secondaryWeapons": [
       "bailiff_410",
       "keratos_357"
-    ]
-  },
-  {
-    "id": "clash",
-    "name": "Clash",
-    "side": "defense",
-    "org": "GSUTR",
-    "speed": 1,
-    "armor": 3,
-    "gadgets": [
-      "impact_grenade",
-      "barbed_wire"
     ],
-    "uniqueGadget": "cce_shield",
-    "icon": "assets/operators/png/clash.png",
-    "primaryWeapons": [
-      "cce_shield"
-    ],
-    "secondaryWeapons": [
-      "spsmg9",
-      "p_10c"
-    ]
-  },
-  {
-    "id": "kaid",
-    "name": "Kaid",
-    "side": "defense",
-    "org": "GIGR",
-    "speed": 1,
-    "armor": 3,
-    "gadgets": [
-      "nitro_cell",
-      "barbed_wire"
-    ],
-    "uniqueGadget": "rtila_electroclaw",
-    "icon": "assets/operators/png/kaid.png",
-    "primaryWeapons": [
-      "tcsg12",
-      "aug_a3"
-    ],
-    "secondaryWeapons": [
-      "sdp_9mm",
-      "keratos_357"
-    ]
+    "uniqueGadgetIcon": "assets/gadgets/unique/Prisma.png"
   },
   {
     "id": "mozzie",
@@ -1302,7 +1336,8 @@
     "secondaryWeapons": [
       "supershorty",
       "gsh_18"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Pest-Launcher.png"
   },
   {
     "id": "warden",
@@ -1324,7 +1359,8 @@
     "secondaryWeapons": [
       "d_50",
       "p_10c"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Glance-Smart-Glasses.png"
   },
   {
     "id": "goyo",
@@ -1345,7 +1381,121 @@
     ],
     "secondaryWeapons": [
       "keratos_357"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Volcan-Shield.png"
+  },
+  {
+    "id": "vigil",
+    "name": "Vigil",
+    "side": "defense",
+    "org": "707th SMB",
+    "speed": 3,
+    "armor": 1,
+    "gadgets": [
+      "bulletproof_camera",
+      "nitro_cell"
+    ],
+    "uniqueGadget": "erc_7",
+    "icon": "assets/operators/png/vigil.png",
+    "primaryWeapons": [
+      "k1a",
+      "arx200"
+    ],
+    "secondaryWeapons": [
+      "c75_auto",
+      "smg_12"
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/ERC-7.png"
+  },
+  {
+    "id": "lesion",
+    "name": "Lesion",
+    "side": "defense",
+    "org": "SDU",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      "bulletproof_camera",
+      "impact_grenade"
+    ],
+    "uniqueGadget": "gu_mines",
+    "icon": "assets/operators/png/lesion.png",
+    "primaryWeapons": [
+      "t_5_smg",
+      "supernova"
+    ],
+    "secondaryWeapons": [
+      "q_929"
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Gu-mines.png"
+  },
+  {
+    "id": "ela",
+    "name": "Ela",
+    "side": "defense",
+    "org": "GROM",
+    "speed": 3,
+    "armor": 1,
+    "gadgets": [
+      "barbed_wire",
+      "impact_grenade"
+    ],
+    "uniqueGadget": "grzmot_mine",
+    "icon": "assets/operators/png/ela.png",
+    "primaryWeapons": [
+      "scorpion_evo_3_a1",
+      "fo_12"
+    ],
+    "secondaryWeapons": [
+      "rg15",
+      "bailiff_410"
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Grzmot-Mine.png"
+  },
+  {
+    "id": "clash",
+    "name": "Clash",
+    "side": "defense",
+    "org": "GSUTR",
+    "speed": 1,
+    "armor": 3,
+    "gadgets": [
+      "impact_grenade",
+      "barbed_wire"
+    ],
+    "uniqueGadget": "cce_shield",
+    "icon": "assets/operators/png/clash.png",
+    "primaryWeapons": [
+      "cce_shield"
+    ],
+    "secondaryWeapons": [
+      "spsmg9",
+      "p_10c"
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/CCE-Shield.png"
+  },
+  {
+    "id": "kaid",
+    "name": "Kaid",
+    "side": "defense",
+    "org": "GIGR",
+    "speed": 1,
+    "armor": 3,
+    "gadgets": [
+      "nitro_cell",
+      "barbed_wire"
+    ],
+    "uniqueGadget": "rtila_electroclaw",
+    "icon": "assets/operators/png/kaid.png",
+    "primaryWeapons": [
+      "tcsg12",
+      "aug_a3"
+    ],
+    "secondaryWeapons": [
+      "sdp_9mm",
+      "keratos_357"
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Rtila-Electroclaw.png"
   },
   {
     "id": "wamai",
@@ -1367,7 +1517,8 @@
     "secondaryWeapons": [
       "keratos_357",
       "p12"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Mag-net_System.png"
   },
   {
     "id": "oryx",
@@ -1389,7 +1540,8 @@
     "secondaryWeapons": [
       "bailiff_410",
       "p_10c"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-oryx.png"
   },
   {
     "id": "melusi",
@@ -1410,7 +1562,8 @@
     ],
     "secondaryWeapons": [
       "rg15"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-melusi.png"
   },
   {
     "id": "aruni",
@@ -1432,7 +1585,8 @@
     ],
     "secondaryWeapons": [
       "prb92"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-aruni.png"
   },
   {
     "id": "thunderbird",
@@ -1454,7 +1608,8 @@
     "secondaryWeapons": [
       "bearing_9",
       "mk1_9mm"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-thunderbird.png"
   },
   {
     "id": "thorn",
@@ -1475,28 +1630,8 @@
     ],
     "secondaryWeapons": [
       "prb92"
-    ]
-  },
-  {
-    "id": "azami",
-    "name": "Azami",
-    "side": "defense",
-    "org": "SAT",
-    "speed": 2,
-    "armor": 2,
-    "gadgets": [
-      "impact_grenade",
-      "proximity_alarm"
     ],
-    "uniqueGadget": "kiba_barrier",
-    "icon": "assets/operators/png/azami.png",
-    "primaryWeapons": [
-      "9x19svn",
-      "mp5"
-    ],
-    "secondaryWeapons": [
-      "d_50"
-    ]
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-thorn.png"
   },
   {
     "id": "solis",
@@ -1517,7 +1652,8 @@
     ],
     "secondaryWeapons": [
       "p12"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-solis.png"
   },
   {
     "id": "fenrir",
@@ -1538,7 +1674,30 @@
     ],
     "secondaryWeapons": [
       "reaper_mk2"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-fenrir-v1.png"
+  },
+  {
+    "id": "azami",
+    "name": "Azami",
+    "side": "defense",
+    "org": "SAT",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      "impact_grenade",
+      "proximity_alarm"
+    ],
+    "uniqueGadget": "kiba_barrier",
+    "icon": "assets/operators/png/azami.png",
+    "primaryWeapons": [
+      "9x19svn",
+      "mp5"
+    ],
+    "secondaryWeapons": [
+      "d_50"
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-azami.png"
   },
   {
     "id": "tubarao",
@@ -1559,135 +1718,28 @@
     ],
     "secondaryWeapons": [
       "q_929"
-    ]
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-tubarao-v1.png"
   },
   {
-    "id": "sentry",
-    "name": "Sentry",
+    "id": "doki",
+    "name": "Doki",
     "side": "defense",
-    "org": "US Army",
-    "speed": 2,
-    "armor": 2,
-    "gadgets": [
-      "barbed_wire",
-      "bulletproof_camera"
-    ],
-    "uniqueGadget": "gadget_pouch",
-    "icon": "assets/operators/png/sentry.png",
-    "primaryWeapons": [
-      "m249",
-      "pcx_33"
-    ],
-    "secondaryWeapons": [
-      "glaive_12",
-      "1911_tacops"
-    ]
-  },
-  {
-    "id": "skopos",
-    "name": "Skopos",
-    "side": "defense",
-    "org": "Nighthaven",
-    "speed": 3,
-    "armor": 1,
-    "gadgets": [
-      "impact_grenade",
-      "proximity_alarm"
-    ],
-    "uniqueGadget": "reticle",
-    "icon": "assets/operators/png/skopos.png",
-    "primaryWeapons": [
-      "556xi",
-      "pdw9"
-    ],
-    "secondaryWeapons": [
-      "p229"
-    ]
-  },
-  {
-    "id": "denari",
-    "name": "Denari",
-    "side": "defense",
-    "org": "GIS",
+    "org": "NIGHTHAVEN",
     "speed": 2,
     "armor": 2,
     "gadgets": [
       "bulletproof_camera",
       "nitro_cell"
     ],
-    "uniqueGadget": "spectre",
-    "icon": "assets/operators/png/denari.png",
+    "uniqueGadget": "prisma_drone",
+    "icon": "assets/operators/png/doki.png",
     "primaryWeapons": [
       "mx4_storm"
     ],
     "secondaryWeapons": [
-      "bailiff_410",
-      "keratos_357"
-    ]
-  },
-  {
-    "id": "recruit_blue",
-    "name": "Recruit (Blue)",
-    "side": "attack",
-    "org": "Unspecified",
-    "speed": 2,
-    "armor": 2,
-    "gadgets": [],
-    "uniqueGadget": null,
-    "icon": "assets/operators/png/recruit_blue.png",
-    "primaryWeapons": [],
-    "secondaryWeapons": []
-  },
-  {
-    "id": "recruit_green",
-    "name": "Recruit (Green)",
-    "side": "attack",
-    "org": "Unspecified",
-    "speed": 2,
-    "armor": 2,
-    "gadgets": [],
-    "uniqueGadget": null,
-    "icon": "assets/operators/png/recruit_green.png",
-    "primaryWeapons": [],
-    "secondaryWeapons": []
-  },
-  {
-    "id": "recruit_orange",
-    "name": "Recruit (Orange)",
-    "side": "attack",
-    "org": "Unspecified",
-    "speed": 2,
-    "armor": 2,
-    "gadgets": [],
-    "uniqueGadget": null,
-    "icon": "assets/operators/png/recruit_orange.png",
-    "primaryWeapons": [],
-    "secondaryWeapons": []
-  },
-  {
-    "id": "recruit_red",
-    "name": "Recruit (Red)",
-    "side": "defense",
-    "org": "Unspecified",
-    "speed": 2,
-    "armor": 2,
-    "gadgets": [],
-    "uniqueGadget": null,
-    "icon": "assets/operators/png/recruit_red.png",
-    "primaryWeapons": [],
-    "secondaryWeapons": []
-  },
-  {
-    "id": "recruit_yellow",
-    "name": "Recruit (Yellow)",
-    "side": "defense",
-    "org": "Unspecified",
-    "speed": 2,
-    "armor": 2,
-    "gadgets": [],
-    "uniqueGadget": null,
-    "icon": "assets/operators/png/recruit_yellow.png",
-    "primaryWeapons": [],
-    "secondaryWeapons": []
+      "glaive_12"
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/Prisma.png"
   }
 ]
