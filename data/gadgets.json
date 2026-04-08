@@ -614,5 +614,47 @@
     "type": "unique",
     "description": "Rook's unique gadget. A bag of armor packs that all operators can pick up to increase their armor rating.",
     "image": "assets/gadgets/unique/Armor-Pack.png"
+  },
+  {
+    "id": "dom_panel_launcher",
+    "name": "D.O.M. Panel Launcher",
+    "type": "unique",
+    "description": "Rauora's unique gadget. Launches deployable panels that block lines of sight and provide cover.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-rauora.png"
+  },
+  {
+    "id": "v10_pantheon_shells",
+    "name": "V10 Pantheon Shells",
+    "type": "unique",
+    "description": "Skopos's unique gadget. Special shells that enhance area denial and control.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-skopos.png"
+  },
+  {
+    "id": "soliton_radar_mk_iii",
+    "name": "Soliton Radar Mk. III",
+    "type": "unique",
+    "description": "Solid Snake's unique gadget. A radar system that detects enemy movements through walls.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-solidsnake.png"
+  },
+  {
+    "id": "trip_connector",
+    "name": "T.R.I.P. Connector",
+    "type": "unique",
+    "description": "Denari's unique gadget. A tripwire connector that links traps and triggers coordinated responses.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-denari.png"
+  },
+  {
+    "id": "observation_blocker",
+    "name": "Observation Blocker",
+    "type": "generic",
+    "description": "A device that blocks enemy observation tools and surveillance equipment.",
+    "image": "assets/gadgets/generic/observation_blocker.png"
+  },
+  {
+    "id": "deployable_shield",
+    "name": "Deployable Shield",
+    "type": "generic",
+    "description": "A portable ballistic shield that can be deployed on the ground to provide cover.",
+    "image": "assets/gadgets/generic/deployable_shield.png"
   }
 ]

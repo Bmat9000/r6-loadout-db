@@ -39,20 +39,34 @@
         "image": "assets/weapons/primary/M4.png"
       },
       {
-        "id": "f2000",
-        "name": "F2000",
-        "type": "Assault Rifle",
+        "id": "m249",
+        "name": "M249",
+        "type": "Light Machine Gun",
         "category": "primary",
-        "image": "assets/weapons/primary/F2000.png"
+        "image": "assets/weapons/primary/M249.png"
+      },
+      {
+        "id": "sr_25",
+        "name": "SR-25",
+        "type": "Marksman Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/SR-25.png"
       }
     ],
     "secondaryWeapons": [
       {
-        "id": "1911_tacops",
-        "name": "1911 TACOPS",
+        "id": "5_7_usg",
+        "name": "5.7 USG",
         "type": "Handgun",
         "category": "secondary",
-        "image": "assets/weapons/secondary/1911_TACOPS.png"
+        "image": "assets/weapons/secondary/5.7_USG.png"
+      },
+      {
+        "id": "ita12s",
+        "name": "ITA12S",
+        "type": "Shotgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/ITA12S.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Silent-Step.png"
@@ -111,6 +125,13 @@
         "type": "Handgun",
         "category": "secondary",
         "image": "assets/weapons/secondary/P226_Mk_25.png"
+      },
+      {
+        "id": "reaper_mk2",
+        "name": "Reaper MK2",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/reaper-mk2.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Tactical-Breaching-Hammer.png"
@@ -821,18 +842,18 @@
     "icon": "assets/operators/png/capitao.png",
     "primaryWeapons": [
       {
-        "id": "para_308",
-        "name": "PARA-308",
-        "type": "Assault Rifle",
-        "category": "primary",
-        "image": "assets/weapons/primary/PARA-308.png"
-      },
-      {
         "id": "m249",
         "name": "M249",
         "type": "Light Machine Gun",
         "category": "primary",
         "image": "assets/weapons/primary/M249.png"
+      },
+      {
+        "id": "para_308",
+        "name": "PARA-308",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/PARA-308.png"
       }
     ],
     "secondaryWeapons": [
@@ -2232,36 +2253,43 @@
       }
     ],
     "uniqueGadget": {
-      "id": "parawing_kit",
-      "name": "Parawing Kit",
+      "id": "dom_panel_launcher",
+      "name": "D.O.M. Panel Launcher",
       "type": "unique",
-      "description": "Rauora's unique gadget. A deployable gliding kit that allows fast horizontal movement and bypasses traps.",
+      "description": "Rauora's unique gadget. Launches deployable panels that block lines of sight and provide cover.",
       "image": "assets/gadgets/unique/r6s-operator-ability-rauora.png"
     },
     "icon": "assets/operators/png/rauora.png",
     "primaryWeapons": [
       {
-        "id": "ump45",
-        "name": "UMP45",
-        "type": "Submachine Gun",
+        "id": "417",
+        "name": "417",
+        "type": "Marksman Rifle",
         "category": "primary",
-        "image": "assets/weapons/primary/UMP45.png"
+        "image": "assets/weapons/primary/417.png"
       },
       {
-        "id": "sg_cqb",
-        "name": "SG-CQB",
-        "type": "Shotgun",
+        "id": "m249",
+        "name": "M249",
+        "type": "Light Machine Gun",
         "category": "primary",
-        "image": "assets/weapons/primary/SG-CQB.png"
+        "image": "assets/weapons/primary/M249.png"
       }
     ],
     "secondaryWeapons": [
       {
-        "id": "rg15",
-        "name": "RG15",
+        "id": "reaper_mk2",
+        "name": "Reaper MK2",
         "type": "Handgun",
         "category": "secondary",
-        "image": "assets/weapons/secondary/RG15.png"
+        "image": "assets/weapons/secondary/reaper-mk2.png"
+      },
+      {
+        "id": "gsh_18",
+        "name": "GSh-18",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/GSh-18.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-rauora.png"
@@ -2269,7 +2297,7 @@
   {
     "id": "skopos",
     "name": "Skopos",
-    "side": "attack",
+    "side": "defense",
     "org": "NIGHTHAVEN",
     "speed": 3,
     "armor": 1,
@@ -2290,10 +2318,10 @@
       }
     ],
     "uniqueGadget": {
-      "id": "raven_drone",
-      "name": "Raven Drone",
+      "id": "v10_pantheon_shells",
+      "name": "V10 Pantheon Shells",
       "type": "unique",
-      "description": "Skopos's unique gadget. A surveillance drone that provides persistent aerial intel on enemy positions.",
+      "description": "Skopos's unique gadget. Special shells that enhance area denial and control.",
       "image": "assets/gadgets/unique/r6s-operator-ability-skopos.png"
     },
     "icon": "assets/operators/png/skopos.png",
@@ -2308,11 +2336,11 @@
     ],
     "secondaryWeapons": [
       {
-        "id": "glaive_12",
-        "name": "Glaive-12",
-        "type": "Shotgun",
+        "id": "p229",
+        "name": "P229",
+        "type": "Handgun",
         "category": "secondary",
-        "image": "assets/weapons/secondary/glaive-12.png"
+        "image": "assets/weapons/secondary/P229.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-skopos.png"
@@ -2341,36 +2369,36 @@
       }
     ],
     "uniqueGadget": {
-      "id": "cardboard_box",
-      "name": "Cardboard Box",
+      "id": "soliton_radar_mk_iii",
+      "name": "Soliton Radar Mk. III",
       "type": "unique",
-      "description": "Solid Snake's unique gadget. A cardboard box that conceals the operator while stationary.",
+      "description": "Solid Snake's unique gadget. A radar system that detects enemy movements through walls.",
       "image": "assets/gadgets/unique/r6s-operator-ability-solidsnake.png"
     },
     "icon": "assets/operators/png/solidsnake.png",
     "primaryWeapons": [
+      {
+        "id": "f2",
+        "name": "F2",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/F2.png"
+      },
       {
         "id": "pmr90a2",
         "name": "PMR90A2",
         "type": "Submachine Gun",
         "category": "primary",
         "image": "assets/weapons/primary/PMR90A2.png"
-      },
-      {
-        "id": "uzk50gi",
-        "name": "UZK50GI",
-        "type": "Submachine Gun",
-        "category": "primary",
-        "image": "assets/weapons/primary/uzk50gi.png"
       }
     ],
     "secondaryWeapons": [
       {
-        "id": "reaper_mk2",
-        "name": "Reaper MK2",
+        "id": "tacit_45",
+        "name": "TACIT 45",
         "type": "Handgun",
         "category": "secondary",
-        "image": "assets/weapons/secondary/reaper-mk2.png"
+        "image": "assets/weapons/secondary/TACIT_45.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-solidsnake.png"
@@ -2408,34 +2436,41 @@
     "icon": "assets/operators/png/sentry.png",
     "primaryWeapons": [
       {
-        "id": "m249",
-        "name": "M249",
-        "type": "Light Machine Gun",
-        "category": "primary",
-        "image": "assets/weapons/primary/M249.png"
-      },
-      {
-        "id": "pcx_33",
-        "name": "PCX-33",
+        "id": "commando_9",
+        "name": "Commando 9",
         "type": "Submachine Gun",
         "category": "primary",
-        "image": "assets/weapons/primary/pcx-33.png"
+        "image": "assets/weapons/primary/Commando_9.png"
+      },
+      {
+        "id": "m870",
+        "name": "M870",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/M870.png"
+      },
+      {
+        "id": "tcsg12",
+        "name": "TCSG12",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/TCSG12.png"
       }
     ],
     "secondaryWeapons": [
       {
-        "id": "glaive_12",
-        "name": "Glaive-12",
-        "type": "Shotgun",
+        "id": "c75_auto",
+        "name": "C75 Auto",
+        "type": "Machine Pistol",
         "category": "secondary",
-        "image": "assets/weapons/secondary/glaive-12.png"
+        "image": "assets/weapons/secondary/C75_Auto.png"
       },
       {
-        "id": "1911_tacops",
-        "name": "1911 TACOPS",
-        "type": "Handgun",
+        "id": "supershorty",
+        "name": "Super Shorty",
+        "type": "Shotgun",
         "category": "secondary",
-        "image": "assets/weapons/secondary/1911_TACOPS.png"
+        "image": "assets/weapons/secondary/supershorty.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Silent-Step.png"
@@ -4411,27 +4446,27 @@
     "icon": "assets/operators/png/solis.png",
     "primaryWeapons": [
       {
+        "id": "ita12l",
+        "name": "ITA12L",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/ITA12L.png"
+      },
+      {
         "id": "p90",
         "name": "P90",
         "type": "Submachine Gun",
         "category": "primary",
         "image": "assets/weapons/primary/P90.png"
-      },
-      {
-        "id": "sr_25",
-        "name": "SR-25",
-        "type": "Marksman Rifle",
-        "category": "primary",
-        "image": "assets/weapons/primary/SR-25.png"
       }
     ],
     "secondaryWeapons": [
       {
-        "id": "p12",
-        "name": "P12",
-        "type": "Handgun",
+        "id": "smg_11",
+        "name": "SMG-11",
+        "type": "Machine Pistol",
         "category": "secondary",
-        "image": "assets/weapons/secondary/P12.png"
+        "image": "assets/weapons/secondary/SMG-11.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-solis.png"
@@ -4619,35 +4654,42 @@
     "armor": 2,
     "gadgets": [
       {
-        "id": "stun_grenade",
-        "name": "Stun Grenade",
+        "id": "observation_blocker",
+        "name": "Observation Blocker",
         "type": "generic",
-        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
-        "image": "assets/gadgets/generic/stun_grenade.png"
+        "description": "A device that blocks enemy observation tools and surveillance equipment.",
+        "image": "assets/gadgets/generic/observation_blocker.png"
       },
       {
-        "id": "smoke_grenade",
-        "name": "Smoke Grenade",
+        "id": "deployable_shield",
+        "name": "Deployable Shield",
         "type": "generic",
-        "description": "Creates a cloud of smoke that obscures vision in the area.",
-        "image": "assets/gadgets/generic/smoke_grenade.png"
+        "description": "A portable ballistic shield that can be deployed on the ground to provide cover.",
+        "image": "assets/gadgets/generic/deployable_shield.png"
       }
     ],
     "uniqueGadget": {
-      "id": "mining_drill",
-      "name": "Mining Drill",
+      "id": "trip_connector",
+      "name": "T.R.I.P. Connector",
       "type": "unique",
-      "description": "Denari's unique gadget. A remote-controlled drill that bores through reinforced walls.",
+      "description": "Denari's unique gadget. A tripwire connector that links traps and triggers coordinated responses.",
       "image": "assets/gadgets/unique/r6s-operator-ability-denari.png"
     },
     "icon": "assets/operators/png/denari.png",
     "primaryWeapons": [
       {
-        "id": "uzk50gi",
-        "name": "UZK50GI",
+        "id": "scorpion_evo_3_a1",
+        "name": "Scorpion EVO 3 A1",
         "type": "Submachine Gun",
         "category": "primary",
-        "image": "assets/weapons/primary/uzk50gi.png"
+        "image": "assets/weapons/primary/Scorpion_EVO_3_A1.png"
+      },
+      {
+        "id": "fmg_9",
+        "name": "FMG-9",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/FMG-9.png"
       }
     ],
     "secondaryWeapons": [
@@ -4657,6 +4699,13 @@
         "type": "Shotgun",
         "category": "secondary",
         "image": "assets/weapons/secondary/glaive-12.png"
+      },
+      {
+        "id": "p226_mk_25",
+        "name": "P226 Mk 25",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P226_Mk_25.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-denari.png"
