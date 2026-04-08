@@ -14,10 +14,12 @@
     "icon": "assets/operators/png/striker.png",
     "primaryWeapons": [
       "m4",
-      "f2000"
+      "m249",
+      "sr_25"
     ],
     "secondaryWeapons": [
-      "1911_tacops"
+      "5_7_usg",
+      "ita12s"
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Silent-Step.png"
   },
@@ -39,7 +41,8 @@
       "m590a1"
     ],
     "secondaryWeapons": [
-      "p226_mk_25"
+      "p226_mk_25",
+      "reaper_mk2"
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Tactical-Breaching-Hammer.png"
   },
@@ -304,8 +307,8 @@
     "uniqueGadget": "tactical_crossbow",
     "icon": "assets/operators/png/capitao.png",
     "primaryWeapons": [
-      "para_308",
-      "m249"
+      "m249",
+      "para_308"
     ],
     "secondaryWeapons": [
       "prb92"
@@ -833,21 +836,22 @@
       "breach_charge",
       "claymore"
     ],
-    "uniqueGadget": "parawing_kit",
+    "uniqueGadget": "dom_panel_launcher",
     "icon": "assets/operators/png/rauora.png",
     "primaryWeapons": [
-      "ump45",
-      "sg_cqb"
+      "417",
+      "m249"
     ],
     "secondaryWeapons": [
-      "rg15"
+      "reaper_mk2",
+      "gsh_18"
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-rauora.png"
   },
   {
     "id": "skopos",
     "name": "Skopos",
-    "side": "attack",
+    "side": "defense",
     "org": "NIGHTHAVEN",
     "speed": 3,
     "armor": 1,
@@ -855,13 +859,13 @@
       "breach_charge",
       "claymore"
     ],
-    "uniqueGadget": "raven_drone",
+    "uniqueGadget": "v10_pantheon_shells",
     "icon": "assets/operators/png/skopos.png",
     "primaryWeapons": [
       "pcx_33"
     ],
     "secondaryWeapons": [
-      "glaive_12"
+      "p229"
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-skopos.png"
   },
@@ -876,14 +880,14 @@
       "frag_grenade",
       "hard_breach_charge"
     ],
-    "uniqueGadget": "cardboard_box",
+    "uniqueGadget": "soliton_radar_mk_iii",
     "icon": "assets/operators/png/solidsnake.png",
     "primaryWeapons": [
-      "pmr90a2",
-      "uzk50gi"
+      "f2",
+      "pmr90a2"
     ],
     "secondaryWeapons": [
-      "reaper_mk2"
+      "tacit_45"
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-solidsnake.png"
   },
@@ -901,12 +905,13 @@
     "uniqueGadget": "gadget_pouch",
     "icon": "assets/operators/png/sentry.png",
     "primaryWeapons": [
-      "m249",
-      "pcx_33"
+      "commando_9",
+      "m870",
+      "tcsg12"
     ],
     "secondaryWeapons": [
-      "glaive_12",
-      "1911_tacops"
+      "c75_auto",
+      "supershorty"
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Silent-Step.png"
   },
@@ -1626,11 +1631,11 @@
     "uniqueGadget": "spec_io_electro_sensor",
     "icon": "assets/operators/png/solis.png",
     "primaryWeapons": [
-      "p90",
-      "sr_25"
+      "ita12l",
+      "p90"
     ],
     "secondaryWeapons": [
-      "p12"
+      "smg_11"
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-solis.png"
   },
@@ -1708,16 +1713,18 @@
     "speed": 2,
     "armor": 2,
     "gadgets": [
-      "stun_grenade",
-      "smoke_grenade"
+      "observation_blocker",
+      "deployable_shield"
     ],
-    "uniqueGadget": "mining_drill",
+    "uniqueGadget": "trip_connector",
     "icon": "assets/operators/png/denari.png",
     "primaryWeapons": [
-      "uzk50gi"
+      "scorpion_evo_3_a1",
+      "fmg_9"
     ],
     "secondaryWeapons": [
-      "glaive_12"
+      "glaive_12",
+      "p226_mk_25"
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-denari.png"
   }
