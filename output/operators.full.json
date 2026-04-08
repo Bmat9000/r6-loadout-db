@@ -2318,57 +2318,6 @@
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-skopos.png"
   },
   {
-    "id": "denari",
-    "name": "Denari",
-    "side": "attack",
-    "org": "NIGHTHAVEN",
-    "speed": 2,
-    "armor": 2,
-    "gadgets": [
-      {
-        "id": "stun_grenade",
-        "name": "Stun Grenade",
-        "type": "generic",
-        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
-        "image": "assets/gadgets/generic/stun_grenade.png"
-      },
-      {
-        "id": "smoke_grenade",
-        "name": "Smoke Grenade",
-        "type": "generic",
-        "description": "Creates a cloud of smoke that obscures vision in the area.",
-        "image": "assets/gadgets/generic/smoke_grenade.png"
-      }
-    ],
-    "uniqueGadget": {
-      "id": "mining_drill",
-      "name": "Mining Drill",
-      "type": "unique",
-      "description": "Denari's unique gadget. A remote-controlled drill that bores through reinforced walls.",
-      "image": "assets/gadgets/unique/r6s-operator-ability-denari.png"
-    },
-    "icon": "assets/operators/png/denari.png",
-    "primaryWeapons": [
-      {
-        "id": "uzk50gi",
-        "name": "UZK50GI",
-        "type": "Submachine Gun",
-        "category": "primary",
-        "image": "assets/weapons/primary/uzk50gi.png"
-      }
-    ],
-    "secondaryWeapons": [
-      {
-        "id": "glaive_12",
-        "name": "Glaive-12",
-        "type": "Shotgun",
-        "category": "secondary",
-        "image": "assets/weapons/secondary/glaive-12.png"
-      }
-    ],
-    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-denari.png"
-  },
-  {
     "id": "solidsnake",
     "name": "Solid Snake",
     "side": "attack",
@@ -4662,43 +4611,43 @@
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-tubarao-v1.png"
   },
   {
-    "id": "doki",
-    "name": "Doki",
+    "id": "denari",
+    "name": "Denari",
     "side": "defense",
     "org": "NIGHTHAVEN",
     "speed": 2,
     "armor": 2,
     "gadgets": [
       {
-        "id": "bulletproof_camera",
-        "name": "Bulletproof Camera",
+        "id": "stun_grenade",
+        "name": "Stun Grenade",
         "type": "generic",
-        "description": "A hardened camera that can be placed on walls to provide intel on attackers.",
-        "image": "assets/gadgets/generic/bulletproof_camera.png"
+        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
+        "image": "assets/gadgets/generic/stun_grenade.png"
       },
       {
-        "id": "nitro_cell",
-        "name": "Nitro Cell",
+        "id": "smoke_grenade",
+        "name": "Smoke Grenade",
         "type": "generic",
-        "description": "A remote-detonated explosive device that deals heavy damage in its blast radius.",
-        "image": "assets/gadgets/generic/nitro_cell.png"
+        "description": "Creates a cloud of smoke that obscures vision in the area.",
+        "image": "assets/gadgets/generic/smoke_grenade.png"
       }
     ],
     "uniqueGadget": {
-      "id": "prisma_drone",
-      "name": "Prisma Drone",
+      "id": "mining_drill",
+      "name": "Mining Drill",
       "type": "unique",
-      "description": "Doki's unique gadget. A drone that projects a holographic decoy to confuse attackers.",
-      "image": "assets/gadgets/unique/Prisma.png"
+      "description": "Denari's unique gadget. A remote-controlled drill that bores through reinforced walls.",
+      "image": "assets/gadgets/unique/r6s-operator-ability-denari.png"
     },
-    "icon": "assets/operators/png/doki.png",
+    "icon": "assets/operators/png/denari.png",
     "primaryWeapons": [
       {
-        "id": "mx4_storm",
-        "name": "Mx4 Storm",
+        "id": "uzk50gi",
+        "name": "UZK50GI",
         "type": "Submachine Gun",
         "category": "primary",
-        "image": "assets/weapons/primary/Mx4_Storm.png"
+        "image": "assets/weapons/primary/uzk50gi.png"
       }
     ],
     "secondaryWeapons": [
@@ -4710,6 +4659,6 @@
         "image": "assets/weapons/secondary/glaive-12.png"
       }
     ],
-    "uniqueGadgetIcon": "assets/gadgets/unique/Prisma.png"
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-denari.png"
   }
 ]

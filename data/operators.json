@@ -866,27 +866,6 @@
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-skopos.png"
   },
   {
-    "id": "denari",
-    "name": "Denari",
-    "side": "attack",
-    "org": "NIGHTHAVEN",
-    "speed": 2,
-    "armor": 2,
-    "gadgets": [
-      "stun_grenade",
-      "smoke_grenade"
-    ],
-    "uniqueGadget": "mining_drill",
-    "icon": "assets/operators/png/denari.png",
-    "primaryWeapons": [
-      "uzk50gi"
-    ],
-    "secondaryWeapons": [
-      "glaive_12"
-    ],
-    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-denari.png"
-  },
-  {
     "id": "solidsnake",
     "name": "Solid Snake",
     "side": "attack",
@@ -1722,24 +1701,24 @@
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-tubarao-v1.png"
   },
   {
-    "id": "doki",
-    "name": "Doki",
+    "id": "denari",
+    "name": "Denari",
     "side": "defense",
     "org": "NIGHTHAVEN",
     "speed": 2,
     "armor": 2,
     "gadgets": [
-      "bulletproof_camera",
-      "nitro_cell"
+      "stun_grenade",
+      "smoke_grenade"
     ],
-    "uniqueGadget": "prisma_drone",
-    "icon": "assets/operators/png/doki.png",
+    "uniqueGadget": "mining_drill",
+    "icon": "assets/operators/png/denari.png",
     "primaryWeapons": [
-      "mx4_storm"
+      "uzk50gi"
     ],
     "secondaryWeapons": [
       "glaive_12"
     ],
-    "uniqueGadgetIcon": "assets/gadgets/unique/Prisma.png"
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-denari.png"
   }
 ]
