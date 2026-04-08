@@ -1653,11 +1653,12 @@
     "uniqueGadget": "f_natt_doomstove",
     "icon": "assets/operators/png/fenrir.png",
     "primaryWeapons": [
-      "pmr90a2",
-      "mp7"
+      "mp7",
+      "sasg_12"
     ],
     "secondaryWeapons": [
-      "reaper_mk2"
+      "bailiff_410",
+      "5_7_usg"
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-fenrir-v1.png"
   },
@@ -1676,7 +1677,7 @@
     "icon": "assets/operators/png/azami.png",
     "primaryWeapons": [
       "9x19svn",
-      "mp5"
+      "acs12_pb"
     ],
     "secondaryWeapons": [
       "d_50"
@@ -1698,10 +1699,11 @@
     "icon": "assets/operators/png/tubarao.png",
     "primaryWeapons": [
       "mpx",
-      "spas_15"
+      "ar_15_50"
     ],
     "secondaryWeapons": [
-      "q_929"
+      "p226_mk_25",
+      "supershorty"
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-tubarao-v1.png"
   },

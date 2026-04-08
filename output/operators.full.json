@@ -4504,27 +4504,34 @@
     "icon": "assets/operators/png/fenrir.png",
     "primaryWeapons": [
       {
-        "id": "pmr90a2",
-        "name": "PMR90A2",
-        "type": "Submachine Gun",
-        "category": "primary",
-        "image": "assets/weapons/primary/PMR90A2.png"
-      },
-      {
         "id": "mp7",
         "name": "MP7",
         "type": "Submachine Gun",
         "category": "primary",
         "image": "assets/weapons/primary/MP7.png"
+      },
+      {
+        "id": "sasg_12",
+        "name": "SASG-12",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SASG-12.png"
       }
     ],
     "secondaryWeapons": [
       {
-        "id": "reaper_mk2",
-        "name": "Reaper MK2",
+        "id": "bailiff_410",
+        "name": "Bailiff 410",
         "type": "Handgun",
         "category": "secondary",
-        "image": "assets/weapons/secondary/reaper-mk2.png"
+        "image": "assets/weapons/secondary/Bailiff_410.png"
+      },
+      {
+        "id": "5_7_usg",
+        "name": "5.7 USG",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/5.7_USG.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-fenrir-v1.png"
@@ -4569,11 +4576,11 @@
         "image": "assets/weapons/primary/9X19SVN.png"
       },
       {
-        "id": "mp5",
-        "name": "MP5",
-        "type": "Submachine Gun",
+        "id": "acs12_pb",
+        "name": "ACS12",
+        "type": "Shotgun",
         "category": "primary",
-        "image": "assets/weapons/primary/MP5.png"
+        "image": "assets/weapons/primary/ACS12_PB.png"
       }
     ],
     "secondaryWeapons": [
@@ -4627,20 +4634,27 @@
         "image": "assets/weapons/primary/MPX.png"
       },
       {
-        "id": "spas_15",
-        "name": "SPAS-15",
-        "type": "Shotgun",
+        "id": "ar_15_50",
+        "name": "AR-15.50",
+        "type": "Marksman Rifle",
         "category": "primary",
-        "image": "assets/weapons/primary/SPAS-15.png"
+        "image": "assets/weapons/primary/AR-15.50.png"
       }
     ],
     "secondaryWeapons": [
       {
-        "id": "q_929",
-        "name": "Q-929",
+        "id": "p226_mk_25",
+        "name": "P226 Mk 25",
         "type": "Handgun",
         "category": "secondary",
-        "image": "assets/weapons/secondary/Q-929.png"
+        "image": "assets/weapons/secondary/P226_Mk_25.png"
+      },
+      {
+        "id": "supershorty",
+        "name": "Super Shorty",
+        "type": "Shotgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/supershorty.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-tubarao-v1.png"
