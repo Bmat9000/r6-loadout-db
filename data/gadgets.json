@@ -56,31 +56,563 @@
     "image": "assets/gadgets/generic/bulletproof_camera.png"
   },
   {
+    "id": "hard_breach_charge",
+    "name": "Hard Breach Charge",
+    "type": "generic",
+    "description": "A charge that destroys reinforced walls and floors when planted.",
+    "image": "assets/gadgets/generic/hard_breach_charge.png"
+  },
+  {
+    "id": "nitro_cell",
+    "name": "Nitro Cell",
+    "type": "generic",
+    "description": "A remote-detonated explosive device that deals heavy damage in its blast radius.",
+    "image": "assets/gadgets/generic/nitro_cell.png"
+  },
+  {
+    "id": "smoke_grenade",
+    "name": "Smoke Grenade",
+    "type": "generic",
+    "description": "Creates a cloud of smoke that obscures vision in the area.",
+    "image": "assets/gadgets/generic/smoke_grenade.png"
+  },
+  {
+    "id": "adrenal_surge",
+    "name": "Adrenal Surge",
+    "type": "unique",
+    "description": "Finka's unique gadget. Activates a nanite injection that heals and boosts all teammates simultaneously.",
+    "image": "assets/gadgets/unique/Adrenal-Surge.png"
+  },
+  {
+    "id": "ads",
+    "name": "Automated Defense System",
+    "type": "unique",
+    "description": "Jäger's unique gadget. A gyroscopic mounted system that automatically destroys incoming grenades.",
+    "image": "assets/gadgets/unique/Active-Defense-System.png"
+  },
+  {
+    "id": "airjab_repulsion_mine",
+    "name": "AirJab Repulsion Mine",
+    "type": "unique",
+    "description": "Nomad's unique gadget. A proximity mine that pushes back and alerts when enemies cross its trigger zone.",
+    "image": "assets/gadgets/unique/Airjab-Launcher.png"
+  },
+  {
+    "id": "argus_launcher",
+    "name": "Argus Launcher",
+    "type": "unique",
+    "description": "Zero's unique gadget. A launcher that fires camera bolts which embed into surfaces and gadgets to provide intel.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-zero.png"
+  },
+  {
+    "id": "armored_pack",
+    "name": "Armor Pack",
+    "type": "unique",
+    "description": "Castle's unique gadget. Bulletproof barricades that reinforce doorways and windows against enemy breaching.",
+    "image": "assets/gadgets/unique/Armor-Panel.png"
+  },
+  {
+    "id": "banshee_sonic_defense",
+    "name": "Banshee Sonic Defense",
+    "type": "unique",
+    "description": "Melusi's unique gadget. A proximity device that emits a sonic pulse to slow and debuff nearby attackers.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-melusi.png"
+  },
+  {
+    "id": "bear_trap",
+    "name": "Bear Trap",
+    "type": "unique",
+    "description": "Frost's unique gadget. A concealed trap that instantly downs any attacker who steps on it.",
+    "image": "assets/gadgets/unique/Welcome-Mate.png"
+  },
+  {
+    "id": "bfu_ram",
+    "name": "BFU Ram",
+    "type": "unique",
+    "description": "Ram's unique gadget. A remote-controlled battering ram drone that destroys reinforced walls and defender gadgets.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-ram.png"
+  },
+  {
+    "id": "black_eye",
+    "name": "Black Eye",
+    "type": "unique",
+    "description": "Valkyrie's unique gadget. Small, concealable cameras that can be placed anywhere to provide intel to the team.",
+    "image": "assets/gadgets/unique/Black-Eye.png"
+  },
+  {
+    "id": "black_mirror",
+    "name": "Black Mirror",
+    "type": "unique",
+    "description": "Mira's unique gadget. A one-way mirror device embedded in walls that allows defenders to see through without attackers seeing in.",
+    "image": "assets/gadgets/unique/Black-mirror.png"
+  },
+  {
+    "id": "breaching_torch",
+    "name": "Breaching Torch",
+    "type": "unique",
+    "description": "Maverick's unique gadget. A torch that quietly cuts through reinforced walls and metal surfaces.",
+    "image": "assets/gadgets/unique/Breaching-Torch.png"
+  },
+  {
+    "id": "candela",
+    "name": "Candela",
+    "type": "unique",
+    "description": "Ying's unique gadget. A proximity-triggered cluster of flashbangs that disorients multiple enemies at once.",
+    "image": "assets/gadgets/unique/Candela.png"
+  },
+  {
+    "id": "cardboard_box",
+    "name": "Cardboard Box",
+    "type": "unique",
+    "description": "Solid Snake's unique gadget. A cardboard box that conceals the operator while stationary.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-solidsnake.png"
+  },
+  {
+    "id": "cce_shield",
+    "name": "CCE Shield",
+    "type": "unique",
+    "description": "Clash's unique gadget. An electrified riot shield that can stun attackers and track their movements.",
+    "image": "assets/gadgets/unique/CCE-Shield.png"
+  },
+  {
+    "id": "ced_mk_iii",
+    "name": "CED-1 Shock Wire",
+    "type": "unique",
+    "description": "Bandit's unique gadget. An electrical device that charges reinforced walls and barbed wire to destroy breaching equipment.",
+    "image": "assets/gadgets/unique/Shock-Wire.png"
+  },
+  {
+    "id": "cluster_charge",
+    "name": "Cluster Charge",
+    "type": "unique",
+    "description": "Fuze's unique gadget. A breaching device that fires multiple grenades through walls into the room beyond.",
+    "image": "assets/gadgets/unique/Cluster-Charge.png"
+  },
+  {
+    "id": "deathmark",
+    "name": "Death Mark",
+    "type": "unique",
+    "description": "Deimos's unique gadget. Marks a targeted enemy, revealing their position to the team until eliminated.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-deimos.png"
+  },
+  {
+    "id": "edb",
+    "name": "EDD Mk II Tripwire",
+    "type": "unique",
+    "description": "Kapkan's unique gadget. A hidden explosive tripwire device that detonates when enemies cross its laser.",
+    "image": "assets/gadgets/unique/Entry-Denial-Device.png"
+  },
+  {
+    "id": "electronics_detector",
+    "name": "Electronics Detector",
+    "type": "unique",
+    "description": "IQ's unique gadget. A scanner that detects all active electronic devices through walls.",
+    "image": "assets/gadgets/unique/Electronics-Detector.png"
+  },
+  {
+    "id": "emp_grenade",
+    "name": "EMP Grenade",
+    "type": "unique",
+    "description": "Thatcher's unique gadget. A grenade that disables and destroys electronic gadgets through walls.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-thatcher.png"
+  },
+  {
+    "id": "ems5_scan",
+    "name": "EMS5 Scan",
+    "type": "unique",
+    "description": "Lion's unique gadget. An EMP pulse that scans for moving enemies through any surface and reveals their location.",
+    "image": "assets/gadgets/unique/EE-ONE-D.png"
+  },
+  {
+    "id": "erc_7",
+    "name": "ERC-7",
+    "type": "unique",
+    "description": "Vigil's unique gadget. A device that removes Vigil from enemy drone feeds for a limited duration.",
+    "image": "assets/gadgets/unique/ERC-7.png"
+  },
+  {
+    "id": "evil_eye",
+    "name": "Evil Eye",
+    "type": "unique",
+    "description": "Maestro's unique gadget. A bulletproof camera turret embedded in walls that can fire laser blasts at enemies.",
+    "image": "assets/gadgets/unique/Evil-Eye.png"
+  },
+  {
+    "id": "exothermic_charge",
+    "name": "Exothermic Charge",
+    "type": "unique",
+    "description": "Thermite's unique gadget. A charge that destroys reinforced walls and floors from the attacking side.",
+    "image": "assets/gadgets/unique/Exothermic-Charge.png"
+  },
+  {
+    "id": "extendable_shield",
+    "name": "Extendable Shield",
+    "type": "unique",
+    "description": "Montagne's unique gadget. An extendable riot shield that provides full-body protection when extended.",
+    "image": "assets/gadgets/unique/Extendable-Shield.png"
+  },
+  {
+    "id": "eyenox_model_iii",
+    "name": "Eyenox Model III",
+    "type": "unique",
+    "description": "Jackal's unique gadget. A visor scanner that analyzes enemy footprints to track their current location.",
+    "image": "assets/gadgets/unique/Eyenox-Model-III.png"
+  },
+  {
+    "id": "f_natt_doomstove",
+    "name": "F-NATT Dread Mine",
+    "type": "unique",
+    "description": "Fenrir's unique gadget. Remotely triggered proximity mines that emit a fear-inducing sphere blinding enemies.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-fenrir-v1.png"
+  },
+  {
+    "id": "flash_shield",
+    "name": "Flash Shield",
+    "type": "unique",
+    "description": "Blitz's unique gadget. A riot shield with an integrated flash device that blinds nearby enemies.",
+    "image": "assets/gadgets/unique/Flash-Shield.png"
+  },
+  {
+    "id": "flip_sight",
+    "name": "Flip Sight",
+    "type": "unique",
+    "description": "Glaz's unique gadget. A special scope with a thermal lens that highlights enemies through smoke.",
+    "image": "assets/gadgets/unique/Flip-Sight.png"
+  },
+  {
+    "id": "gadget_pouch",
+    "name": "Gadget Pouch",
+    "type": "unique",
+    "description": "Recruit's unique gadget. A pouch containing extra gadgets for increased utility.",
+    "image": "assets/gadgets/unique/Silent-Step.png"
+  },
+  {
+    "id": "garra_hook",
+    "name": "Garra Hook",
+    "type": "unique",
+    "description": "Amaru's unique gadget. A grappling hook that allows rapid entry through windows and hatches.",
+    "image": "assets/gadgets/unique/Garra-Hook.png"
+  },
+  {
+    "id": "gemini_replicator",
+    "name": "Gemini Replicator",
+    "type": "unique",
+    "description": "Iana's unique gadget. Creates a holographic decoy of Iana that can be controlled remotely.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-iana.png"
+  },
+  {
+    "id": "glance_smart_glasses",
+    "name": "Glance Smart Glasses",
+    "type": "unique",
+    "description": "Warden's unique gadget. Smart glasses that counter flashbangs, smoke, and make enemies visible in smoke.",
+    "image": "assets/gadgets/unique/Glance-Smart-Glasses.png"
+  },
+  {
+    "id": "grzmot_mine",
+    "name": "Grzmot Mine",
+    "type": "unique",
+    "description": "Ela's unique gadget. A concussion mine that disorients and slows enemies caught in its blast.",
+    "image": "assets/gadgets/unique/Grzmot-Mine.png"
+  },
+  {
+    "id": "gu_mines",
+    "name": "Gu Mines",
+    "type": "unique",
+    "description": "Lesion's unique gadget. Invisible needle mines that inject a toxin causing damage over time.",
+    "image": "assets/gadgets/unique/Gu-mines.png"
+  },
+  {
+    "id": "gun_shield",
+    "name": "Gun Shield",
+    "type": "unique",
+    "description": "Blackbeard's unique gadget. A rifle shield mounted on primary weapons that protects the operator's head.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-blackbeard__1_.png"
+  },
+  {
+    "id": "heartbeat_sensor",
+    "name": "Heartbeat Sensor",
+    "type": "unique",
+    "description": "Pulse's unique gadget. A sensor that detects nearby enemy heartbeats through walls and floors.",
+    "image": "assets/gadgets/unique/Heartbeat-Sensor.png"
+  },
+  {
+    "id": "hel_presence_reduction",
+    "name": "HEL Presence Reduction",
+    "type": "unique",
+    "description": "Nøkk's unique gadget. A glove device that makes Nøkk invisible to cameras and makes movement quieter.",
+    "image": "assets/gadgets/unique/HEL-Presence-Reduction.png"
+  },
+  {
+    "id": "kawan_hive_launcher",
+    "name": "Kawan Hive Launcher",
+    "type": "unique",
+    "description": "Grim's unique gadget. A launcher that fires hive canisters releasing tracking nanobots on contact.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-grim.png"
+  },
+  {
+    "id": "kiba_barrier",
+    "name": "Kiba Barrier",
+    "type": "unique",
+    "description": "Azami's unique gadget. A kunai that deploys an indestructible barrier on impact with a surface.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-azami.png"
+  },
+  {
+    "id": "kludge_drone",
+    "name": "Kludge Drone",
+    "type": "unique",
+    "description": "Brava's unique gadget. A hacking drone that takes control of enemy gadgets and turns them against defenders.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-brava.png"
+  },
+  {
+    "id": "kona_station",
+    "name": "Kona Station",
+    "type": "unique",
+    "description": "Thunderbird's unique gadget. A healing station that automatically restores health to nearby operators.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-thunderbird.png"
+  },
+  {
+    "id": "ksl12_launcher",
+    "name": "KSL12 Launcher",
+    "type": "unique",
+    "description": "Zofia's unique gadget. A launcher that fires concussion and impact grenades in rapid succession.",
+    "image": "assets/gadgets/unique/Grzmot-Mine.png"
+  },
+  {
+    "id": "logic_bomb",
+    "name": "Logic Bomb",
+    "type": "unique",
+    "description": "Dokkaebi's unique gadget. Hacks enemy phones to emit sound and disable their cameras temporarily.",
+    "image": "assets/gadgets/unique/Logic-Bomb.png"
+  },
+  {
+    "id": "lv_lance",
+    "name": "LV Lance",
+    "type": "unique",
+    "description": "Kali's unique gadget. An underbarrel launcher that fires explosive bolts through floors to destroy defender gadgets.",
+    "image": "assets/gadgets/unique/LV_Explosive_Lance.png"
+  },
+  {
+    "id": "mag_net_system",
+    "name": "Mag-NET System",
+    "type": "unique",
+    "description": "Wamai's unique gadget. A deployable magnet disc that attracts and detonates incoming grenades.",
+    "image": "assets/gadgets/unique/Mag-net_System.png"
+  },
+  {
+    "id": "mining_drill",
+    "name": "Mining Drill",
+    "type": "unique",
+    "description": "Denari's unique gadget. A remote-controlled drill that bores through reinforced walls.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-denari.png"
+  },
+  {
+    "id": "parawing_kit",
+    "name": "Parawing Kit",
+    "type": "unique",
+    "description": "Rauora's unique gadget. A deployable gliding kit that allows fast horizontal movement and bypasses traps.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-rauora.png"
+  },
+  {
+    "id": "pest",
+    "name": "P.E.S.T.",
+    "type": "unique",
+    "description": "Mozzie's unique gadget. A small drone that captures and repurposes enemy drones for defender intel.",
+    "image": "assets/gadgets/unique/Pest-Launcher.png"
+  },
+  {
+    "id": "prisma",
+    "name": "Prisma",
+    "type": "unique",
+    "description": "Alibi's unique gadget. Creates holographic decoys of Alibi that reveal attackers who shoot them.",
+    "image": "assets/gadgets/unique/Prisma.png"
+  },
+  {
+    "id": "prisma_drone",
+    "name": "Prisma Drone",
+    "type": "unique",
+    "description": "Doki's unique gadget. A drone that projects a holographic decoy to confuse attackers.",
+    "image": "assets/gadgets/unique/Prisma.png"
+  },
+  {
+    "id": "raven_drone",
+    "name": "Raven Drone",
+    "type": "unique",
+    "description": "Skopos's unique gadget. A surveillance drone that provides persistent aerial intel on enemy positions.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-skopos.png"
+  },
+  {
+    "id": "razorbloom",
+    "name": "Razorbloom",
+    "type": "unique",
+    "description": "Thorn's unique gadget. A proximity-triggered explosive device with a delayed detonation after arming.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-thorn.png"
+  },
+  {
+    "id": "rce_ratero_charge",
+    "name": "RCE-Ratero Charge",
+    "type": "unique",
+    "description": "Flores's unique gadget. A remote-controlled exploding drone used to destroy gadgets from afar.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-flores.png"
+  },
+  {
+    "id": "remah_dash",
+    "name": "Remah Dash",
+    "type": "unique",
+    "description": "Oryx's unique gadget. An ability that allows Oryx to charge through soft walls and vault over downed enemies.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-oryx.png"
+  },
+  {
+    "id": "remote_gas_canister",
+    "name": "Remote Gas Canister",
+    "type": "unique",
+    "description": "Smoke's unique gadget. A remote-detonated canister that releases a toxic cloud damaging nearby enemies.",
+    "image": "assets/gadgets/unique/Remote-Gas-Grenade.png"
+  },
+  {
+    "id": "rok_array",
+    "name": "R.O.U. Projector System",
+    "type": "unique",
+    "description": "Sens's unique gadget. Deploys a rolling projector that creates a wall of light obscuring line-of-sight.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-sens.png"
+  },
+  {
+    "id": "rtila_electroclaw",
+    "name": "Rtila Electroclaw",
+    "type": "unique",
+    "description": "Kaid's unique gadget. An electrified claw device that charges reinforced walls and barbed wire.",
+    "image": "assets/gadgets/unique/Rtila-Electroclaw.png"
+  },
+  {
+    "id": "s_e_l_m_a",
+    "name": "S.E.L.M.A.",
+    "type": "unique",
+    "description": "Ace's unique gadget. A throwable device that opens multiple breaches in reinforced walls and floors.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-ace.png"
+  },
+  {
+    "id": "shock_drone",
+    "name": "Shock Drone",
+    "type": "unique",
+    "description": "Twitch's unique gadget. A remote-controlled drone with an electric prod that destroys defender gadgets.",
+    "image": "assets/gadgets/unique/Shock-Drones.png"
+  },
+  {
+    "id": "shumikha_launcher",
+    "name": "Shumikha Launcher",
+    "type": "unique",
+    "description": "Tachanka's unique gadget. A grenade launcher that fires incendiary rounds creating burning areas.",
+    "image": "assets/gadgets/unique/Shumikha-Launcher.png"
+  },
+  {
+    "id": "signal_jammer",
+    "name": "Signal Disruptor",
+    "type": "unique",
+    "description": "Mute's unique gadget. A jammer device that disables drones, remote gadgets, and breaching equipment.",
+    "image": "assets/gadgets/unique/Signal-Disruptor.png"
+  },
+  {
+    "id": "silent_step",
+    "name": "Silent Step",
+    "type": "unique",
+    "description": "Caveira's unique gadget. An ability that allows Caveira to move in near-silence while crouching.",
+    "image": "assets/gadgets/unique/Silent-Step.png"
+  },
+  {
+    "id": "skeleton_key",
+    "name": "Skeleton Key",
+    "type": "unique",
+    "description": "Buck's unique gadget. An underbarrel shotgun that destroys soft surfaces for fast breaching.",
+    "image": "assets/gadgets/unique/Skeleton-Key.png"
+  },
+  {
+    "id": "spec_io_electro_sensor",
+    "name": "SPEC-IO Electro-Sensor",
+    "type": "unique",
+    "description": "Solis's unique gadget. A sensor visor that detects and identifies all electronic gadgets through walls.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-solis.png"
+  },
+  {
+    "id": "surya_gate",
+    "name": "Surya Gate",
+    "type": "unique",
+    "description": "Aruni's unique gadget. A laser gate placed in doorways that damages and blocks enemies passing through.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-aruni.png"
+  },
+  {
+    "id": "tactical_crossbow",
+    "name": "Tactical Crossbow",
+    "type": "unique",
+    "description": "Capitão's unique gadget. A crossbow that fires smoke and asphyxiation bolts to flush out defenders.",
+    "image": "assets/gadgets/unique/Tactical-Crossbow.png"
+  },
+  {
+    "id": "talon_8_shield",
+    "name": "Talon-8 Shield",
+    "type": "unique",
+    "description": "Osa's unique gadget. A transparent deployable shield that can be placed on windows and floors.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-osa.png"
+  },
+  {
+    "id": "trax_stingers",
+    "name": "Trax Stingers",
+    "type": "unique",
+    "description": "Gridlock's unique gadget. Deploys a trail of spiky devices that slow and damage enemies walking over them.",
+    "image": "assets/gadgets/unique/Trax-Stingers.png"
+  },
+  {
+    "id": "volcan_canister",
+    "name": "Volcan Canister",
+    "type": "unique",
+    "description": "Goyo's unique gadget. A deployable canister that explodes with fire when shot, destroying nearby gadgets.",
+    "image": "assets/gadgets/unique/Volcan-Shield.png"
+  },
+  {
+    "id": "x_kairos",
+    "name": "X-KAIROS",
+    "type": "unique",
+    "description": "Hibana's unique gadget. A launcher that fires remote-detonated pellets that destroy reinforced surfaces.",
+    "image": "assets/gadgets/unique/X-Kairos.png"
+  },
+  {
+    "id": "yokai",
+    "name": "Yokai",
+    "type": "unique",
+    "description": "Echo's unique gadget. An aerial drone that can stun and disorient enemies while remaining hidden above.",
+    "image": "assets/gadgets/unique/Yokai.png"
+  },
+  {
+    "id": "zoto_canister",
+    "name": "Zoto Canister",
+    "type": "unique",
+    "description": "Tubarão's unique gadget. A canister that freezes defender gadgets, temporarily disabling them.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-tubarao-v1.png"
+  },
+  {
     "id": "breaching_hammer",
     "name": "Breaching Hammer",
     "type": "unique",
     "description": "Sledge's unique gadget. A large hammer that silently destroys soft walls without explosives.",
-    "image": "assets/gadgets/unique/breaching_hammer.png"
+    "image": "assets/gadgets/unique/Tactical-Breaching-Hammer.png"
   },
   {
     "id": "breaching_round",
     "name": "Breaching Round",
     "type": "unique",
     "description": "Ash's unique gadget. A remote-detonated grenade launcher round that destroys barricades and defender gadgets from range.",
-    "image": "assets/gadgets/unique/breaching_round.png"
-  },
-  {
-    "id": "armor_pack",
-    "name": "Armor Pack",
-    "type": "unique",
-    "description": "Rook's unique gadget. A bag of armor packs that all operators can pick up to increase their armor rating.",
-    "image": "assets/gadgets/unique/armor_pack.png"
+    "image": "assets/gadgets/unique/Breaching-Rounds.png"
   },
   {
     "id": "stim_pistol",
     "name": "Stim Pistol",
     "type": "unique",
     "description": "Doc's unique gadget. A syringe pistol that can heal or overheal the user and teammates.",
-    "image": "assets/gadgets/unique/stim_pistol.png"
+    "image": "assets/gadgets/unique/Stim-Pistol.png"
+  },
+  {
+    "id": "armor_pack",
+    "name": "Armor Pack",
+    "type": "unique",
+    "description": "Rook's unique gadget. A bag of armor packs that all operators can pick up to increase their armor rating.",
+    "image": "assets/gadgets/unique/Armor-Pack.png"
   }
 ]
