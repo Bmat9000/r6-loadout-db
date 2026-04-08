@@ -188,6 +188,13 @@
         "type": "Shotgun",
         "category": "primary",
         "image": "assets/weapons/primary/M590A1.png"
+      },
+      {
+        "id": "pmr90a2",
+        "name": "PMR90A2",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/PMR90A2.png"
       }
     ],
     "secondaryWeapons": [
@@ -503,6 +510,13 @@
     ],
     "secondaryWeapons": [
       {
+        "id": "pmm",
+        "name": "PMM",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/PMM.png"
+      },
+      {
         "id": "gsh_18",
         "name": "GSh-18",
         "type": "Handgun",
@@ -567,6 +581,13 @@
       }
     ],
     "secondaryWeapons": [
+      {
+        "id": "pmm",
+        "name": "PMM",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/PMM.png"
+      },
       {
         "id": "gsh_18",
         "name": "GSh-18",
@@ -661,11 +682,11 @@
     "icon": "assets/operators/png/iq.png",
     "primaryWeapons": [
       {
-        "id": "ar_15_50",
-        "name": "AR-15.50",
-        "type": "Marksman Rifle",
+        "id": "aug_a2",
+        "name": "AUG A2",
+        "type": "Assault Rifle",
         "category": "primary",
-        "image": "assets/weapons/primary/AR-15.50.png"
+        "image": "assets/weapons/primary/AUG_A2.png"
       },
       {
         "id": "552_commando",
@@ -733,11 +754,11 @@
         "image": "assets/weapons/primary/C8-SFW.png"
       },
       {
-        "id": "9mm_c1",
-        "name": "9mm C1",
-        "type": "Submachine Gun",
+        "id": "camrs",
+        "name": "CAMRS",
+        "type": "Marksman Rifle",
         "category": "primary",
-        "image": "assets/weapons/primary/9mm_C1.png"
+        "image": "assets/weapons/primary/CAMRS.png"
       }
     ],
     "secondaryWeapons": [
@@ -863,6 +884,13 @@
         "type": "Handgun",
         "category": "secondary",
         "image": "assets/weapons/secondary/PRB92.png"
+      },
+      {
+        "id": "gonne_6",
+        "name": "GONNE-6",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/GONNE-6_HUD_Icon__1_.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Tactical-Crossbow.png"
@@ -970,22 +998,22 @@
         "type": "Submachine Gun",
         "category": "primary",
         "image": "assets/weapons/primary/PDW9.png"
+      },
+      {
+        "id": "ita12l",
+        "name": "ITA12L",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/ITA12L.png"
       }
     ],
     "secondaryWeapons": [
       {
-        "id": "bearing_9",
-        "name": "Bearing 9",
-        "type": "Machine Pistol",
-        "category": "secondary",
-        "image": "assets/weapons/secondary/Bearing_9.png"
-      },
-      {
-        "id": "q_929",
-        "name": "Q-929",
+        "id": "usp40",
+        "name": "USP40",
         "type": "Handgun",
         "category": "secondary",
-        "image": "assets/weapons/secondary/Q-929.png"
+        "image": "assets/weapons/secondary/USP40.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Eyenox-Model-III.png"
@@ -1030,11 +1058,11 @@
         "image": "assets/weapons/primary/T-95_LSW.png"
       },
       {
-        "id": "supernova",
-        "name": "SuperNova",
+        "id": "six12",
+        "name": "SIX12",
         "type": "Shotgun",
         "category": "primary",
-        "image": "assets/weapons/primary/SuperNova.png"
+        "image": "assets/weapons/primary/SIX12.png"
       }
     ],
     "secondaryWeapons": [
@@ -1102,13 +1130,6 @@
         "type": "Handgun",
         "category": "secondary",
         "image": "assets/weapons/secondary/RG15.png"
-      },
-      {
-        "id": "bailiff_410",
-        "name": "Bailiff 410",
-        "type": "Handgun",
-        "category": "secondary",
-        "image": "assets/weapons/secondary/Bailiff_410.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Grzmot-Mine.png"
@@ -1225,11 +1246,11 @@
         "image": "assets/weapons/primary/417.png"
       },
       {
-        "id": "m249",
-        "name": "M249",
-        "type": "Light Machine Gun",
+        "id": "sg_cqb",
+        "name": "SG-CQB",
+        "type": "Shotgun",
         "category": "primary",
-        "image": "assets/weapons/primary/M249.png"
+        "image": "assets/weapons/primary/SG-CQB.png"
       }
     ],
     "secondaryWeapons": [
@@ -1305,6 +1326,13 @@
       }
     ],
     "secondaryWeapons": [
+      {
+        "id": "pmm",
+        "name": "PMM",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/PMM.png"
+      },
       {
         "id": "gsh_18",
         "name": "GSh-18",
@@ -1406,20 +1434,27 @@
     "icon": "assets/operators/png/nomad.png",
     "primaryWeapons": [
       {
-        "id": "commando_9",
-        "name": "Commando 9",
-        "type": "Submachine Gun",
+        "id": "ak_74m",
+        "name": "AK-74M",
+        "type": "Assault Rifle",
         "category": "primary",
-        "image": "assets/weapons/primary/Commando_9.png"
+        "image": "assets/weapons/primary/AK-74M.png"
+      },
+      {
+        "id": "arx200",
+        "name": "ARX200",
+        "type": "Marksman Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/ARX200.png"
       }
     ],
     "secondaryWeapons": [
       {
-        "id": "44_mag_semi_auto",
-        "name": "44 Mag Semi-Auto",
+        "id": "prb92",
+        "name": "PRB92",
         "type": "Handgun",
         "category": "secondary",
-        "image": "assets/weapons/secondary/44_Mag_Semi-Auto.png"
+        "image": "assets/weapons/secondary/PRB92.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Airjab-Launcher.png"
@@ -1478,13 +1513,6 @@
         "type": "Shotgun",
         "category": "secondary",
         "image": "assets/weapons/secondary/supershorty.png"
-      },
-      {
-        "id": "gsh_18",
-        "name": "GSh-18",
-        "type": "Handgun",
-        "category": "secondary",
-        "image": "assets/weapons/secondary/GSh-18.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Trax-Stingers.png"
@@ -1543,13 +1571,6 @@
         "type": "Handgun",
         "category": "secondary",
         "image": "assets/weapons/secondary/5.7_USG.png"
-      },
-      {
-        "id": "d_50",
-        "name": "D-50",
-        "type": "Handgun",
-        "category": "secondary",
-        "image": "assets/weapons/secondary/D-50.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/HEL-Presence-Reduction.png"
@@ -1602,13 +1623,6 @@
       }
     ],
     "secondaryWeapons": [
-      {
-        "id": "bearing_9",
-        "name": "Bearing 9",
-        "type": "Machine Pistol",
-        "category": "secondary",
-        "image": "assets/weapons/secondary/Bearing_9.png"
-      },
       {
         "id": "smg_11",
         "name": "SMG-11",
@@ -1668,11 +1682,11 @@
         "image": "assets/weapons/secondary/SPSMG9.png"
       },
       {
-        "id": "p226_mk_25",
-        "name": "P226 Mk 25",
-        "type": "Handgun",
+        "id": "c75_auto",
+        "name": "C75 Auto",
+        "type": "Machine Pistol",
         "category": "secondary",
-        "image": "assets/weapons/secondary/P226_Mk_25.png"
+        "image": "assets/weapons/secondary/C75_Auto.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/LV_Explosive_Lance.png"
@@ -1826,6 +1840,13 @@
     "icon": "assets/operators/png/zero.png",
     "primaryWeapons": [
       {
+        "id": "sc3000k",
+        "name": "SC3000K",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/SC3000K.png"
+      },
+      {
         "id": "mp7",
         "name": "MP7",
         "type": "Submachine Gun",
@@ -1940,6 +1961,13 @@
         "type": "Assault Rifle",
         "category": "primary",
         "image": "assets/weapons/primary/556xi.png"
+      },
+      {
+        "id": "pdw9",
+        "name": "PDW9",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/PDW9.png"
       }
     ],
     "secondaryWeapons": [
@@ -2002,11 +2030,11 @@
     ],
     "secondaryWeapons": [
       {
-        "id": "p12",
-        "name": "P12",
+        "id": "sdp_9mm",
+        "name": "SDP 9mm",
         "type": "Handgun",
         "category": "secondary",
-        "image": "assets/weapons/secondary/P12.png"
+        "image": "assets/weapons/secondary/SDP_9mm.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-sens.png"
@@ -2049,6 +2077,13 @@
         "type": "Assault Rifle",
         "category": "primary",
         "image": "assets/weapons/primary/552_Commando.png"
+      },
+      {
+        "id": "sg_cqb",
+        "name": "SG-CQB",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SG-CQB.png"
       }
     ],
     "secondaryWeapons": [
@@ -2095,20 +2130,27 @@
     "icon": "assets/operators/png/brava.png",
     "primaryWeapons": [
       {
-        "id": "p10roni",
-        "name": "P10 Roni",
-        "type": "Submachine Gun",
+        "id": "para_308",
+        "name": "PARA-308",
+        "type": "Assault Rifle",
         "category": "primary",
-        "image": "assets/weapons/primary/p10roni.png"
+        "image": "assets/weapons/primary/PARA-308.png"
+      },
+      {
+        "id": "camrs",
+        "name": "CAMRS",
+        "type": "Marksman Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/CAMRS.png"
       }
     ],
     "secondaryWeapons": [
       {
-        "id": "supershorty",
-        "name": "Super Shorty",
-        "type": "Shotgun",
+        "id": "usp40",
+        "name": "USP40",
+        "type": "Handgun",
         "category": "secondary",
-        "image": "assets/weapons/secondary/supershorty.png"
+        "image": "assets/weapons/secondary/USP40.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-brava.png"
@@ -2162,11 +2204,11 @@
     ],
     "secondaryWeapons": [
       {
-        "id": "44vendetta",
-        "name": "44 Vendetta",
+        "id": "mk1_9mm",
+        "name": "Mk1 9mm",
         "type": "Handgun",
         "category": "secondary",
-        "image": "assets/weapons/secondary/44VENDETTA.png"
+        "image": "assets/weapons/secondary/Mk1_9mm_BI.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-ram.png"
@@ -2211,20 +2253,20 @@
         "image": "assets/weapons/primary/AK-74M.png"
       },
       {
-        "id": "m870",
-        "name": "M870",
+        "id": "m590a1",
+        "name": "M590A1",
         "type": "Shotgun",
         "category": "primary",
-        "image": "assets/weapons/primary/M870.png"
+        "image": "assets/weapons/primary/M590A1.png"
       }
     ],
     "secondaryWeapons": [
       {
-        "id": "tacit_45",
-        "name": "TACIT 45",
+        "id": "44vendetta",
+        "name": "44 Vendetta",
         "type": "Handgun",
         "category": "secondary",
-        "image": "assets/weapons/secondary/TACIT_45.png"
+        "image": "assets/weapons/secondary/44VENDETTA.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-deimos.png"
@@ -2659,13 +2701,6 @@
         "type": "Handgun",
         "category": "secondary",
         "image": "assets/weapons/secondary/5.7_USG.png"
-      },
-      {
-        "id": "m45_meusoc",
-        "name": "M45 MEUSOC",
-        "type": "Handgun",
-        "category": "secondary",
-        "image": "assets/weapons/secondary/M45_MEUSOC.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Armor-Panel.png"
@@ -2724,13 +2759,6 @@
         "type": "Handgun",
         "category": "secondary",
         "image": "assets/weapons/secondary/5.7_USG.png"
-      },
-      {
-        "id": "m45_meusoc",
-        "name": "M45 MEUSOC",
-        "type": "Handgun",
-        "category": "secondary",
-        "image": "assets/weapons/secondary/M45_MEUSOC.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Heartbeat-Sensor.png"
@@ -2768,18 +2796,25 @@
     "icon": "assets/operators/png/doc.png",
     "primaryWeapons": [
       {
-        "id": "sg_cqb",
-        "name": "SG-CQB",
-        "type": "Shotgun",
-        "category": "primary",
-        "image": "assets/weapons/primary/SG-CQB.png"
-      },
-      {
         "id": "mp5",
         "name": "MP5",
         "type": "Submachine Gun",
         "category": "primary",
         "image": "assets/weapons/primary/MP5.png"
+      },
+      {
+        "id": "p90",
+        "name": "P90",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/P90.png"
+      },
+      {
+        "id": "sg_cqb",
+        "name": "SG-CQB",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SG-CQB.png"
       }
     ],
     "secondaryWeapons": [
@@ -2796,6 +2831,13 @@
         "type": "Handgun",
         "category": "secondary",
         "image": "assets/weapons/secondary/LFP586.png"
+      },
+      {
+        "id": "bailiff_410",
+        "name": "Bailiff 410",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Bailiff_410.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Stim-Pistol.png"
@@ -2833,6 +2875,13 @@
     "icon": "assets/operators/png/rook.png",
     "primaryWeapons": [
       {
+        "id": "mp5",
+        "name": "MP5",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/MP5.png"
+      },
+      {
         "id": "p90",
         "name": "P90",
         "type": "Submachine Gun",
@@ -2840,27 +2889,27 @@
         "image": "assets/weapons/primary/P90.png"
       },
       {
-        "id": "mp5",
-        "name": "MP5",
-        "type": "Submachine Gun",
+        "id": "sg_cqb",
+        "name": "SG-CQB",
+        "type": "Shotgun",
         "category": "primary",
-        "image": "assets/weapons/primary/MP5.png"
+        "image": "assets/weapons/primary/SG-CQB.png"
       }
     ],
     "secondaryWeapons": [
-      {
-        "id": "lfp586",
-        "name": "LFP586",
-        "type": "Handgun",
-        "category": "secondary",
-        "image": "assets/weapons/secondary/LFP586.png"
-      },
       {
         "id": "p9",
         "name": "P9",
         "type": "Handgun",
         "category": "secondary",
         "image": "assets/weapons/secondary/P9.png"
+      },
+      {
+        "id": "lfp586",
+        "name": "LFP586",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/LFP586.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Armor-Pack.png"
@@ -2914,6 +2963,13 @@
     ],
     "secondaryWeapons": [
       {
+        "id": "pmm",
+        "name": "PMM",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/PMM.png"
+      },
+      {
         "id": "gsh_18",
         "name": "GSh-18",
         "type": "Handgun",
@@ -2963,13 +3019,6 @@
         "image": "assets/weapons/primary/DP27.png"
       },
       {
-        "id": "sasg_12",
-        "name": "SASG-12",
-        "type": "Shotgun",
-        "category": "primary",
-        "image": "assets/weapons/primary/SASG-12.png"
-      },
-      {
         "id": "9x19svn",
         "name": "9X19SVN",
         "type": "Submachine Gun",
@@ -2978,6 +3027,13 @@
       }
     ],
     "secondaryWeapons": [
+      {
+        "id": "pmm",
+        "name": "PMM",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/PMM.png"
+      },
       {
         "id": "gsh_18",
         "name": "GSh-18",
@@ -3202,11 +3258,11 @@
         "image": "assets/weapons/primary/MPX.png"
       },
       {
-        "id": "ump45",
-        "name": "UMP45",
-        "type": "Submachine Gun",
+        "id": "spas_12",
+        "name": "SPAS-12",
+        "type": "Shotgun",
         "category": "primary",
-        "image": "assets/weapons/primary/UMP45.png"
+        "image": "assets/weapons/primary/SPAS-12.png"
       }
     ],
     "secondaryWeapons": [
@@ -3253,18 +3309,18 @@
     "icon": "assets/operators/png/caveira.png",
     "primaryWeapons": [
       {
-        "id": "spas_12",
-        "name": "SPAS-12",
-        "type": "Shotgun",
-        "category": "primary",
-        "image": "assets/weapons/primary/SPAS-12.png"
-      },
-      {
         "id": "m12",
         "name": "M12",
         "type": "Submachine Gun",
         "category": "primary",
         "image": "assets/weapons/primary/M12.png"
+      },
+      {
+        "id": "spas_15",
+        "name": "SPAS-15",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SPAS-15.png"
       }
     ],
     "secondaryWeapons": [
@@ -3311,25 +3367,18 @@
     "icon": "assets/operators/png/echo.png",
     "primaryWeapons": [
       {
-        "id": "supernova",
-        "name": "SuperNova",
-        "type": "Shotgun",
-        "category": "primary",
-        "image": "assets/weapons/primary/SuperNova.png"
-      },
-      {
-        "id": "bosg_12_2",
-        "name": "BOSG.12.2",
-        "type": "Shotgun",
-        "category": "primary",
-        "image": "assets/weapons/primary/BOSG.12.2.png"
-      },
-      {
         "id": "mp5sd",
         "name": "MP5SD",
         "type": "Submachine Gun",
         "category": "primary",
         "image": "assets/weapons/primary/MP5SD.png"
+      },
+      {
+        "id": "supernova",
+        "name": "SuperNova",
+        "type": "Shotgun",
+        "category": "primary",
+        "image": "assets/weapons/primary/SuperNova.png"
       }
     ],
     "secondaryWeapons": [
@@ -3392,6 +3441,13 @@
     ],
     "secondaryWeapons": [
       {
+        "id": "usp40",
+        "name": "USP40",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/USP40.png"
+      },
+      {
         "id": "ita12s",
         "name": "ITA12S",
         "type": "Shotgun",
@@ -3446,13 +3502,6 @@
         "type": "Shotgun",
         "category": "primary",
         "image": "assets/weapons/primary/ACS12_PB.png"
-      },
-      {
-        "id": "vector_45_acp",
-        "name": "Vector .45 ACP",
-        "type": "Submachine Gun",
-        "category": "primary",
-        "image": "assets/weapons/primary/Vector_.45_ACP.png"
       }
     ],
     "secondaryWeapons": [
@@ -3462,13 +3511,6 @@
         "type": "Handgun",
         "category": "secondary",
         "image": "assets/weapons/secondary/Bailiff_410.png"
-      },
-      {
-        "id": "ita12s",
-        "name": "ITA12S",
-        "type": "Shotgun",
-        "category": "secondary",
-        "image": "assets/weapons/secondary/ITA12S.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Evil-Eye.png"
@@ -3513,21 +3555,14 @@
         "image": "assets/weapons/primary/Mx4_Storm.png"
       },
       {
-        "id": "spas_15",
-        "name": "SPAS-15",
+        "id": "acs12_pb",
+        "name": "ACS12",
         "type": "Shotgun",
         "category": "primary",
-        "image": "assets/weapons/primary/SPAS-15.png"
+        "image": "assets/weapons/primary/ACS12_PB.png"
       }
     ],
     "secondaryWeapons": [
-      {
-        "id": "bailiff_410",
-        "name": "Bailiff 410",
-        "type": "Handgun",
-        "category": "secondary",
-        "image": "assets/weapons/secondary/Bailiff_410.png"
-      },
       {
         "id": "keratos_357",
         "name": "Keratos .357",
@@ -3587,18 +3622,11 @@
     ],
     "secondaryWeapons": [
       {
-        "id": "supershorty",
-        "name": "Super Shorty",
-        "type": "Shotgun",
-        "category": "secondary",
-        "image": "assets/weapons/secondary/supershorty.png"
-      },
-      {
-        "id": "gsh_18",
-        "name": "GSh-18",
+        "id": "sdp_9mm",
+        "name": "SDP 9mm",
         "type": "Handgun",
         "category": "secondary",
-        "image": "assets/weapons/secondary/GSh-18.png"
+        "image": "assets/weapons/secondary/SDP_9mm.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Pest-Launcher.png"
@@ -3652,18 +3680,18 @@
     ],
     "secondaryWeapons": [
       {
-        "id": "d_50",
-        "name": "D-50",
-        "type": "Handgun",
-        "category": "secondary",
-        "image": "assets/weapons/secondary/D-50.png"
-      },
-      {
         "id": "p_10c",
         "name": "P-10C",
         "type": "Handgun",
         "category": "secondary",
         "image": "assets/weapons/secondary/P-10C.png"
+      },
+      {
+        "id": "smg_12",
+        "name": "SMG-12",
+        "type": "Machine Pistol",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/SMG-12.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Glance-Smart-Glasses.png"
@@ -3717,11 +3745,11 @@
     ],
     "secondaryWeapons": [
       {
-        "id": "keratos_357",
-        "name": "Keratos .357",
+        "id": "p229",
+        "name": "P229",
         "type": "Handgun",
         "category": "secondary",
-        "image": "assets/weapons/secondary/Keratos_.357.png"
+        "image": "assets/weapons/secondary/P229.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Volcan-Shield.png"
@@ -3766,11 +3794,11 @@
         "image": "assets/weapons/primary/K1A.png"
       },
       {
-        "id": "arx200",
-        "name": "ARX200",
-        "type": "Marksman Rifle",
+        "id": "bosg_12_2",
+        "name": "BOSG.12.2",
+        "type": "Shotgun",
         "category": "primary",
-        "image": "assets/weapons/primary/ARX200.png"
+        "image": "assets/weapons/primary/BOSG.12.2.png"
       }
     ],
     "secondaryWeapons": [
@@ -3831,11 +3859,11 @@
         "image": "assets/weapons/primary/T-5_SMG.png"
       },
       {
-        "id": "supernova",
-        "name": "SuperNova",
+        "id": "six12_sd",
+        "name": "SIX12 SD",
         "type": "Shotgun",
         "category": "primary",
-        "image": "assets/weapons/primary/SuperNova.png"
+        "image": "assets/weapons/primary/SIX12_SD.png"
       }
     ],
     "secondaryWeapons": [
@@ -3903,13 +3931,6 @@
         "type": "Handgun",
         "category": "secondary",
         "image": "assets/weapons/secondary/RG15.png"
-      },
-      {
-        "id": "bailiff_410",
-        "name": "Bailiff 410",
-        "type": "Handgun",
-        "category": "secondary",
-        "image": "assets/weapons/secondary/Bailiff_410.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Grzmot-Mine.png"
@@ -3956,6 +3977,13 @@
     ],
     "secondaryWeapons": [
       {
+        "id": "p_10c",
+        "name": "P-10C",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/P-10C.png"
+      },
+      {
         "id": "spsmg9",
         "name": "SPSMG9",
         "type": "Machine Pistol",
@@ -3963,11 +3991,11 @@
         "image": "assets/weapons/secondary/SPSMG9.png"
       },
       {
-        "id": "p_10c",
-        "name": "P-10C",
-        "type": "Handgun",
+        "id": "supershorty",
+        "name": "Super Shorty",
+        "type": "Shotgun",
         "category": "secondary",
-        "image": "assets/weapons/secondary/P-10C.png"
+        "image": "assets/weapons/secondary/supershorty.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/CCE-Shield.png"
@@ -4021,18 +4049,11 @@
     ],
     "secondaryWeapons": [
       {
-        "id": "sdp_9mm",
-        "name": "SDP 9mm",
+        "id": "44_mag_semi_auto",
+        "name": "44 Mag Semi-Auto",
         "type": "Handgun",
         "category": "secondary",
-        "image": "assets/weapons/secondary/SDP_9mm.png"
-      },
-      {
-        "id": "keratos_357",
-        "name": "Keratos .357",
-        "type": "Handgun",
-        "category": "secondary",
-        "image": "assets/weapons/secondary/Keratos_.357.png"
+        "image": "assets/weapons/secondary/44_Mag_Semi-Auto.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Rtila-Electroclaw.png"
@@ -4077,21 +4098,14 @@
         "image": "assets/weapons/primary/AUG_A2.png"
       },
       {
-        "id": "m590a1",
-        "name": "M590A1",
-        "type": "Shotgun",
+        "id": "mp5k",
+        "name": "MP5K",
+        "type": "Submachine Gun",
         "category": "primary",
-        "image": "assets/weapons/primary/M590A1.png"
+        "image": "assets/weapons/primary/MP5K.png"
       }
     ],
     "secondaryWeapons": [
-      {
-        "id": "keratos_357",
-        "name": "Keratos .357",
-        "type": "Handgun",
-        "category": "secondary",
-        "image": "assets/weapons/secondary/Keratos_.357.png"
-      },
       {
         "id": "p12",
         "name": "P12",
@@ -4135,11 +4149,11 @@
     "icon": "assets/operators/png/oryx.png",
     "primaryWeapons": [
       {
-        "id": "fo_12",
-        "name": "FO-12",
+        "id": "spas_12",
+        "name": "SPAS-12",
         "type": "Shotgun",
         "category": "primary",
-        "image": "assets/weapons/primary/FO-12.png"
+        "image": "assets/weapons/primary/SPAS-12.png"
       },
       {
         "id": "t_5_smg",
@@ -4156,13 +4170,6 @@
         "type": "Handgun",
         "category": "secondary",
         "image": "assets/weapons/secondary/Bailiff_410.png"
-      },
-      {
-        "id": "p_10c",
-        "name": "P-10C",
-        "type": "Handgun",
-        "category": "secondary",
-        "image": "assets/weapons/secondary/P-10C.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-oryx.png"
@@ -4270,13 +4277,6 @@
         "type": "Marksman Rifle",
         "category": "primary",
         "image": "assets/weapons/primary/Mk_14_EBR.png"
-      },
-      {
-        "id": "aug_a3",
-        "name": "AUG A3",
-        "type": "Submachine Gun",
-        "category": "primary",
-        "image": "assets/weapons/primary/AUG_A3.png"
       }
     ],
     "secondaryWeapons": [
@@ -4330,11 +4330,11 @@
         "image": "assets/weapons/primary/Spear_.308.png"
       },
       {
-        "id": "spas_12",
-        "name": "SPAS-12",
+        "id": "spas_15",
+        "name": "SPAS-15",
         "type": "Shotgun",
         "category": "primary",
-        "image": "assets/weapons/primary/SPAS-12.png"
+        "image": "assets/weapons/primary/SPAS-15.png"
       }
     ],
     "secondaryWeapons": [
@@ -4344,13 +4344,6 @@
         "type": "Machine Pistol",
         "category": "secondary",
         "image": "assets/weapons/secondary/Bearing_9.png"
-      },
-      {
-        "id": "mk1_9mm",
-        "name": "Mk1 9mm",
-        "type": "Handgun",
-        "category": "secondary",
-        "image": "assets/weapons/secondary/Mk1_9mm_BI.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-thunderbird.png"
@@ -4388,11 +4381,11 @@
     "icon": "assets/operators/png/thorn.png",
     "primaryWeapons": [
       {
-        "id": "ump45",
-        "name": "UMP45",
+        "id": "uzk50gi",
+        "name": "UZK50GI",
         "type": "Submachine Gun",
         "category": "primary",
-        "image": "assets/weapons/primary/UMP45.png"
+        "image": "assets/weapons/primary/uzk50gi.png"
       },
       {
         "id": "m870",
@@ -4404,11 +4397,11 @@
     ],
     "secondaryWeapons": [
       {
-        "id": "prb92",
-        "name": "PRB92",
+        "id": "1911_tacops",
+        "name": "1911 TACOPS",
         "type": "Handgun",
         "category": "secondary",
-        "image": "assets/weapons/secondary/PRB92.png"
+        "image": "assets/weapons/secondary/1911_TACOPS.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-thorn.png"

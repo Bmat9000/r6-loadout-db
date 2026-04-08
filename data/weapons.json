@@ -476,6 +476,13 @@
     "image": "assets/weapons/primary/Scorpion_EVO_3_A1.png"
   },
   {
+    "id": "sc3000k",
+    "name": "SC3000K",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/SC3000K.png"
+  },
+  {
     "id": "spear_308",
     "name": "Spear .308",
     "type": "Assault Rifle",
