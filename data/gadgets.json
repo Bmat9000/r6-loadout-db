@@ -656,5 +656,12 @@
     "type": "generic",
     "description": "A portable ballistic shield that can be deployed on the ground to provide cover.",
     "image": "assets/gadgets/generic/deployable_shield.png"
+  },
+  {
+    "id": "horus_lance_launcher",
+    "name": "Horus Lance Launcher",
+    "type": "unique",
+    "description": "Noor's unique gadget. Fires projectiles that pierce shields and destructible surfaces before erupting into flames.",
+    "image": "assets/gadgets/unique/r6s-operator-ability-noor.png"
   }
 ]
