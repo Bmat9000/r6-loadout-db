@@ -823,6 +823,12 @@
     "name": "XK23",
     "type": "Assault Rifle",
     "category": "primary",
-    "image": "assets/weapons/primary/XK23.png"
+    "image": "assets/weapons/primary/XK23.png",
+    "firingModes": [
+      "Full-Auto"
+    ],
+    "damage": 49,
+    "fireRate": 675,
+    "capacity": 35
   }
 ]
