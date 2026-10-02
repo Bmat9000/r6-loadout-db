@@ -817,5 +817,12 @@
     "type": "Shotgun",
     "category": "secondary",
     "image": "assets/weapons/secondary/supershorty.png"
+  },
+  {
+    "id": "xk23",
+    "name": "XK23",
+    "type": "Assault Rifle",
+    "category": "primary",
+    "image": "assets/weapons/primary/XK23.png"
   }
 ]
