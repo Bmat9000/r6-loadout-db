@@ -1143,11 +1143,11 @@
     "armor": 1,
     "gadgets": [
       {
-        "id": "frag_grenade",
-        "name": "Frag Grenade",
+        "id": "smoke_grenade",
+        "name": "Smoke Grenade",
         "type": "generic",
-        "description": "A throwable explosive that deals damage to operators and destroys soft surfaces.",
-        "image": "assets/gadgets/generic/frag_grenade.png"
+        "description": "Creates a cloud of smoke that obscures vision in the area.",
+        "image": "assets/gadgets/generic/smoke_grenade.png"
       },
       {
         "id": "breach_charge",
@@ -1158,10 +1158,10 @@
       }
     ],
     "uniqueGadget": {
-      "id": "logic_bomb",
-      "name": "Logic Bomb",
+      "id": "jegeo_payload",
+      "name": "Jegeo Payload",
       "type": "unique",
-      "description": "Dokkaebi's unique gadget. Hacks enemy phones to emit sound and disable their cameras temporarily.",
+      "description": "Dokkaebi's remastered unique ability. Uploads malware to identified Defender phones to disrupt Observation Tools and can cause the target phone to explode if not reset.",
       "image": "assets/gadgets/unique/Logic-Bomb.png"
     },
     "icon": "assets/operators/png/dokkaebi.png",
@@ -1185,7 +1185,13 @@
         "name": "XK23",
         "type": "Assault Rifle",
         "category": "primary",
-        "image": "assets/weapons/primary/XK23.png"
+        "image": "assets/weapons/primary/XK23.png",
+        "firingModes": [
+          "Full-Auto"
+        ],
+        "damage": 49,
+        "fireRate": 675,
+        "capacity": 35
       }
     ],
     "secondaryWeapons": [
@@ -1195,6 +1201,13 @@
         "type": "Machine Pistol",
         "category": "secondary",
         "image": "assets/weapons/secondary/C75_Auto.png"
+      },
+      {
+        "id": "gonne_6",
+        "name": "GONNE-6",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/GONNE-6_HUD_Icon__1_.png"
       },
       {
         "id": "smg_12",
@@ -2039,7 +2052,13 @@
         "name": "XK23",
         "type": "Assault Rifle",
         "category": "primary",
-        "image": "assets/weapons/primary/XK23.png"
+        "image": "assets/weapons/primary/XK23.png",
+        "firingModes": [
+          "Full-Auto"
+        ],
+        "damage": 49,
+        "fireRate": 675,
+        "capacity": 35
       }
     ],
     "secondaryWeapons": [
@@ -2336,7 +2355,13 @@
         "name": "XK23",
         "type": "Assault Rifle",
         "category": "primary",
-        "image": "assets/weapons/primary/XK23.png"
+        "image": "assets/weapons/primary/XK23.png",
+        "firingModes": [
+          "Full-Auto"
+        ],
+        "damage": 49,
+        "fireRate": 675,
+        "capacity": 35
       }
     ],
     "secondaryWeapons": [
