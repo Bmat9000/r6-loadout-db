@@ -416,10 +416,10 @@
     "speed": 3,
     "armor": 1,
     "gadgets": [
-      "frag_grenade",
+      "smoke_grenade",
       "breach_charge"
     ],
-    "uniqueGadget": "logic_bomb",
+    "uniqueGadget": "jegeo_payload",
     "icon": "assets/operators/png/dokkaebi.png",
     "primaryWeapons": [
       "mk_14_ebr",
@@ -428,6 +428,7 @@
     ],
     "secondaryWeapons": [
       "c75_auto",
+      "gonne_6",
       "smg_12"
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Logic-Bomb.png"
