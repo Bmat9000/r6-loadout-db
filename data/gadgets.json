@@ -663,5 +663,12 @@
     "type": "unique",
     "description": "Noor's unique gadget. Fires projectiles that pierce shields and destructible surfaces before erupting into flames.",
     "image": "assets/gadgets/unique/r6s-operator-ability-noor.png"
+  },
+  {
+    "id": "jegeo_payload",
+    "name": "Jegeo Payload",
+    "type": "unique",
+    "description": "Dokkaebi's remastered unique ability. Uploads malware to identified Defender phones to disrupt Observation Tools and can cause the target phone to explode if not reset.",
+    "image": "assets/gadgets/unique/Logic-Bomb.png"
   }
 ]
