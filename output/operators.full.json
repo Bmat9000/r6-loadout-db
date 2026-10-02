@@ -1143,18 +1143,18 @@
     "armor": 1,
     "gadgets": [
       {
-        "id": "stun_grenade",
-        "name": "Stun Grenade",
-        "type": "generic",
-        "description": "A flashbang that temporarily blinds and disorients operators in its area of effect.",
-        "image": "assets/gadgets/generic/stun_grenade.png"
-      },
-      {
         "id": "frag_grenade",
         "name": "Frag Grenade",
         "type": "generic",
         "description": "A throwable explosive that deals damage to operators and destroys soft surfaces.",
         "image": "assets/gadgets/generic/frag_grenade.png"
+      },
+      {
+        "id": "breach_charge",
+        "name": "Breach Charge",
+        "type": "generic",
+        "description": "An explosive charge that destroys soft walls, floors, and ceilings.",
+        "image": "assets/gadgets/generic/breach_charge.png"
       }
     ],
     "uniqueGadget": {
@@ -1179,6 +1179,13 @@
         "type": "Shotgun",
         "category": "primary",
         "image": "assets/weapons/primary/BOSG.12.2.png"
+      },
+      {
+        "id": "xk23",
+        "name": "XK23",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/XK23.png"
       }
     ],
     "secondaryWeapons": [
@@ -2026,6 +2033,13 @@
         "type": "Marksman Rifle",
         "category": "primary",
         "image": "assets/weapons/primary/417.png"
+      },
+      {
+        "id": "xk23",
+        "name": "XK23",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/XK23.png"
       }
     ],
     "secondaryWeapons": [
@@ -2316,6 +2330,13 @@
         "type": "Light Machine Gun",
         "category": "primary",
         "image": "assets/weapons/primary/M249.png"
+      },
+      {
+        "id": "xk23",
+        "name": "XK23",
+        "type": "Assault Rifle",
+        "category": "primary",
+        "image": "assets/weapons/primary/XK23.png"
       }
     ],
     "secondaryWeapons": [
@@ -2721,11 +2742,18 @@
         "image": "assets/gadgets/generic/nitro_cell.png"
       },
       {
-        "id": "barbed_wire",
-        "name": "Barbed Wire",
+        "id": "deployable_shield",
+        "name": "Deployable Shield",
         "type": "generic",
-        "description": "Slows down enemies who walk through it and makes noise to alert defenders.",
-        "image": "assets/gadgets/generic/barbed_wire.png"
+        "description": "A portable ballistic shield that can be deployed on the ground to provide cover.",
+        "image": "assets/gadgets/generic/deployable_shield.png"
+      },
+      {
+        "id": "observation_blocker",
+        "name": "Observation Blocker",
+        "type": "generic",
+        "description": "A device that blocks enemy observation tools and surveillance equipment.",
+        "image": "assets/gadgets/generic/observation_blocker.png"
       }
     ],
     "uniqueGadget": {
@@ -2759,6 +2787,20 @@
         "type": "Handgun",
         "category": "secondary",
         "image": "assets/weapons/secondary/5.7_USG.png"
+      },
+      {
+        "id": "m45_meusoc",
+        "name": "M45 MEUSOC",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/M45_MEUSOC.png"
+      },
+      {
+        "id": "reaper_mk2",
+        "name": "Reaper MK2",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/reaper-mk2.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Heartbeat-Sensor.png"
@@ -4067,18 +4109,25 @@
     "armor": 2,
     "gadgets": [
       {
-        "id": "bulletproof_camera",
-        "name": "Bulletproof Camera",
+        "id": "deployable_shield",
+        "name": "Deployable Shield",
         "type": "generic",
-        "description": "A hardened camera that can be placed on walls to provide intel on attackers.",
-        "image": "assets/gadgets/generic/bulletproof_camera.png"
+        "description": "A portable ballistic shield that can be deployed on the ground to provide cover.",
+        "image": "assets/gadgets/generic/deployable_shield.png"
       },
       {
-        "id": "impact_grenade",
-        "name": "Impact Grenade",
+        "id": "proximity_alarm",
+        "name": "Proximity Alarm",
         "type": "generic",
-        "description": "A grenade that detonates on impact with a surface, creating a hole in soft walls.",
-        "image": "assets/gadgets/generic/impact_grenade.png"
+        "description": "An alarm that triggers when enemies move through its detection range.",
+        "image": "assets/gadgets/generic/proximity_alarm.png"
+      },
+      {
+        "id": "nitro_cell",
+        "name": "Nitro Cell",
+        "type": "generic",
+        "description": "A remote-detonated explosive device that deals heavy damage in its blast radius.",
+        "image": "assets/gadgets/generic/nitro_cell.png"
       }
     ],
     "uniqueGadget": {
@@ -4112,6 +4161,20 @@
         "type": "Handgun",
         "category": "secondary",
         "image": "assets/weapons/secondary/P12.png"
+      },
+      {
+        "id": "keratos_357",
+        "name": "Keratos .357",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Keratos_.357.png"
+      },
+      {
+        "id": "supershorty",
+        "name": "Super Shorty",
+        "type": "Shotgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/supershorty.png"
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/Mag-net_System.png"
@@ -4716,5 +4779,70 @@
       }
     ],
     "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-denari.png"
+  },
+  {
+    "id": "noor",
+    "name": "Noor",
+    "side": "defense",
+    "org": "Egyptian Armed Forces",
+    "speed": 2,
+    "armor": 2,
+    "gadgets": [
+      {
+        "id": "deployable_shield",
+        "name": "Deployable Shield",
+        "type": "generic",
+        "description": "A portable ballistic shield that can be deployed on the ground to provide cover.",
+        "image": "assets/gadgets/generic/deployable_shield.png"
+      },
+      {
+        "id": "barbed_wire",
+        "name": "Barbed Wire",
+        "type": "generic",
+        "description": "Slows down enemies who walk through it and makes noise to alert defenders.",
+        "image": "assets/gadgets/generic/barbed_wire.png"
+      }
+    ],
+    "uniqueGadget": {
+      "id": "horus_lance_launcher",
+      "name": "Horus Lance Launcher",
+      "type": "unique",
+      "description": "Noor's unique gadget. Fires projectiles that pierce shields and destructible surfaces before erupting into flames.",
+      "image": "assets/gadgets/unique/r6s-operator-ability-noor.png"
+    },
+    "icon": "assets/operators/png/noor.png",
+    "primaryWeapons": [
+      {
+        "id": "commando_9",
+        "name": "Commando 9",
+        "type": "Submachine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/Commando_9.png"
+      },
+      {
+        "id": "alda_556",
+        "name": "ALDA 5.56",
+        "type": "Light Machine Gun",
+        "category": "primary",
+        "image": "assets/weapons/primary/ALDA_5.56.png"
+      }
+    ],
+    "secondaryWeapons": [
+      {
+        "id": "1911_tacops",
+        "name": "1911 TACOPS",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/1911_TACOPS.png"
+      },
+      {
+        "id": "bailiff_410",
+        "name": "Bailiff 410",
+        "type": "Handgun",
+        "category": "secondary",
+        "image": "assets/weapons/secondary/Bailiff_410.png"
+      }
+    ],
+    "uniqueGadgetIcon": "assets/gadgets/unique/r6s-operator-ability-noor.png"
   }
 ]
